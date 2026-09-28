@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "frame_000": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    },
+    "frame_001": {
+      "frame": {
+        "x": 592,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    },
+    "frame_002": {
+      "frame": {
+        "x": 1184,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    },
+    "frame_003": {
+      "frame": {
+        "x": 1776,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    },
+    "frame_004": {
+      "frame": {
+        "x": 0,
+        "y": 483,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    },
+    "frame_005": {
+      "frame": {
+        "x": 592,
+        "y": 483,
+        "w": 592,
+        "h": 483
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 592,
+        "h": 483
+      },
+      "sourceSize": {
+        "w": 592,
+        "h": 483
+      }
+    }
+  },
+  "meta": {
+    "app": "spritesheetgen",
+    "image": "auto-rescue-guardian-atlas-v2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2368,
+      "h": 966
+    },
+    "scale": "1"
+  }
+}

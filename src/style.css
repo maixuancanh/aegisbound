@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+#result-dialog{padding:0;border:0;background:transparent;color:#fff4d9;width:min(680px,96vw);max-width:96vw;overflow:visible}
+#result-dialog::backdrop{background:#020b16bb}
+.round-panel{aspect-ratio:3/2;background:url('../public/assets/artgen/kinesis-result-frame-v1.png') center/contain no-repeat;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12%;gap:10px}
+.round-panel h2{font-size:clamp(15px,3vw,26px);margin:0 0 8px}
+.round-panel p{margin:4px 0 0;font-size:clamp(11px,2vw,17px)}
+#round-return{display:block;font:700 clamp(30px,5vw,52px)/1.1 'Space Grotesk',sans-serif;color:#f4d88e;font-variant-numeric:tabular-nums;white-space:nowrap}
+#round-multiplier{font:600 clamp(18px,3vw,28px) 'Space Grotesk',sans-serif;color:#f2e8cd;font-variant-numeric:tabular-nums}
+#play-again{margin-top:12px;width:75%;aspect-ratio:507/89;border:0;background:transparent url('../public/assets/kinesis-button-wide-v1.png') center/contain no-repeat;color:#fff4d9;font-weight:700;font-size:clamp(10px,2vw,15px)}
+:root{font-family:'DM Sans',sans-serif;color:#e9eee9;background:#0b131c;font-synthesis:none;color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b131c url('../public/assets/artgen/aegisbound-web-bg-v1.png') center top/cover fixed no-repeat}main{width:min(1100px,94%);margin:auto}header{height:150px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:14px;border-bottom:0}.wordmark{display:flex;align-items:center;width:min(520px,70vw);text-decoration:none}.wordmark img{display:block;width:100%;height:auto;object-fit:contain}.header-tools{display:none}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:wait;opacity:.6}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid #e9cb86;outline-offset:4px}.arena{position:relative;border:1px solid #806d51;background:#132331 url('../public/assets/artgen/aegisbound-lower-bg-v1.png') center bottom/100% auto no-repeat;border-radius:12px;overflow:hidden}.arena-top{position:absolute;top:18px;left:22px;right:22px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:2px;color:#d2c6a3}canvas{display:block;width:100%;height:auto}.lane-names{display:flex;justify-content:space-around;font-size:9px;letter-spacing:3px;color:#829b9a;margin-top:-25px;position:relative}#status{min-height:22px;text-align:center;font-size:13px;color:#c5dcd5;margin:19px 15px 16px}#controls{display:grid;grid-template-columns:1.1fr 1fr 1fr 1.25fr;gap:22px;align-items:end;padding:24px 0 14px}label,.balance>span{display:block;font-size:9px;letter-spacing:2px;color:#a3b6b1}input,select{display:block;width:100%;height:46px;border:1px solid #3b4748;border-radius:5px;background:#151f23;color:#f4eddd;padding:0 13px;margin-top:9px;font-size:15px;letter-spacing:0}.balance strong{display:block;font:500 24px 'Space Grotesk',sans-serif;margin-top:17px;line-height:32px}#cast{border:0;border-radius:5px;background:#d8b980;color:#142024;height:48px;font-size:12px;font-weight:700;letter-spacing:1px;padding:0 20px;display:flex;justify-content:space-between;align-items:center}#cast:hover:not(:disabled){background:#eed2a0}#error{color:#ffbaab;min-height:16px;font-size:12px;margin:0}.below{display:flex;justify-content:space-between;border-top:1px solid #2b3639;padding:19px 0 24px}h2{font:500 15px 'Space Grotesk',sans-serif;margin:0 0 15px}.traits{display:flex;gap:32px}.traits p{font-size:11px;color:#a6b5b4;margin:0;line-height:1.8}.traits b{display:block;color:#dbe8e2;font-size:12px}.traits p:nth-child(1) b{color:#a6e5e6}.traits p:nth-child(2) b{color:#e5c18e}.traits p:nth-child(3) b{color:#f2adb8}.result{text-align:right;display:flex;flex-direction:column;gap:5px}.result>span{font-size:9px;letter-spacing:2px;color:#a7b5b0}.result strong{font:500 25px 'Space Grotesk',sans-serif;color:#e4c792}.result small{font-size:10px;color:#95a8a6}details{border-top:1px solid #293538;padding:16px 0;font-size:12px;color:#afc0bb}summary{cursor:pointer;color:#d2dcd5}#rules{max-width:720px;line-height:1.7}#paytable{white-space:pre-line;font-variant-numeric:tabular-nums}@media(max-width:600px){header{height:115px}.wordmark{width:min(360px,86vw)}#controls{grid-template-columns:1fr 1fr;gap:15px}.below{gap:20px}.traits{flex-direction:column;gap:9px}.traits b{display:inline;margin-right:8px}.arena-top{font-size:8px;top:12px}.lane-names{margin-top:-12px;font-size:8px}#status{font-size:11px}.result{min-width:110px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+/* Prevent intrinsic form widths from pushing narrow layouts past the frame. */
+#controls>*{min-width:0}.heading>div{min-width:0}.heading>p{flex-shrink:1}.below>*{min-width:0}.result small{max-width:180px}
+@media(max-width:600px){.heading{align-items:start;gap:14px}.heading>p{max-width:110px;flex:0 0 100px}.traits{min-width:0}.below .result{min-width:100px;max-width:118px}.result small{overflow-wrap:anywhere}footer{gap:15px;flex-wrap:wrap}}
+.arena{background:#132331;border-color:#806d51;box-shadow:0 14px 50px #0009}.arena-top{z-index:2;color:#f2e7c9;text-shadow:0 1px 4px #09111c}.lane-names{color:#f8ecd2;text-shadow:0 2px 4px #08101c}#status{color:#f6eedc;text-shadow:0 2px 4px #07111b}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.game-console{position:relative;aspect-ratio:3/1;background:url('../public/assets/aegis-console-v1.png') center / contain no-repeat;margin:-7px 0 -2px;color:#f1e9d9;display:flex;flex-direction:column;padding:8.5% 8% 5.5%;gap:3%;}
+.game-console #controls{padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4%;align-items:stretch;height:42%;margin:0;}
+.game-console #controls>*{min-width:0;align-self:stretch;padding:7% 8%;margin:0;display:flex;flex-direction:column;justify-content:center;}
+.game-console label,.game-console .balance>span{font-size:clamp(7px,.85vw,10px);letter-spacing:1.4px;color:#eadbb8}
+.game-console input,.game-console select{margin-top:7px;height:42px;padding:0 10px;background:#0b1b29c4;border:1px solid #618ca4;color:#fff9e8;border-radius:2px;font-size:14px}
+.game-console .balance strong{font-size:clamp(15px,2vw,24px);margin-top:8px;color:#f4d893;overflow-wrap:anywhere;line-height:1.1}
+.game-console #cast{background:transparent url('../public/assets/kinesis-button-wide-v1.png') center / 100% 100% no-repeat;border:0;height:100%;color:#fff8e6;font-weight:700;letter-spacing:.6px;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:8px;text-shadow:0 2px 3px #04121b;min-height:0;font-size:clamp(9px,1vw,13px)}
+.game-console #cast:hover:not(:disabled){filter:brightness(1.2)}.game-console #error{position:absolute;top:49%;left:9%;margin:0;max-width:82%;min-height:0;color:#ffd9c9;text-shadow:0 2px 4px #001}
+.game-console .below{border:0;padding:0 1%;margin:0;min-height:0;flex:1;align-items:center;gap:16px}.game-console h2{margin:0 0 5px;font-size:clamp(12px,1.4vw,17px)}.game-console .traits{gap:12px}.game-console .traits p{font-size:clamp(9px,.96vw,11px);color:#dbe7ea}.game-console .traits b{font-size:clamp(10px,1vw,12px)}.game-console .result{min-width:145px}.game-console .result>span{color:#dcd1ad}.game-console .result strong{color:#f4d88e}.game-console .result small{color:#d8e3e1}
+@media(max-width:700px){.arena{background-size:auto 390px}.game-console{aspect-ratio:auto;min-height:520px;background-size:auto 100%;background-position:center; padding:64px 11% 52px;gap:15px}.game-console #controls{height:auto;grid-template-columns:1fr 1fr;grid-template-rows:92px 92px;gap:12px}.game-console #controls>*{padding:10px 12px;background:#071b2bd9;border:1px solid #668a9b;border-radius:3px}.game-console label,.game-console .balance>span{font-size:9px}.game-console input,.game-console select{height:37px}.game-console #cast{background:#071b2b url('../public/assets/kinesis-button-wide-v1.png') center / 100% 100% no-repeat;border:0;min-height:67px;font-size:12px}.game-console #error{position:static;font-size:11px;min-height:18px}.game-console .below{background:#071b2bdb;border:1px solid #668a9b;border-radius:3px;padding:12px;gap:9px;align-items:start}.game-console .traits{flex-direction:column;gap:3px}.game-console .result{min-width:95px}.game-console .result strong{font-size:20px}.game-console .result small{display:none}.game-console h2{font-size:13px}.game-console .traits p{font-size:10px}.game-console .traits b{font-size:10px}}
+.game-console{margin-bottom:-5%}.game-console #cast:hover:not(:disabled){background:transparent url('../public/assets/kinesis-button-wide-v1.png') center / 100% 100% no-repeat;filter:brightness(1.16)}
+@media(max-width:700px){.game-console{aspect-ratio:3/4;min-height:0;background:url('../public/assets/aegis-console-mobile-v1.png') center/contain no-repeat;padding:19% 13% 7%;gap:2%;margin:-5px 0 -1%}.game-console #controls{height:59%;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:5%}.game-console #controls>*{border:0;background:transparent;padding:5% 8%;min-height:0}.game-console #cast{background:transparent url('../public/assets/kinesis-button-wide-v1.png') center/100% 100% no-repeat;min-height:0}.game-console .below{background:transparent;border:0;padding:0 2%;min-height:0;align-items:center;gap:4%}.game-console .traits{gap:0}.game-console .traits p{font-size:clamp(8px,2.3vw,10px);line-height:1.35}.game-console .traits b{font-size:clamp(8px,2.3vw,10px)}.game-console h2{font-size:clamp(10px,3vw,13px);margin-bottom:3px}.game-console .result{min-width:70px;max-width:75px}.game-console .result strong{font-size:17px}.game-console .result>span{font-size:8px}.game-console #error{position:absolute;top:64%;left:14%;max-width:72%;font-size:10px}.game-console .balance strong{font-size:clamp(13px,4vw,19px)}}
+@media(max-width:700px){.game-console .below{align-items:flex-start;padding-top:0;gap:8px}.game-console .result{min-width:84px;max-width:84px;gap:2px}.game-console .result>span{font-size:7px;letter-spacing:.7px;white-space:nowrap}.game-console .result strong{font-size:16px}.game-console .traits p{white-space:normal}}
+@media(max-width:700px){.game-console .below{padding-top:18px}}
+
+/* Final visual layer: generated artwork carries the courtyard texture; CSS only positions it. */
+body{background-color:#0b131c;background-image:url('../public/assets/artgen/aegisbound-web-bg-v1.png');background-position:center top;background-size:cover;background-attachment:fixed}
+header{border-bottom:0}
+.wordmark{width:min(520px,70vw);margin:0 auto}
+.wordmark img{width:100%;height:auto;object-fit:contain}
+.arena{background-color:#132331;background-image:url('../public/assets/artgen/aegisbound-lower-bg-v1.png');background-position:center bottom;background-size:100% auto;background-repeat:no-repeat}
+@media(max-width:600px){header{height:115px}.wordmark{width:min(360px,86vw)}}
+
+/* Aegisbound logo keeps its authored aspect ratio at every viewport. */
+header{height:200px;padding-bottom:10px}
+.wordmark{width:min(520px,70vw);gap:0}
+.wordmark img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:600px){header{height:140px}.wordmark{width:min(360px,86vw)}}
+
+/* The console artwork has four upper slots and one long lower slot. */
+.game-console #controls .result{align-items:center;text-align:center;justify-content:center;gap:3px}
+.game-console #controls .result strong{margin:0;font-variant-numeric:tabular-nums}
+.game-console #controls .result small{max-width:100%;line-height:1.2}
+.game-console .below{justify-content:space-between;padding:0 3%;gap:3%}
+.console-progress{display:flex;flex:1;min-width:0;flex-direction:column;justify-content:center;gap:8px}
+.console-progress span{font-size:clamp(9px,1vw,12px);letter-spacing:1px;color:#eadbb8}
+.console-progress progress{display:block;width:100%;height:12px;appearance:none;border:1px solid #668a9b;border-radius:8px;background:#091b2a;overflow:hidden;accent-color:#70d5dc}
+.console-progress progress::-webkit-progress-bar{background:#091b2a}
+.console-progress progress::-webkit-progress-value{background:#70d5dc;border-radius:8px}
+.console-progress progress::-moz-progress-bar{background:#70d5dc;border-radius:8px}
+.game-console #cast{flex:none;align-self:center;width:min(28%,240px);height:auto;aspect-ratio:507/89;padding:0;background:transparent url('../public/assets/kinesis-button-wide-v1.png') center/contain no-repeat;white-space:nowrap}
+.game-console #cast:hover:not(:disabled){background:transparent url('../public/assets/kinesis-button-wide-v1.png') center/contain no-repeat}
+@media(max-width:700px){
+  .game-console #controls .result{padding:5% 4%}
+  .game-console #controls .result small{display:block;font-size:8px}
+  .game-console .below{flex-direction:column;align-items:center;justify-content:center;padding:4% 7%;gap:10px}
+  .console-progress{flex:none;width:100%;gap:6px}
+  .console-progress progress{height:10px}
+  .game-console #cast{width:min(100%,220px);min-height:0}
+}
+
+/* Keep the playfield and its control frame visually joined on desktop. */
+@media(min-width:701px){
+  .arena{border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible}
+  /* The console artwork has a transparent top bleed; pull its box up so the visible frame meets the battlefield. */
+  .game-console{margin-top:-8%;}
+}
+
+/* The battlefield and console each own their artwork; no outer frame should wrap both. */
+.arena{border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible}
+.battlefield-frame{position:relative;width:100%;aspect-ratio:16/9}
+.battlefield-frame canvas{position:relative;z-index:0;width:100%;height:100%;object-fit:fill}
+.battlefield-frame-art{position:absolute;inset:-6% -4%;z-index:1;width:108%;height:112%;object-fit:fill;pointer-events:none}
+@media(max-width:700px){.game-console{margin-top:-8%;}}
+
+/* Center console copy and use identical metrics for the two readout slots. */
+.game-console #controls>*{text-align:center}
+.game-console input,.game-console select{text-align:center;text-align-last:center}
+.game-console #controls .balance,.game-console #controls .result{align-items:center;justify-content:center;gap:0;min-width:0;max-width:none;padding:7% 8%}
+.game-console #controls .balance>span,.game-console #controls .result>span{font-size:clamp(7px,.85vw,10px);line-height:1.2;letter-spacing:1.4px;color:#eadbb8}
+.game-console #controls .balance strong,.game-console #controls .result strong{font:500 clamp(15px,2vw,24px)/1.1 'Space Grotesk',sans-serif;margin:8px 0 0;color:#f4d893;font-variant-numeric:tabular-nums}
+.console-progress{text-align:center}
+@media(max-width:700px){
+  .game-console #controls .balance,.game-console #controls .result{padding:5% 8%}
+  .game-console #controls .balance>span,.game-console #controls .result>span{font-size:9px}
+  .game-console #controls .balance strong,.game-console #controls .result strong{font-size:clamp(13px,4vw,19px)}
+}
+
+/* The loading view is the only visible UI until the first arena frame is ready. */
+body.is-loading > :not(#loading-screen){display:none!important}
+#loading-screen[hidden]{display:none!important}
+#loading-screen{position:fixed;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:24px}
+#loading-screen img{display:block;width:min(520px,78vw);height:auto;object-fit:contain}
+.loading-track{width:min(460px,72vw);padding:5px;border:1px solid #b99a61;background:#071b2bd9}
+#loading-progress{display:block;width:100%;height:12px;appearance:none;border:0;background:#102b3a;accent-color:#70d5dc}
+#loading-progress::-webkit-progress-bar{background:#102b3a}
+#loading-progress::-webkit-progress-value{background:#70d5dc}
+#loading-progress::-moz-progress-bar{background:#70d5dc}
+#loading-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#loading-screen.has-error #loading-label{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto;white-space:normal;text-align:center;color:#ffd9c9}

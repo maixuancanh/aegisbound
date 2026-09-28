@@ -1,0 +1,4763 @@
+{
+	"common" : 
+	{
+		"post" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "fab2059835c96bfc63d49fd10100fb9774e4202bcee1fb30a668b58dbc68a7c0",
+					"_path" : "Map/Obj/guide/common/post/0/0.png",
+					"foothold" : 
+					{
+						"x" : -84,
+						"y" : -54
+					},
+					"origin" : 
+					{
+						"x" : 91,
+						"y" : 55
+					},
+					"z" : 0
+				}
+			}
+		},
+		"sign" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c54ab7fe3c6ce41ed86bb2618f54b64a02a46bbea570b3958fd2ec4eea8806d7",
+					"_path" : "Map/Obj/guide/common/sign/0/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 60
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c908884e41fc35fcf55aec26f61af52fac45d01d5228d4f2130c30837ba54ca4",
+					"_path" : "Map/Obj/guide/common/sign/1/0.png",
+					"origin" : 
+					{
+						"x" : 21,
+						"y" : 55
+					}
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f610c66ac5e3e683cf58704368800a7cbf1ae089e73298c75a9d15d0652134a5",
+					"_path" : "Map/Obj/guide/common/sign/2/0.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 67
+					},
+					"z" : 0
+				}
+			}
+		},
+		"tour" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "360dfaa19ee51b5cd1dac6a046ea252dfc4b3c4618e8b57a067dea4a6818302b",
+					"_path" : "Map/Obj/guide/common/tour/0/0.png",
+					"origin" : 
+					{
+						"x" : 106,
+						"y" : 97
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_path" : "Map/Obj/guide/common/tour/1/0.png",
+					"origin" : 
+					{
+						"x" : 0,
+						"y" : 0
+					}
+				}
+			}
+		}
+	},
+	"darkWood" : 
+	{
+		"number" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7a7b9b65d5d1ea0a9704dd25d863a45f31cbc0d38d7abb2fa31bec8a38357fb7",
+					"_path" : "Map/Obj/guide/darkWood/number/0/0.png",
+					"origin" : 
+					{
+						"x" : 5,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ff02659c23b48029e620050c5039d7a1c84181e657533b0152cd0dbe905f6369",
+					"_path" : "Map/Obj/guide/darkWood/number/1/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d5b49c7307e6e42c88fdbc7a56fa8374e9f1e5e868e5e81fb8f7b8851ba2c842",
+					"_path" : "Map/Obj/guide/darkWood/number/2/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5685b4f2706f32da0f1623ace65c7a47343414d0316334fdb22e7a4c87dfecc8",
+					"_path" : "Map/Obj/guide/darkWood/number/3/0.png",
+					"origin" : 
+					{
+						"x" : 8,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1089d9f6b69cc8f533f7ba7c4467a6b13c02b3f737bf3efd95c5c10b1bfcd042",
+					"_path" : "Map/Obj/guide/darkWood/number/4/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b2bd80db3a0b596be968a8b75b696d979166c4418318254a5388158938f4e6ec",
+					"_path" : "Map/Obj/guide/darkWood/number/5/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"dryRock" : 
+	{
+		"bone" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1176d357cc3ef8ca1ae7e8630ec1cde76891b91d3bd7ab42ff5c139aee8b0b57",
+					"_path" : "Map/Obj/guide/dryRock/bone/0/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 103
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "66f4ffa92822aa5029972fb9290702a741247c5bd32d93fea4d3b66a86b49e0c",
+					"_path" : "Map/Obj/guide/dryRock/bone/1/0.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "3c350a3a776fe234e694efce68b9a8e934c3990fc4d2101ea15af2adbd31792c",
+					"_path" : "Map/Obj/guide/dryRock/bone/2/0.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "71ac03371273a4fc6d1c911b06c6fd7c0ff330ad8ab0326815ca08febe397cdf",
+					"_path" : "Map/Obj/guide/dryRock/bone/3/0.png",
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 17
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "dd38c5b0d74c4cf943997a212f7d0f5dfd6829d9b4667bd21ea8fc546ed05dee",
+					"_path" : "Map/Obj/guide/dryRock/bone/4/0.png",
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 17
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b22eb374cbaa0e023859e1963f64e62e41b67e5a330b0b429c5e737cc00ee6f9",
+					"_path" : "Map/Obj/guide/dryRock/bone/5/0.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f6059f37dcb80ce57a606f01889cf764bebbcf75e4ce84d92d5b45ea8236b2c5",
+					"_path" : "Map/Obj/guide/dryRock/bone/6/0.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"grassySoil" : 
+	{
+		"number" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "cd5de32b4aaede7993ea8ff29f60186df5bcde59a23f9fd2b4f75e4324c450c1",
+					"_path" : "Map/Obj/guide/grassySoil/number/0/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8c47c71c31de4ca708a861a66e78cfb0d7e0f5f9de7fec9aba6be55a9e7a9568",
+					"_path" : "Map/Obj/guide/grassySoil/number/1/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "778d41b1ec3203be06d1c2b40f1888b8d102bcb200d6113b32e0d5cf263b4b29",
+					"_path" : "Map/Obj/guide/grassySoil/number/2/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "e486b5e7cc77f6c890847444145196a2f8943b69722a4f2f1cfe9065ac1e2677",
+					"_path" : "Map/Obj/guide/grassySoil/number/3/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "91363bae9b0c006983758e3cd2afac27f5e0e2b8a78429268eb4377891eab367",
+					"_path" : "Map/Obj/guide/grassySoil/number/4/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "bd4781b9deb89525223ba0bf6e533bc5af05cb4e077fb72ec6f5b467d37ad981",
+					"_path" : "Map/Obj/guide/grassySoil/number/5/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"maple" : 
+	{
+		"board" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "03e17183226c0804f425860121229a6a7ce5f55e9496d42d4c55df0490b177b4",
+					"_path" : "Map/Obj/guide/maple/board/0/0.png",
+					"origin" : 
+					{
+						"x" : 71,
+						"y" : 82
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ec8615b0242f5cef98ac345e21340cb4ebb5393780a5713d8c932a24a6c25e19",
+					"_path" : "Map/Obj/guide/maple/board/1/0.png",
+					"origin" : 
+					{
+						"x" : 38,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "188d222098cefa212277b30f8121264de7787406c484685e7b3497a0ac154826",
+					"_path" : "Map/Obj/guide/maple/board/1/1.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "5634ddc2773725ea282174f8922fb76656a428d15b9df7cc65576f62472e861d",
+					"_path" : "Map/Obj/guide/maple/board/1/2.png",
+					"origin" : 
+					{
+						"x" : 36,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "ababf59db7fe9c65556c568fe89dee5aa864334a8a2095bf18a9b6167b7913bd",
+					"_path" : "Map/Obj/guide/maple/board/1/3.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "1db27169ced7c95d7db50c8a1f87005ea4494fd8f0688f112958272430a9b7a2",
+					"_path" : "Map/Obj/guide/maple/board/1/4.png",
+					"origin" : 
+					{
+						"x" : 38,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "06fe93f84806047702539626ee889116af1da1c3be342148e41c0b49ed2f34e0",
+					"_path" : "Map/Obj/guide/maple/board/1/5.png",
+					"origin" : 
+					{
+						"x" : 38,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"6" : 
+				{
+					"_hash" : "52567e416c4703ecdd9f7175e55ef47ccaf188866f6e435accc09741c0363023",
+					"_path" : "Map/Obj/guide/maple/board/1/6.png",
+					"origin" : 
+					{
+						"x" : 39,
+						"y" : 21
+					},
+					"z" : 0
+				}
+			}
+		},
+		"key" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b8d4d462be25d5c58cb0aae958327515f9e9170e4408d3900edc38fe3b7a0f3c",
+					"_path" : "Map/Obj/guide/maple/key/0/0.png",
+					"origin" : 
+					{
+						"x" : 20,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "468d2da3f23b2a49cec12867ad89affb6dcd9c62550ae9d290741fc704bf3c3d",
+					"_path" : "Map/Obj/guide/maple/key/1/0.png",
+					"origin" : 
+					{
+						"x" : 20,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9a2b93b073a8780546ede46e2577cbc54a515503954e3b2b0a287c4ef3f1c067",
+					"_path" : "Map/Obj/guide/maple/key/2/0.png",
+					"origin" : 
+					{
+						"x" : 20,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "3ceac111a9425dd56699193a1d93b2fa463ddd10dc3798aaaf35d02ee19a339e",
+					"_path" : "Map/Obj/guide/maple/key/3/0.png",
+					"origin" : 
+					{
+						"x" : 20,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "fcac47959fc59daaa1e96b4cdd3ad634659a2a233f57a580e07048a52a9bfd56",
+					"_path" : "Map/Obj/guide/maple/key/4/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			}
+		},
+		"startPoint" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2af45315e32ed9c70793ebf40ce01354dc4067accb37a411fc6f830e4be109cc",
+					"_path" : "Map/Obj/guide/maple/startPoint/0/0.png",
+					"foothold" : 
+					{
+						"x" : -15,
+						"y" : 144
+					},
+					"origin" : 
+					{
+						"x" : 163,
+						"y" : 161
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "adad53fa219cf6c92d81119a1d6d60cd2eb4e5e1b45eb074227b01780a0a4386",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/0.png",
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "eb398f8ad4bbd48d4bf93d826b6a9595c3d31f64c12636bd7ab7f43403e07295",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/1.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"10" : 
+				{
+					"_hash" : "adcc65e7fbfd2cc92d8786e6811952b24ca85453fd74d39091a92204617a6bb7",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/10.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 91
+					},
+					"z" : 0
+				},
+				"11" : 
+				{
+					"_hash" : "8eefd5f19d603981c2afb75b1f6e3b36e052ce0d9de3ce93e779a411b9bc356e",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/11.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 91
+					},
+					"z" : 0
+				},
+				"12" : 
+				{
+					"_hash" : "4e913ec749f4184b530ef5c94ef769689882bdb3f3f60b2e53c9942291e36772",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/12.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 91
+					},
+					"z" : 0
+				},
+				"13" : 
+				{
+					"_hash" : "10fb246749e75c78675a1f614c544e4fefe9db506731e7546f9a9a17fbcd669e",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/13.png",
+					"origin" : 
+					{
+						"x" : 71,
+						"y" : 91
+					},
+					"z" : 0
+				},
+				"14" : 
+				{
+					"_hash" : "a47a1bc096cb40c898b0f7e2b39f609abf1704ee5c1c6f0abdac9914d3b3613d",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/14.png",
+					"origin" : 
+					{
+						"x" : 71,
+						"y" : 91
+					},
+					"z" : 0
+				},
+				"15" : 
+				{
+					"_hash" : "f171252fda763d9ecf609760ff10490e7d45a4822020c8f2609e0aabd0ef46a3",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/15.png",
+					"origin" : 
+					{
+						"x" : 70,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"16" : 
+				{
+					"_hash" : "791af315af96e8bd192da4b6eef78ef5d3d22b02994cb71ee21421e594996b89",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/16.png",
+					"origin" : 
+					{
+						"x" : 67,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"17" : 
+				{
+					"_hash" : "429a3bf081c747bd1c4f8eab9d4c4fe65373d91633ba3216bfaee6752a06c00e",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/17.png",
+					"origin" : 
+					{
+						"x" : 66,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "3d4d68878c4ad63e9102810a8680a09b099d18246e30cd23abe903e03d99a2a9",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/2.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "27cb880d5145074371fe74393a06fa0fb5045241ab69070804fa4b40a63ab8b4",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/3.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "0e7aca8d74fcd191f9f6197dabf6f28c35890732040a6b15c093a6255e7be528",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/4.png",
+					"origin" : 
+					{
+						"x" : 71,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "cb0624da91d9513d6b97a3ed4f682493c80dbeabae79b9494eb0a4031be6c4da",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/5.png",
+					"origin" : 
+					{
+						"x" : 71,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"6" : 
+				{
+					"_hash" : "aa547fc38a9736aaa3005d7ade2622f66dbeee5dd51425329b3c239b08e14440",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/6.png",
+					"origin" : 
+					{
+						"x" : 70,
+						"y" : 88
+					},
+					"z" : 0
+				},
+				"7" : 
+				{
+					"_hash" : "d1d8ca4c4ffd97f875e12570dbd0cbbf6d6ae46f86440e0328fab17eb3764a25",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/7.png",
+					"origin" : 
+					{
+						"x" : 67,
+						"y" : 89
+					},
+					"z" : 0
+				},
+				"8" : 
+				{
+					"_hash" : "0ef159749fdc41a14d0011d3e960e85850aed4c11f773a5cfea6f3549ffe2e3f",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/8.png",
+					"origin" : 
+					{
+						"x" : 66,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"9" : 
+				{
+					"_hash" : "46f34aed41bf7c3ca3a034de593d893461cabc7dadcc6155a35f9d3fbdf15747",
+					"_path" : "Map/Obj/guide/maple/startPoint/1/9.png",
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 91
+					},
+					"z" : 0
+				}
+			}
+		},
+		"suryun" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1a5fa5cb7117ac6964b8811a0e8f60eda489f6f718c3f9ae67c430b3f8a74dfc",
+					"_path" : "Map/Obj/guide/maple/suryun/0/0.png",
+					"origin" : 
+					{
+						"x" : 144,
+						"y" : 127
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"midForest" : 
+	{
+		"danger" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f60b806b1245de03b19a4758af21e78acf7f9bc092d3261bc12840b59785eea6",
+					"_path" : "Map/Obj/guide/midForest/danger/0/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8eea1b517da115284b8862197eef6e4d191316d6ab05cfe25f24756b531c7f4c",
+					"_path" : "Map/Obj/guide/midForest/danger/1/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c800990ff2c4e744019a14b63f85794c00900df607d610ba38265b048c61305d",
+					"_path" : "Map/Obj/guide/midForest/danger/2/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c50e7d39892c4e6c3879cc2aa3eada413d578c0c9a9ed8f9b0ee119d1c6e009b",
+					"_path" : "Map/Obj/guide/midForest/danger/3/0.png",
+					"origin" : 
+					{
+						"x" : 39,
+						"y" : 45
+					},
+					"z" : 0
+				}
+			}
+		},
+		"wood" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "12b6558cb641245811711573b2777c640b5ee94d3e6a2f624277cf4fec262f50",
+					"_path" : "Map/Obj/guide/midForest/wood/0/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 72
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f1ee7c0493d2c03b7c9149128f5a2c0a4c72815524c7493bc8cccc5559275e25",
+					"_path" : "Map/Obj/guide/midForest/wood/1/0.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "bbbf8afdef796dd34908970ab7912b45befaea734eafbb4a3ee24da6441bac59",
+					"_path" : "Map/Obj/guide/midForest/wood/2/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8d0b563ae81cd2ce7c3610b3fb4a0b086eab023f8c01c1f7cd73b6a0221035c4",
+					"_path" : "Map/Obj/guide/midForest/wood/3/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 10
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8b8c1714c33172d18deff9a10e13f3c7f1a708570fc55b6735c12eaaf92301cc",
+					"_path" : "Map/Obj/guide/midForest/wood/4/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 9
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2901f6abc4ff396cba74a4055a33db5fb667c1ad88d88074a8e7da5dc43e2f1b",
+					"_path" : "Map/Obj/guide/midForest/wood/5/0.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1439b99f82da756242bf3d91bd0f2b1d2b03c8178e2edb0b2e0c3e6b0f1ce6eb",
+					"_path" : "Map/Obj/guide/midForest/wood/6/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"milepost" : 
+	{
+		"aqua" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "bee8f532968c6ffe31895696753f8e23f2b8c4f2bc3c0fc430de790b595f911d",
+					"_path" : "Map/Obj/guide/milepost/aqua/0/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "df74ecefdc64fee7670ef43d6b85e354be0eefd504d4aa5a28ff8f90abf4bd90",
+					"_path" : "Map/Obj/guide/milepost/aqua/1/0.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "d71e3d21224b53d4b911ef5b625af4f52e48aab4d3b063c5b3df3246b5e68ca5",
+					"_path" : "Map/Obj/guide/milepost/aqua/1/1.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 63
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2f7f6e3e746ff985e823240ed5ef039ca3ab322a6508906172e6d5513bebfc2e",
+					"_path" : "Map/Obj/guide/milepost/aqua/2/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "575c9a8922666fee97812dd9ac54e5d1e26e05fce1250972bdd61e2cf910a849",
+					"_path" : "Map/Obj/guide/milepost/aqua/2/1.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 63
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d20adc9727199e2077e588405c8db58672e247b8a041f890743e33bff22de1a4",
+					"_path" : "Map/Obj/guide/milepost/aqua/3/0.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 86
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "a336e9dde80af0e75cb66d9f78c20699764fee9e16befa70f152c732886cc595",
+					"_path" : "Map/Obj/guide/milepost/aqua/3/1.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 61,
+						"y" : 86
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "97c67c8b9e7020c027d029cc23e43561eface1c4f6db49a40a9e995aca0d6a1c",
+					"_path" : "Map/Obj/guide/milepost/aqua/4/0.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 64,
+						"y" : 83
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "e9f0e9e213e789a636dc42ad5e31084e9f8cb3abed4b2a4cc226e88f0344fa67",
+					"_path" : "Map/Obj/guide/milepost/aqua/4/1.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 66,
+						"y" : 83
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d5c8fb57d640ed54dbb5b77e1d225075cf011d13198f1d10c80b5d79c8129bf4",
+					"_path" : "Map/Obj/guide/milepost/aqua/5/0.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "ea2117deaad838fc618ccb3534db1ad3ad90395579ccd45fe126583b5fb86cfc",
+					"_path" : "Map/Obj/guide/milepost/aqua/5/1.png",
+					"origin" : 
+					{
+						"x" : 60,
+						"y" : 63
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ad58b8836b5f29991bf54c5c431983146721f0012c5f46915d0c426d69f72a52",
+					"_path" : "Map/Obj/guide/milepost/aqua/6/0.png",
+					"origin" : 
+					{
+						"x" : 59,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "e94cd7c987027826ad9921253fe811ab96dfda84e03540590ed2e2f17d1e7232",
+					"_path" : "Map/Obj/guide/milepost/aqua/6/1.png",
+					"origin" : 
+					{
+						"x" : 59,
+						"y" : 63
+					},
+					"z" : 0
+				}
+			}
+		},
+		"backcho" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "3cd98bb3a87246e9fab5194b6f55cfebaf44ac0d062606721ea7f5083612b0b9",
+					"_path" : "Map/Obj/guide/milepost/backcho/0/0.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 95
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "379c0d0a8087f26d321f7e78f53dcfa55b77500235947293ef3ec8c900abf2be",
+					"_path" : "Map/Obj/guide/milepost/backcho/1/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 26
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c969496867459053a0b49f63f673be936aeb3b9e5878284b0ba96df1ca385e88",
+					"_path" : "Map/Obj/guide/milepost/backcho/2/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "04eeef658110ffd37d374ab037166f70a7892030861c3e2ffdf5d742052727b1",
+					"_path" : "Map/Obj/guide/milepost/backcho/3/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 25
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "78d830ed1cd3bd50f3eda52053cdc61d9ab7471a581c744576efd6181ba27e3c",
+					"_path" : "Map/Obj/guide/milepost/backcho/4/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 25
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "09af1517c07062b9801ea6a48feabadda8572bf98b2427f7ae58d3a19453ecda",
+					"_path" : "Map/Obj/guide/milepost/backcho/5/0.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5e651d274f689e109cfad51098f949b3aad38471c998499b1dadd47d34343170",
+					"_path" : "Map/Obj/guide/milepost/backcho/6/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 25
+					},
+					"z" : 0
+				}
+			}
+		},
+		"common" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b7024c2f0c53d082b12027f8292b17e99c21acd41f7efaa41c15f8600c6b01de",
+					"_path" : "Map/Obj/guide/milepost/common/0/0.png",
+					"origin" : 
+					{
+						"x" : 14,
+						"y" : 11
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f4defa0a410e148a5b98d2c16d03d42ee8b17fb2b68e0d59eb4bb8460e047283",
+					"_path" : "Map/Obj/guide/milepost/common/1/0.png",
+					"origin" : 
+					{
+						"x" : 10,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "62eaffcb1837b530f2e258829f6ef8ab509cfd2f1a46a9709c2249062cb1b789",
+					"_path" : "Map/Obj/guide/milepost/common/2/0.png",
+					"origin" : 
+					{
+						"x" : 13,
+						"y" : 21
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "297ea78743335c72b63f11eb12aefa25965443f7e375903211d1499fc4e8ae32",
+					"_path" : "Map/Obj/guide/milepost/common/3/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8dee6943eae32bfeb37f15d5fa93bc3aa1f1c7f8b022532a1bf9158fca843e77",
+					"_path" : "Map/Obj/guide/milepost/common/4/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f3c479f2ba6ff4d08082a2e19ecd3916d68289d740fabccebffaccb36b2aa35a",
+					"_path" : "Map/Obj/guide/milepost/common/5/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "a843f2104dcec435b7b54d853e3f92c7c2d3c490da86dac8a875c9eba0dcf1a9",
+					"_path" : "Map/Obj/guide/milepost/common/6/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "697375522e4b16fb4171471c46c49c93dba926ca80d7d6f29c362261cc030eb4",
+					"_path" : "Map/Obj/guide/milepost/common/7/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 24
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "31fe724300872333e8324fcff07657b4b6bc1bb7579a26bb4d1040a0fcef0a88",
+					"_path" : "Map/Obj/guide/milepost/common/8/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			}
+		},
+		"digital" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "30383ba25391dcf7bc8a156ce60a9d9f2d4515b53df97ca20efb4a5bdfe43f66",
+					"_path" : "Map/Obj/guide/milepost/digital/0/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "600a2b1027f502862cd2179acdb234387510095389954d3926d6763aaf459a00",
+					"_path" : "Map/Obj/guide/milepost/digital/1/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 15
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0a65543593ab97f68bd423d4d9b8a610ae938b69a4344e002d385dc99ab2328a",
+					"_path" : "Map/Obj/guide/milepost/digital/2/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "41c7de202d8c657deb08601882dc6879312d05344eb0ba7a047b1addd6e124c3",
+					"_path" : "Map/Obj/guide/milepost/digital/3/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2171c897aea98be41206c86ef5e57acc68da7cb51ace8e095c32866b08be28c2",
+					"_path" : "Map/Obj/guide/milepost/digital/4/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7420d05d5671ef0517f688fd2eb66f3f36864a1eb67b950d44c258376f075b60",
+					"_path" : "Map/Obj/guide/milepost/digital/5/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "82787203addc37cf17a78c0d982e74817bb51e376c560ec6807b1eedd370fb6b",
+					"_path" : "Map/Obj/guide/milepost/digital/6/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c6fbfd62dc8c5c7c252e1c9adb9b24789739ade58283bb796c913be1f369d8b6",
+					"_path" : "Map/Obj/guide/milepost/digital/7/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			}
+		},
+		"edelpark" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "bad40579fc0f7bba0870b56bf8888fb8d83a7066e315205fe3b520f46a3d390e",
+					"_path" : "Map/Obj/guide/milepost/edelpark/0/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 24
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "636719e23f3f95be2a8281722744bb7592883aac2da410dffea470166a20d85e",
+					"_path" : "Map/Obj/guide/milepost/edelpark/1/0.png",
+					"origin" : 
+					{
+						"x" : 6,
+						"y" : 15
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "399d8adfdffdbcc7d58bbaf6c2b5a610eb5d9ff22d4d5f7b925a447ba534c144",
+					"_path" : "Map/Obj/guide/milepost/edelpark/2/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "3ce3d9901a3d0270e0abd40755dd2860bc215aa891ccd134251b6ba395577356",
+					"_path" : "Map/Obj/guide/milepost/edelpark/3/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8341072c351ff0d4fcf1ad2d0ae6242449aed656318a003726f41a94b4de2f5f",
+					"_path" : "Map/Obj/guide/milepost/edelpark/4/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			}
+		},
+		"edelrock" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ca06daed49c39e9e98409897b9f15ade13ef533db8725270afb21a63b7e27836",
+					"_path" : "Map/Obj/guide/milepost/edelrock/0/0.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 47
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6acc306b0a08966e4a05abb60b92c10206aa8185af100b0b5fae0d5e1f955c5d",
+					"_path" : "Map/Obj/guide/milepost/edelrock/1/0.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8aea8e3581b750d5f0d88145377b21747e7d69f2fe561ec91f99859e4c3da1e3",
+					"_path" : "Map/Obj/guide/milepost/edelrock/2/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "a91b4e29303e37aea7df5a0216dd79936c50b0f0d198a31d0f37af648f9751a3",
+					"_path" : "Map/Obj/guide/milepost/edelrock/3/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6f34ee6eff88460ea0b45455a85f9b44f9dd2e52464bfafcc268c49cf4159134",
+					"_path" : "Map/Obj/guide/milepost/edelrock/4/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c3e6bc83e15b9f7f5497d8f1da8a6c94d7f3193a150b16f2bb50b93477408115",
+					"_path" : "Map/Obj/guide/milepost/edelrock/5/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "64bd44ec99a91c9d9f1adaa8ade6974bc85121d689cdfaa19ddaf2f2d501310e",
+					"_path" : "Map/Obj/guide/milepost/edelrock/6/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "93db57ff0cbe2ffb689487947fd55808b3483aaec91f99935774bb9275a35191",
+					"_path" : "Map/Obj/guide/milepost/edelrock/7/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			}
+		},
+		"elin" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "87d18996e1da31b956566971858648511c5598d33a914d5dca48420ca9841886",
+					"_path" : "Map/Obj/guide/milepost/elin/0/0.png",
+					"origin" : 
+					{
+						"x" : 67,
+						"y" : 97
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5296f9afcfb52442da0d3a0bb8ab0caef4006a4c45b9386570243929fa235d21",
+					"_path" : "Map/Obj/guide/milepost/elin/1/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 36
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0543e3cc7abf4c405cc30a63054fe754b0461f1fdd672f266858b6a93adf2ee8",
+					"_path" : "Map/Obj/guide/milepost/elin/2/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f1b83cc41f8ef39ad93d2340ce8b09cc7913073e2f31ef968a58de33ffba83c5",
+					"_path" : "Map/Obj/guide/milepost/elin/3/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 41
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f1152a9ef7b8315c7af0a08e6c6d439470e345801aa589301c5a0b81286221f1",
+					"_path" : "Map/Obj/guide/milepost/elin/4/0.png",
+					"origin" : 
+					{
+						"x" : 46,
+						"y" : 35
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5edef83b96e67a23584ae366a9abc2afa881962d7638a78e18aeaa762ae8561a",
+					"_path" : "Map/Obj/guide/milepost/elin/5/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6569a8ab6836ebc5d89bdfc9cc16a271463b8b350c5c12f2da2650dd157819b3",
+					"_path" : "Map/Obj/guide/milepost/elin/6/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 41
+					},
+					"z" : 0
+				}
+			}
+		},
+		"elnas" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8c1b167dd545b57117efcc787f3188f8c4ceacf4e40ee83db756242ccee8666d",
+					"_path" : "Map/Obj/guide/milepost/elnas/0/0.png",
+					"origin" : 
+					{
+						"x" : 53,
+						"y" : 59
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "37d98b827b3c03a8e2a75d4422c7eb39f58060208d1d68ab50f4efb6e443f8c2",
+					"_path" : "Map/Obj/guide/milepost/elnas/1/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1edb406bf8e0a4add485d1b6244a0e5669995fd0284d61a5bf5374d9a154d321",
+					"_path" : "Map/Obj/guide/milepost/elnas/2/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "73ab3b5eb681be7f17768a6c07c044c05c497560487034f83e0689c41fa01e2b",
+					"_path" : "Map/Obj/guide/milepost/elnas/3/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 26
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d3b55f9a9f29a8946c8b32f9f0045902c0f418112263779398307936853810ac",
+					"_path" : "Map/Obj/guide/milepost/elnas/4/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 26
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "4d07f8b15c4e35fcb02d2601cb80f61e32467593c815b8367ec2d4ff3b6d9c63",
+					"_path" : "Map/Obj/guide/milepost/elnas/5/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 24
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0d46ca4fd24acf124aa84bd1e6dafda88ceaee08d88226756b2f2f408d06d941",
+					"_path" : "Map/Obj/guide/milepost/elnas/6/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 24
+					},
+					"z" : 0
+				}
+			}
+		},
+		"ereb" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f0fd947b3c7d473ddb2bd21a85a51d05ff2e93571be357b937eb5c3f4285bf83",
+					"_path" : "Map/Obj/guide/milepost/ereb/0/0.png",
+					"origin" : 
+					{
+						"x" : 61,
+						"y" : 40
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ba86d72f0ee51f143f4e1ce5afe995dd0d5c2283f52de1cf51af770a364958a7",
+					"_path" : "Map/Obj/guide/milepost/ereb/1/0.png",
+					"origin" : 
+					{
+						"x" : 4,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1494d9f77075051635edf4346b0dc6ac50f1ae7633fef432089e580a53de7f9d",
+					"_path" : "Map/Obj/guide/milepost/ereb/2/0.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "188beb9f545194fb79f88c80ca4abcb0260e9fef9c3cb4107442db7efc94cf23",
+					"_path" : "Map/Obj/guide/milepost/ereb/3/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c493dd4bf45b7303f238af53e9166dbd40551f6e41b22c96e7104d8afdeb0db1",
+					"_path" : "Map/Obj/guide/milepost/ereb/4/0.png",
+					"origin" : 
+					{
+						"x" : 50,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8eeeda00525b502e87ea29d195a1dbeadfbd6ad20a6513b74f9992539d64f60d",
+					"_path" : "Map/Obj/guide/milepost/ereb/5/0.png",
+					"origin" : 
+					{
+						"x" : 46,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "79824fa976d6ba1d40d3ec8e9670572e34cff851321937724d6ef2eab581f42e",
+					"_path" : "Map/Obj/guide/milepost/ereb/6/0.png",
+					"origin" : 
+					{
+						"x" : 49,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6d780983e26541f8517a2a550d7fa07aef533701c479e9672547948cd713a9c9",
+					"_path" : "Map/Obj/guide/milepost/ereb/7/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "47c677f8686a34201eb50fd6caac4e455c9f8f844f30d326c96b427ec63e4836",
+					"_path" : "Map/Obj/guide/milepost/ereb/8/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			}
+		},
+		"eurel" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "4175c013cd356c309b99feca47bcf0ed7dd4f1e307663b19bc95d3059212f9fc",
+					"_path" : "Map/Obj/guide/milepost/eurel/0/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 69
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c6610ab60ca44b4e052dff1e65663a46052aec0c9b514df3ae1f0085be125b05",
+					"_path" : "Map/Obj/guide/milepost/eurel/1/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 33
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0d9b0698ab27fca40d2d7e1b4787830ad99c62f810d95cc37bf0fede6b5b4c4d",
+					"_path" : "Map/Obj/guide/milepost/eurel/2/0.png",
+					"origin" : 
+					{
+						"x" : 67,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "a8a7c7748e234b92bddd203cb5c6ce0389d16152eca20a65767c9901174cfb1a",
+					"_path" : "Map/Obj/guide/milepost/eurel/3/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 33
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b3d6c21aed888f462e9873211a69fc2858d00813bbc885a8e124fa43da0c2425",
+					"_path" : "Map/Obj/guide/milepost/eurel/4/0.png",
+					"origin" : 
+					{
+						"x" : 67,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ab217566dd74bfb682b39d4028557ab81903211ff804ba4a3f734b731dc3e600",
+					"_path" : "Map/Obj/guide/milepost/eurel/5/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7a5704dcd5eb3b536675cfda9a102b779c060c481d0dea16f86baea5d85b6e79",
+					"_path" : "Map/Obj/guide/milepost/eurel/6/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "45ebf6ef6b90b61c13b1e817263435926ae54194dd02d2669cfaa30a3d0cb4dd",
+					"_path" : "Map/Obj/guide/milepost/eurel/7/0.png",
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "dcb4ca869db155e0602973c0d6dfe4d35ac15835d9e03b3ef9f6698a8fc7ce52",
+					"_path" : "Map/Obj/guide/milepost/eurel/8/0.png",
+					"origin" : 
+					{
+						"x" : 66,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			}
+		},
+		"farm" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f9a62754e1cdf1470110d60af837b04c3323fcc9761e1090c6bae0f52443681c",
+					"_path" : "Map/Obj/guide/milepost/farm/0/0.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 125
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "4052163e4975780f92b3f11d6ba0bcb51e90809733bdc83f38054aa7602df3b2",
+					"_path" : "Map/Obj/guide/milepost/farm/1/0.png",
+					"origin" : 
+					{
+						"x" : 8,
+						"y" : 12
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d44d605a47a4bfb57a51a7eacf970af493e3f33c12149a76707172da1af5dcd1",
+					"_path" : "Map/Obj/guide/milepost/farm/2/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "52009e92ead369323e06f2964ada4bc553c035acac6ef65fc2759b1d378b2a01",
+					"_path" : "Map/Obj/guide/milepost/farm/3/0.png",
+					"origin" : 
+					{
+						"x" : 43,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0e2179865c331bcefbb2977d44f040af0e6bd930790d0ced39d23312d3e500b5",
+					"_path" : "Map/Obj/guide/milepost/farm/4/0.png",
+					"origin" : 
+					{
+						"x" : 43,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2b36c9e6c4bb827eb8a4f2672962a6b97df9237ff6093e02e3ee73e6fb689838",
+					"_path" : "Map/Obj/guide/milepost/farm/5/0.png",
+					"origin" : 
+					{
+						"x" : 41,
+						"y" : 33
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ed19b4c814072a82987cd681969dc8a8daaff3d4d194082a053cb97c3b36a1c5",
+					"_path" : "Map/Obj/guide/milepost/farm/6/0.png",
+					"origin" : 
+					{
+						"x" : 43,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "315e1c23a25b0f739f29b2785b562bb4063c9da7d17f63b0a10a79e826fdfe79",
+					"_path" : "Map/Obj/guide/milepost/farm/7/0.png",
+					"origin" : 
+					{
+						"x" : 43,
+						"y" : 39
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d0c3a920b804204345e34ef77ba05acdb48900691eac4616bc00b76189dbe128",
+					"_path" : "Map/Obj/guide/milepost/farm/8/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 12
+					},
+					"z" : 0
+				}
+			}
+		},
+		"henesis" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "302c0f2152371ce07ae6f1b8e0dc5cacabe904c6fe0ca951f6b855ca4105d98f",
+					"_path" : "Map/Obj/guide/milepost/henesis/0/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_path" : "Map/Obj/guide/milepost/henesis/1/0.png",
+					"origin" : 
+					{
+						"x" : 5,
+						"y" : 1
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "3e4b1e9bc62d09896088a40c52a14fba5ca9ddcd637b4dfb7034759e786124f9",
+					"_path" : "Map/Obj/guide/milepost/henesis/2/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 26
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6cd0677f0601935c4be44ca0ab11ecf8608e07f93428343500e44ebb3eb37ec1",
+					"_path" : "Map/Obj/guide/milepost/henesis/3/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "09ecccd839e18a96d608a75f337fd1dff14361cc22c2b4d4067939dde7e42799",
+					"_path" : "Map/Obj/guide/milepost/henesis/4/0.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "08c1b19ddc49293014e113302bfcfeba82476d495895d7ebd9963e4165df49f1",
+					"_path" : "Map/Obj/guide/milepost/henesis/5/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2d4b0e570083fb25f2c5918719f17b032d70f02bb6660b1e20407607f2f257bd",
+					"_path" : "Map/Obj/guide/milepost/henesis/6/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "58fa0270ea2f77d6d0c07e20d404b8272d46261eb7a6e991c5930e899222c928",
+					"_path" : "Map/Obj/guide/milepost/henesis/7/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d0ac7e1e9e941b781011d48225ddde0be87812764c0cf0c71b8e02e886c8c5aa",
+					"_path" : "Map/Obj/guide/milepost/henesis/8/0.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			}
+		},
+		"krease" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "597bea39fbf4fadcdc715a8ce01c9846ef9cd7f5a35dbd104c3805ec373e9c39",
+					"_path" : "Map/Obj/guide/milepost/krease/0/0.png",
+					"origin" : 
+					{
+						"x" : 70,
+						"y" : 56
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1888dea2e19718c552717b01821e7844d6c86a1dc0af0c4e0e94a751a09695cd",
+					"_path" : "Map/Obj/guide/milepost/krease/1/0.png",
+					"origin" : 
+					{
+						"x" : 12,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "441ec3d63d85fb0595dcb6a6e1d5f5b88b51540a120e9876a7a37515721c2f5d",
+					"_path" : "Map/Obj/guide/milepost/krease/2/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 37
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "4e370b7a228bb2f56fc55a081d2df44236d0175883bd8aa3da062812ea23548c",
+					"_path" : "Map/Obj/guide/milepost/krease/3/0.png",
+					"origin" : 
+					{
+						"x" : 69,
+						"y" : 42
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "63663da720326851777403a9edbcd8732ce5b93787359176aff517ef12d67430",
+					"_path" : "Map/Obj/guide/milepost/krease/4/0.png",
+					"origin" : 
+					{
+						"x" : 75,
+						"y" : 37
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9bbd480eb94bed596e747650de1fa2eae2426c9d0cd8d00e85f83f9984c70ea5",
+					"_path" : "Map/Obj/guide/milepost/krease/5/0.png",
+					"origin" : 
+					{
+						"x" : 69,
+						"y" : 43
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "781ea0bc749b3ea9fd0344a0637340a206a050dd60fe31a6f4e9a916d37e5298",
+					"_path" : "Map/Obj/guide/milepost/krease/6/0.png",
+					"origin" : 
+					{
+						"x" : 70,
+						"y" : 43
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b5ec5b4c6e6311e3fec39ebf4a117f768d34bbd76486c421afc203bcc43f76a2",
+					"_path" : "Map/Obj/guide/milepost/krease/7/0.png",
+					"origin" : 
+					{
+						"x" : 75,
+						"y" : 37
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "990a1190e2d5cf0b68da35549f686a91320895f459fba4e5735534df047ebd6e",
+					"_path" : "Map/Obj/guide/milepost/krease/8/0.png",
+					"origin" : 
+					{
+						"x" : 70,
+						"y" : 44
+					},
+					"z" : 0
+				}
+			}
+		},
+		"lioncastle" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0b95b7306f7c01c818bf2d4e30811f3427038ddb2d2786e0e42bfce112e918bd",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/0/0.png",
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "15337c9e9cd0e145fc895826cda67f4d049715cb1eb8a048679d7751cda17d54",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/1/0.png",
+					"origin" : 
+					{
+						"x" : 11,
+						"y" : 36
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "19f52de21ebc4d36a6a0a254d0c7ac2b47249776fcbf20449e116a4aa9ae9b2e",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/2/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2c9c52203414535496276bf83d9dc67f9287cf74d2025334cae0c1e989fa64df",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/3/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0194deb7096edfec6a898592097eaff8bbbce58afc6d01f1d541d951e403ea02",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/4/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "e641f25a982b6014b77166b3c2ac94b6914b3a1f2106099340b6ad016c978c7d",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/5/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "6fc3f030c5f3a6bd20fd38fa979e0dce767878d6b108d487a1b96da541e153e3",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/6/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "4eb4334ccedb5b0c2db92d7a52c1738d1dff56d26d752ce62e80b017c8413925",
+					"_path" : "Map/Obj/guide/milepost/lioncastle/7/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			}
+		},
+		"ludi" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "72da29ac6ddc7dc411a2c584428fc861ffb1b7a47c965d0235ed006dc9af9666",
+					"_path" : "Map/Obj/guide/milepost/ludi/0/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 14
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5d94c1fd650fa8791a5616ecb393b3aa9a0608e75f41ae5899c0c39761437b98",
+					"_path" : "Map/Obj/guide/milepost/ludi/1/0.png",
+					"origin" : 
+					{
+						"x" : 13,
+						"y" : 27
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "2e675d2c6fa393ba3a83f7b37e082fbbdc0d2a985523e57dd6586c689c40872b",
+					"_path" : "Map/Obj/guide/milepost/ludi/2/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 37
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "85289eb22063d14e809c8ecbb6b3a25f75cc41d83ce3ef940192df2e358090e1",
+					"_path" : "Map/Obj/guide/milepost/ludi/3/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 25
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f9492071fe5c0640849521415adb33ac20e59c1161eba50849ec51fd8de96465",
+					"_path" : "Map/Obj/guide/milepost/ludi/4/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "858f002b9a2be73b52ce9b1b41d9b3da692fdf364f1509da196c882082358752",
+					"_path" : "Map/Obj/guide/milepost/ludi/5/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5b26a69bcf72f4f1dedd0554827b9155797bca8c8dbefe093815f5a8e5f0fd08",
+					"_path" : "Map/Obj/guide/milepost/ludi/6/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "131437ab685c96497ddee3917ad383f2dcd3493ba58cc30a3eb3ac91ceb5b493",
+					"_path" : "Map/Obj/guide/milepost/ludi/7/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 21
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "acc4eb5c707907baf94a9a630e83f354ab1150a7c6a98b8063790436bb78e0ab",
+					"_path" : "Map/Obj/guide/milepost/ludi/8/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 20
+					},
+					"z" : 0
+				}
+			}
+		},
+		"mureung" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "dd9680d3239662f7b3cda5b843aaf04ef727c3b2e2c814d0bac8aef2fc237055",
+					"_path" : "Map/Obj/guide/milepost/mureung/0/0.png",
+					"origin" : 
+					{
+						"x" : 64,
+						"y" : 121
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "afbe91dd5e7b09cbb1eaad5a299c5bfca23df300ea833faac29d67aa9453cd92",
+					"_path" : "Map/Obj/guide/milepost/mureung/1/0.png",
+					"origin" : 
+					{
+						"x" : 64,
+						"y" : 89
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7f5161f5fc6ad36e505b587d1d88e7f6c96bf00609ac50e2d2e1b4172943b965",
+					"_path" : "Map/Obj/guide/milepost/mureung/2/0.png",
+					"origin" : 
+					{
+						"x" : 9,
+						"y" : 17
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "12034a3615b19a0e8cd2ac99f72b5e39cd8548b872ca819f21968f90b8523bf0",
+					"_path" : "Map/Obj/guide/milepost/mureung/3/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 15
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "75644e55423a2cca8b14f441b35cbd8a6ac208fa356ab1a7ef62efe6527f57ed",
+					"_path" : "Map/Obj/guide/milepost/mureung/4/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9ae94c9774ae4238027883b839837cc33e4e2118b1c34b0671e04745cc1404f7",
+					"_path" : "Map/Obj/guide/milepost/mureung/5/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "731d13606ac76a8e4ca0e7c482c4a8f0f3c0d066ce4758de0a349af2404e3002",
+					"_path" : "Map/Obj/guide/milepost/mureung/6/0.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c2d9593b3039471d1a8e06ee1f9006e6781fdfcf9db3724610bc3af303bf9cca",
+					"_path" : "Map/Obj/guide/milepost/mureung/7/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 29
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ead6375e128c97fe3d6f9b03c675be62cf297f89b22e74ba3d15823794d1de51",
+					"_path" : "Map/Obj/guide/milepost/mureung/8/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			},
+			"9" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9427052215cc8515a8f670a81504dbce1b7c7421f9142b2247cc2440ba4987ae",
+					"_path" : "Map/Obj/guide/milepost/mureung/9/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 32
+					},
+					"z" : 0
+				}
+			}
+		},
+		"orbis" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "bc0c4676871c521b59a375183d49d7b124244ee347f9ce1a1dce014f58fdea3e",
+					"_path" : "Map/Obj/guide/milepost/orbis/0/0.png",
+					"origin" : 
+					{
+						"x" : 18,
+						"y" : 13
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "431f6b3dc91a9636659f771e6f2b0bbe07786a94ccca6b5bf8e0465c5d7fce59",
+					"_path" : "Map/Obj/guide/milepost/orbis/1/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 30
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "e91c68d52de61eae49ef786b9f32e15a66e9d9da9d1bef28f99f7b49a2b8f028",
+					"_path" : "Map/Obj/guide/milepost/orbis/2/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5b9ddf795bfdf1f209881a492b9e1b6851e09b95ef7b732eb6883a2460d154a1",
+					"_path" : "Map/Obj/guide/milepost/orbis/3/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 27
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f06b4271461e4826b26a0ad5a546cb79844fa4ceebc1b8b71cd36a4486e70b07",
+					"_path" : "Map/Obj/guide/milepost/orbis/4/0.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c925b4277057e67d5784d040f4dd60e2a0c3bd209cfedf2959c1be9ec24b1381",
+					"_path" : "Map/Obj/guide/milepost/orbis/5/0.png",
+					"origin" : 
+					{
+						"x" : 36,
+						"y" : 13
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7d9561746865432eb9416c0c64840a0788a1c3824266cadccdb5e002f35ac23a",
+					"_path" : "Map/Obj/guide/milepost/orbis/6/0.png",
+					"origin" : 
+					{
+						"x" : 36,
+						"y" : 14
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "64d16070f687c51a77632fb353a7f635a415fba8c2a631622a2310a387fd9a76",
+					"_path" : "Map/Obj/guide/milepost/orbis/7/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1dd978f1cdaf467fe471676cfeb9bd384fce901262feff62da915741d045b4a6",
+					"_path" : "Map/Obj/guide/milepost/orbis/8/0.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 26
+					},
+					"z" : 0
+				}
+			}
+		},
+		"poisonforest" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "608963ef28e45c5db4cec82d7b812dee5e01ae8ce29b61e8b3a5ac7ac1a428c8",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/0/0.png",
+					"origin" : 
+					{
+						"x" : 69,
+						"y" : 97
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "12c80fc4a97331127619e95fb77b207431d9dc4271117416166496ea83b969f6",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/1/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 36
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "31df3d1dd08d227e93185dbbd538a41e97f271e14926ac70ee4988b70ced7b8f",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/2/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "f2ee24a41eb3a63d5f8562c4f978d88131dfe36e7010d907bd0c94513dea7aac",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/3/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 41
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "df6bbe1f6268bdc7d74f24922808809f0d75a3bdd394aaac7f35a43fc5aa69cd",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/4/0.png",
+					"origin" : 
+					{
+						"x" : 46,
+						"y" : 35
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "810df483f57de81f7bc06d36e7a0f80eec328b01a1e401867cdba90fa8d4ffef",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/5/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 31
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b2ed4701f572653081339a08dbf0e9cbff60ea822d754951f5d01e13f84b5810",
+					"_path" : "Map/Obj/guide/milepost/poisonforest/6/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 41
+					},
+					"z" : 0
+				}
+			}
+		},
+		"rien" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1e1b13c33be97accbe128f79a317c678855ab4cb92124893bad015f507affcf3",
+					"_path" : "Map/Obj/guide/milepost/rien/0/0.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 39
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b719e1847af4d379a83971aa53250cf100c4f26ba2800be23f0c8744792fee0f",
+					"_path" : "Map/Obj/guide/milepost/rien/1/0.png",
+					"origin" : 
+					{
+						"x" : 7,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c857b6a0982fe671e42a2f467633a14abd1b1941ca4592116b7b96435ba9ed90",
+					"_path" : "Map/Obj/guide/milepost/rien/2/0.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 39
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "db71a3c9cd03ad97576e890697ffdab065841a2a628110231f048ffbb58a98e3",
+					"_path" : "Map/Obj/guide/milepost/rien/3/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 35
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8f46267629b95cbc11e1108104f1456d9d01710fc80fec0f4151fafd9cd03f6c",
+					"_path" : "Map/Obj/guide/milepost/rien/4/0.png",
+					"origin" : 
+					{
+						"x" : 45,
+						"y" : 35
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "91c7b99bd46fcf2447a7b8c9e4217d60ddd249a1af17332fd66a463ef71ab510",
+					"_path" : "Map/Obj/guide/milepost/rien/5/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "cc887492d20690b1a43b8e967f7e4d0aea91e3641e3e521ea3172fd8b170b042",
+					"_path" : "Map/Obj/guide/milepost/rien/6/0.png",
+					"origin" : 
+					{
+						"x" : 46,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1350a6d7b69a6ec71c4269182865a8bd5f989b8220abb9b70cc7587f21969b09",
+					"_path" : "Map/Obj/guide/milepost/rien/7/0.png",
+					"origin" : 
+					{
+						"x" : 46,
+						"y" : 36
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c656f108da9cb17d98edfa53050fbe806b0a706ba274458376868812500d0653",
+					"_path" : "Map/Obj/guide/milepost/rien/8/0.png",
+					"origin" : 
+					{
+						"x" : 47,
+						"y" : 28
+					},
+					"z" : 0
+				}
+			}
+		},
+		"snow" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "08a6be15fa440d60424211402bde61e263c4aeb2226f8e219c3d3422046c2c94",
+					"_path" : "Map/Obj/guide/milepost/snow/0/0.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 11
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "773588eb0541770a9b8ede260db28e0a8c4bf3c496ecb831b8f3f9506b7880fc",
+					"_path" : "Map/Obj/guide/milepost/snow/1/0.png",
+					"origin" : 
+					{
+						"x" : 13,
+						"y" : 23
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "392b5cdf165906671ac2149892bfc5a9071f1ed3cc09d1aa1c0879ac5daaa055",
+					"_path" : "Map/Obj/guide/milepost/snow/2/0.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "080f8abf36684ce3f4cb2c5eed18a5a77656e23877b77c9407cae0bbf13e650a",
+					"_path" : "Map/Obj/guide/milepost/snow/3/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 21
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "7f2e0a4be199b2232e5ab81216356ef6435785b7f60a873d98cc1064200fccd5",
+					"_path" : "Map/Obj/guide/milepost/snow/4/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9bf6b9ac5b5717eea102ea510f59063266dba203ee7faff3187689516792ca28",
+					"_path" : "Map/Obj/guide/milepost/snow/5/0.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "13474324b2779bf33a1094a4b5dabf4d42838e9e5421abdcae2e641f2409e179",
+					"_path" : "Map/Obj/guide/milepost/snow/6/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "ec30c9fc60496cc684bd5369b16c42f04a30b270ec6331d80ce0f453be00ce26",
+					"_path" : "Map/Obj/guide/milepost/snow/7/0.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 19
+					},
+					"z" : 0
+				}
+			}
+		},
+		"timetemple" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0ec92081f770e278ffa5c32accac2a3a94812dbfc6934adbf2fa16eff8260bd9",
+					"_path" : "Map/Obj/guide/milepost/timetemple/0/0.png",
+					"origin" : 
+					{
+						"x" : 16,
+						"y" : 38
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8eb37a53a1ddf70676937444fbf2a60081af79aa36944167e2804e47d2025ecc",
+					"_path" : "Map/Obj/guide/milepost/timetemple/1/0.png",
+					"origin" : 
+					{
+						"x" : 56,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "a14a454273a8c82dab3caec821672a17333740ffdc62c9418743e0b3e0e76935",
+					"_path" : "Map/Obj/guide/milepost/timetemple/2/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "097ea0b9286047a4e11f9cea0a5d67ca3ebde2b4c9a6d19e6ca8e9d1a60063e4",
+					"_path" : "Map/Obj/guide/milepost/timetemple/3/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "cc5055a748f34ac099bd8442b7b67d5c491d7c7ad4b34da6d42e5b389d59bb6e",
+					"_path" : "Map/Obj/guide/milepost/timetemple/4/0.png",
+					"origin" : 
+					{
+						"x" : 42,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "e78ef5bdd94804dec01776cc513ce3a5be64af63344e3e2f8e90f573194a7347",
+					"_path" : "Map/Obj/guide/milepost/timetemple/5/0.png",
+					"origin" : 
+					{
+						"x" : 41,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c3633adf01f43b310881929ea6d20d4c77dd7f3959433c303bc20d179681d0b2",
+					"_path" : "Map/Obj/guide/milepost/timetemple/6/0.png",
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 52
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"miniD" : 
+	{
+		"portalEff" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "be8dcc68bfe2873630d928f3b0d55163da52b1e91f32c7de369e01053583d5a5",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/0.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 95
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "74df8b6eca12c721fe996e3c083daed3d059da62d24e39c8e4008d0195b798db",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/1.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 93
+					},
+					"z" : 0
+				},
+				"10" : 
+				{
+					"_hash" : "566589ea8fa1d29b7c11dc33de78a8d7bcbba2887cb42d875661bdb3c8fc3f06",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/10.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 93
+					},
+					"z" : 0
+				},
+				"11" : 
+				{
+					"_hash" : "bd34e88a2a7ee7b42b2428ed4a3edeb70dbd1e68c0cd02543368bb72c01d615f",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/11.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"12" : 
+				{
+					"_hash" : "e4ad4d9c6176c4bd0524b563fecdd38fb27f58e80037c0714360c8da5af6ed74",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/12.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 92
+					},
+					"z" : 0
+				},
+				"13" : 
+				{
+					"_hash" : "b394cf0784a83c8037f6c818bc5b74b8720d5f42599698ed084bfd30bc503ae9",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/13.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 94
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "356c4a251dc8e9a1d1699afa5c68cc3d7b15959918ae497847957b0666b617f9",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/2.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 93
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "f2e14e147f2aea127072fc371994b555ba137af1ed34051714974ccb1d43f34c",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/3.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 93
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "60692c4c0ae02c7cfe56a03006d5c943943613172a42c28545ac69bc703c4418",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/4.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 90
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "46c398c043b493d5133c5c766b600ef08d7930daaddf8a7c6ad70585f1bb4a4e",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/5.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 92
+					},
+					"z" : 0
+				},
+				"6" : 
+				{
+					"_hash" : "f136193a8fb4f245f5f380ee849583fa98fc965a9c25dd24130be3494571a284",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/6.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 94
+					},
+					"z" : 0
+				},
+				"7" : 
+				{
+					"_hash" : "72e219b71cfdf502ebfb0eb17129dc43126f5327cbf730f7fdc86addfb41c0b6",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/7.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 95
+					},
+					"z" : 0
+				},
+				"8" : 
+				{
+					"_hash" : "d4fee24cb0ea9a75a50ae73eea8e850d855e616bcf782799e3508d64e6bf4714",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/8.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 63,
+						"y" : 93
+					},
+					"z" : 0
+				},
+				"9" : 
+				{
+					"_hash" : "ef262ed1fb437f2251af999cd0f8835333e7e0209fef8b97e21ab0536cba960e",
+					"_path" : "Map/Obj/guide/miniD/portalEff/0/9.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 62,
+						"y" : 93
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d805cc5445751cc47843a03f1d76f9fbe1b18fc505ee03f0f367d403f3edc2d1",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/0.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 82
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "944a8cf49e581e1d2a582d5b55befdeaea91ca90ffd0adc55a033c5131577a94",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/1.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"10" : 
+				{
+					"_hash" : "433b4c7168be47c911d1396204a74f4cbf23d42795066e4b2c1a46f8aa0af8f0",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/10.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 51,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"11" : 
+				{
+					"_hash" : "51d69481356add43430e6493a1677d88aee42cc8f54f48516dc5001c666d7020",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/11.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 50,
+						"y" : 78
+					},
+					"z" : 0
+				},
+				"12" : 
+				{
+					"_hash" : "546c96d9ef382c7b7906b77488e0775903da6b42cf3ce35bf4cdd9bdb411b009",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/12.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 79
+					},
+					"z" : 0
+				},
+				"13" : 
+				{
+					"_hash" : "7c084882f995c15953329e749ce6786a2e7aa58fc865c40f74f6c3ecc3ece47b",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/13.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "0fe1a13010f769e5ea47e8d297ece29d03fb900d60cc45de6e8ce53c44cbce6d",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/2.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 79
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "a981fa5c7e9a7bd1c80ced92e15de3795403de061b75b94c73e25017b43ad876",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/3.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 51,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "28d1fabee3432a78e7897af018c6c63b7da4f5b541dcd73760a33c66bf5ef9a6",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/4.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 50,
+						"y" : 78
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "e11ba4a58c7f8621f70d48e24f586b90cbacaad7654936a6b0db927a98da0762",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/5.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 79
+					},
+					"z" : 0
+				},
+				"6" : 
+				{
+					"_hash" : "74bdf4dcfead026d12920df6961b2e3a8831fc1fca07380a32307bd4cb465b16",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/6.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"7" : 
+				{
+					"_hash" : "563403825d143d63800bba24ff76b0104accc7431598daa08f46511377f7cb41",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/7.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 82
+					},
+					"z" : 0
+				},
+				"8" : 
+				{
+					"_hash" : "62f7a67bb053ed505307993b63617ef1f70c4f09294cd302d394f963ecd08da8",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/8.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"9" : 
+				{
+					"_hash" : "ed1f5dc0e4f765cb8d0fbb4107147bc1131e8c30b8c625cecdb5429c092625ff",
+					"_path" : "Map/Obj/guide/miniD/portalEff/1/9.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 54,
+						"y" : 79
+					},
+					"z" : 0
+				}
+			}
+		}
+	},
+	"tutorial" : 
+	{
+		"key" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9190f9deca86672c5f24d0239501e497160059eb77f3cd715bad376dee412787",
+					"_path" : "Map/Obj/guide/tutorial/key/0/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 50
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "d8ed1f9097a1d140ae1620d89c2cfe193d8a9cecc9a7b3b3907a30f72ac44b87",
+					"_path" : "Map/Obj/guide/tutorial/key/0/1.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 49
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "6dbeba32b38af84ad1955e939a3834664751f9bda11538bfb96f35c919209820",
+					"_path" : "Map/Obj/guide/tutorial/key/0/2.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 48
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "081da52c14fc6fd497516f85b7881a2139f38e6980bda4faea6a621a82e54cd5",
+					"_path" : "Map/Obj/guide/tutorial/key/0/3.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 49
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "bf08c44aaa2dddf430d5a2d38612f8f8476548b3aa3dca18b22660766c037d79",
+					"_path" : "Map/Obj/guide/tutorial/key/0/4.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 48
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "b53bcf3c78398c62e6bc6c71d74dfa8b47c87795a1e9c4985ffcb3410cff39fb",
+					"_path" : "Map/Obj/guide/tutorial/key/0/5.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 50
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "e8a23e59a80ba5882c7aa90ba8bc9ec9d4c66f5748ec67f5d7cfb631ec69689f",
+					"_path" : "Map/Obj/guide/tutorial/key/1/0.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 64
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "052b262372a8a065da760af9481cd1b23ed5bbb098fed194850568b39588f8a3",
+					"_path" : "Map/Obj/guide/tutorial/key/1/1.png",
+					"origin" : 
+					{
+						"x" : 29,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "29676adc26b774c55134dcec388c4f074a226c1ada8bdcb65c3637943e1527c3",
+					"_path" : "Map/Obj/guide/tutorial/key/1/2.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 62
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "a2942cfda1d8be34d5ca231f324edab4b8c12de45008873f2a86934fdcf23d69",
+					"_path" : "Map/Obj/guide/tutorial/key/1/3.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "d3da1c8aa8590e931ee8a4e38262ad2004b8466b9f6bb59d117eb8d6bf9768ec",
+					"_path" : "Map/Obj/guide/tutorial/key/1/4.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 63
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "b5423c9cb70073b359101e9db524431df2f386e187fbba40cd2b3f210d21b44a",
+					"_path" : "Map/Obj/guide/tutorial/key/1/5.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 64
+					},
+					"z" : 0
+				}
+			},
+			"10" : 
+			{
+				"0" : 
+				{
+					"_hash" : "b11faaa4bd8616f9e04f168a6e24363bed907656737c6a1e9744f9c4cba9fa34",
+					"_path" : "Map/Obj/guide/tutorial/key/10/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 50
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "e4f356b3a8028c0b11a1b4551f47429625e217a873a903dbc5f0aa7a18db19f7",
+					"_path" : "Map/Obj/guide/tutorial/key/10/1.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 49
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "d14c195b90be2fd8f9a3de10cb00e97888f2a8631be36b0d31a330865c022052",
+					"_path" : "Map/Obj/guide/tutorial/key/10/2.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 48
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "37afe1351e6cabaf721276a56143f5b4dd0d18f761065b646d12e86c5f81a49d",
+					"_path" : "Map/Obj/guide/tutorial/key/10/3.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 49
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "8d2f238ae57ba940ef1b70ee934d2c5cb1d022f3e61e845158f62f21d55d2fac",
+					"_path" : "Map/Obj/guide/tutorial/key/10/4.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 48
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "dba53a39ac656bfa83d50311d5b69fcb6cc60ed6a5784a2622d46e988f30bc47",
+					"_path" : "Map/Obj/guide/tutorial/key/10/5.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 50
+					},
+					"z" : 0
+				}
+			},
+			"11" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5ba5177e82c40f7692ca17fae345da62e1598cd6e3d686d4ea7feced108ccba9",
+					"_path" : "Map/Obj/guide/tutorial/key/11/0.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 92,
+						"y" : 19
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "034dee82df49338e31f81c9ba99864a1e0320b6ca485981584af79a8a55fa550",
+					"_path" : "Map/Obj/guide/tutorial/key/11/1.png",
+					"delay" : 150,
+					"origin" : 
+					{
+						"x" : 94,
+						"y" : 18
+					},
+					"z" : 0
+				}
+			},
+			"12" : 
+			{
+				"0" : 
+				{
+					"_hash" : "dd55d7d8ad527491b40c4f0a29142d3d9ce9875faf3a2e31683f0fe144720ba8",
+					"_path" : "Map/Obj/guide/tutorial/key/12/0.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 28
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "7a3859723adc62a36376ea48fa20ffa62099916d7ad24dc91f660116c97731fe",
+					"_path" : "Map/Obj/guide/tutorial/key/12/1.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 28
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "f4bc954bbce2c8d75b0468a0c130ca57ab36e8b51542399c93799fc4535c16e6",
+					"_path" : "Map/Obj/guide/tutorial/key/12/2.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 28
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "aeb72fb96f9e5a6bc3949f3a014a30786192bc8f4a59a7dec346f1c490374ac6",
+					"_path" : "Map/Obj/guide/tutorial/key/12/3.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 25
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "2a7f676fa942c14b04f8d2f40bece7fbf440068193a863b1198cda098b1db90d",
+					"_path" : "Map/Obj/guide/tutorial/key/12/4.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 25
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "30a50fd3d2da981d476f1215fd2954278faaf6065b240375b1b35d0ea30b1bc7",
+					"_path" : "Map/Obj/guide/tutorial/key/12/5.png",
+					"delay" : 180,
+					"origin" : 
+					{
+						"x" : 80,
+						"y" : 27
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "9ff9659e2417ee7be9689af53d839e3c5ef365c1fa8041ecd44f5fce349891ed",
+					"_path" : "Map/Obj/guide/tutorial/key/2/0.png",
+					"origin" : 
+					{
+						"x" : 58,
+						"y" : 71
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "c87ba57518e0390f654d31f0447637ff9b114720ea0cc70167a9971bf2e41c2e",
+					"_path" : "Map/Obj/guide/tutorial/key/2/1.png",
+					"origin" : 
+					{
+						"x" : 57,
+						"y" : 70
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "5ed02666eca73ffc550d38675ab0933245c7cf8531e9ca765b90577d8b080305",
+					"_path" : "Map/Obj/guide/tutorial/key/2/2.png",
+					"origin" : 
+					{
+						"x" : 56,
+						"y" : 69
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "499cac703da56cd734ca56fc993368e786f87debc0a6bf876dd3e02d7b69ce15",
+					"_path" : "Map/Obj/guide/tutorial/key/2/3.png",
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 70
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "4a0130fbce1baa2100b31ba353c82d7291b0db1f04276882c96f1f8993396499",
+					"_path" : "Map/Obj/guide/tutorial/key/2/4.png",
+					"origin" : 
+					{
+						"x" : 55,
+						"y" : 70
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "8ae6a70899b3e5708a8fc630b81bf78894a3c0d7efc201d363610ee5ff3d3eeb",
+					"_path" : "Map/Obj/guide/tutorial/key/2/5.png",
+					"origin" : 
+					{
+						"x" : 59,
+						"y" : 71
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "68ca1ad594da393df970554ecb1ace928c9bffe10634f371f92c5e09d33c9be5",
+					"_path" : "Map/Obj/guide/tutorial/key/3/0.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 54
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "7b1126673d18e47ea9f86af4020076b5f44f6f64f97f7d6fd09dff4df36a1ed7",
+					"_path" : "Map/Obj/guide/tutorial/key/3/1.png",
+					"origin" : 
+					{
+						"x" : 24,
+						"y" : 53
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "64cfd4fad7737bc7002c9f823346766f0dc8a540a98dfec603d4d3247ef5e2ea",
+					"_path" : "Map/Obj/guide/tutorial/key/3/2.png",
+					"origin" : 
+					{
+						"x" : 23,
+						"y" : 52
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "4ea3997870ddb9c83dddef2413c62218bb633716a1e038ebf257114072865bf6",
+					"_path" : "Map/Obj/guide/tutorial/key/3/3.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 53
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "56a9f72ad8d8aa77b747936e569d748c6321108cadc3119429a37026e70733b7",
+					"_path" : "Map/Obj/guide/tutorial/key/3/4.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 52
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "b395226257b6b73dc9f81beb734662b2fafdb8fa306ccd4957a6b222ddc887bc",
+					"_path" : "Map/Obj/guide/tutorial/key/3/5.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 54
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "20e76de67172906a2775a83c9ef401d24af19658cd32e3ae9d6e33798ce44945",
+					"_path" : "Map/Obj/guide/tutorial/key/4/0.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 81
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "28eaaa12e71e00704b95c11be9155fdd2c2b69ff408606529b3f12fba6549a96",
+					"_path" : "Map/Obj/guide/tutorial/key/4/1.png",
+					"origin" : 
+					{
+						"x" : 31,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "23b55fa7d777fa2f5652b55939ac750b73f436770b93f968274a4ec033be54ad",
+					"_path" : "Map/Obj/guide/tutorial/key/4/2.png",
+					"origin" : 
+					{
+						"x" : 30,
+						"y" : 79
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "3f31ee794410e994a88d817dad942b4a3fbda58e9a2722172c74e8491138542f",
+					"_path" : "Map/Obj/guide/tutorial/key/4/3.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "f5c6e06cf2e91c07bc7dd0d59dff96457c00578e61d018a8a43c2fb9d019113b",
+					"_path" : "Map/Obj/guide/tutorial/key/4/4.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 80
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "3787d2ea2e7333a1a028326d1c3656e4472d57030f0f561654979d31bb68a160",
+					"_path" : "Map/Obj/guide/tutorial/key/4/5.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 82
+					},
+					"z" : 0
+				}
+			},
+			"5" : 
+			{
+				"0" : 
+				{
+					"_hash" : "8b5b9a9f01829cbf0a94fb1bd2bc59aac367ec5f72d961a54c6be0c24af79d51",
+					"_path" : "Map/Obj/guide/tutorial/key/5/0.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 34
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "6491d386d2212d2add75545964fee7e104f5c700df131d65920c435d63ec557c",
+					"_path" : "Map/Obj/guide/tutorial/key/5/1.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 33
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "48796cb35b1963e923b490e391c55ff8c26d6b179bffc14e9e994b553072eb97",
+					"_path" : "Map/Obj/guide/tutorial/key/5/2.png",
+					"origin" : 
+					{
+						"x" : 32,
+						"y" : 33
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "134c59bda423fef7402751eafd0c49c6bb0fdfc6ceab205a004de1b4ba573c6f",
+					"_path" : "Map/Obj/guide/tutorial/key/5/3.png",
+					"origin" : 
+					{
+						"x" : 34,
+						"y" : 35
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "5e2b9497f34aa598875e9f22ed5e8641d8c53fb057aa32829ddfce621a686e9b",
+					"_path" : "Map/Obj/guide/tutorial/key/5/4.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 34
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "f3a22a71c93db94ed5aa420fea600e6ce62ed2019fd0059734acc581735f0ae8",
+					"_path" : "Map/Obj/guide/tutorial/key/5/5.png",
+					"origin" : 
+					{
+						"x" : 33,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"6" : 
+			{
+				"0" : 
+				{
+					"_hash" : "5855c0feb74a72c4a99cf478194660c69d98abc1aa9a96aeef74f21ac4dcdd7d",
+					"_path" : "Map/Obj/guide/tutorial/key/6/0.png",
+					"origin" : 
+					{
+						"x" : 18,
+						"y" : 34
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "94e7bb8106ceb842794663fbf69de08c34d4190571f1ee01803ab5cb37fefa99",
+					"_path" : "Map/Obj/guide/tutorial/key/6/1.png",
+					"origin" : 
+					{
+						"x" : 17,
+						"y" : 33
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "44f47909d904a33f3499569abc2b61f9c933658bdb3c376fb52585b796f54da5",
+					"_path" : "Map/Obj/guide/tutorial/key/6/2.png",
+					"origin" : 
+					{
+						"x" : 16,
+						"y" : 32
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "b6a369098b47e74c6c1a9d3f8d666b392166e3bd9bebe2d91195d1d77a59ac93",
+					"_path" : "Map/Obj/guide/tutorial/key/6/3.png",
+					"origin" : 
+					{
+						"x" : 19,
+						"y" : 33
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "c9194254e5eace96ea8c4dec17efafaef70be373a9eaff56e4683baf847d22d6",
+					"_path" : "Map/Obj/guide/tutorial/key/6/4.png",
+					"origin" : 
+					{
+						"x" : 18,
+						"y" : 32
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "21b55fed943f7f06c25dc14327656d1955e9f2c66192218d737ef02527a37a6f",
+					"_path" : "Map/Obj/guide/tutorial/key/6/5.png",
+					"origin" : 
+					{
+						"x" : 19,
+						"y" : 34
+					},
+					"z" : 0
+				}
+			},
+			"7" : 
+			{
+				"0" : 
+				{
+					"_hash" : "d849c139642debf054530d9fe5d37176cb6832c0eaf6593dbe413f51ee2518c2",
+					"_path" : "Map/Obj/guide/tutorial/key/7/0.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "58a29b9852d0e9581f703d6d19d291e4fbf0cfac97b3a772d750811efe96e844",
+					"_path" : "Map/Obj/guide/tutorial/key/7/1.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "8c583fee333fdb1af1416d46e8a86c7e24911eade509e6867231e04b712e812a",
+					"_path" : "Map/Obj/guide/tutorial/key/7/2.png",
+					"origin" : 
+					{
+						"x" : 36,
+						"y" : 20
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "52ebe61816f8aa3781f8e70a2369842a08f6b4f92a453a24414c942c49d77a4e",
+					"_path" : "Map/Obj/guide/tutorial/key/7/3.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 24
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "7672574133abb911fed2e38b0ea51ae331e87c15ebce7bfa680b7a457e530244",
+					"_path" : "Map/Obj/guide/tutorial/key/7/4.png",
+					"origin" : 
+					{
+						"x" : 39,
+						"y" : 23
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "73941a7663e2dcdb1c669d5acede52e3d4a2a9e410e24bd4ccce9d4c575b7db5",
+					"_path" : "Map/Obj/guide/tutorial/key/7/5.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 21
+					},
+					"z" : 0
+				}
+			},
+			"8" : 
+			{
+				"0" : 
+				{
+					"_hash" : "1b3bd012b3f9fb06732ee0ef91c66439960735e5f7bfc6851665b153d9a13ebb",
+					"_path" : "Map/Obj/guide/tutorial/key/8/0.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 22
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "82bfea91e13df380dc50486f343613b88dfab9eefc09c2ca2bdfef4d73746a4b",
+					"_path" : "Map/Obj/guide/tutorial/key/8/1.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 22
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "1fd74cd3e42c3aba6451932f05fd22ed6c409f8423cd7f5d88ccd30e1a022f4f",
+					"_path" : "Map/Obj/guide/tutorial/key/8/2.png",
+					"origin" : 
+					{
+						"x" : 36,
+						"y" : 21
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "600f0a3d031c7140999b784aef3f3ffe820da2039853f5baa435284779783ad3",
+					"_path" : "Map/Obj/guide/tutorial/key/8/3.png",
+					"origin" : 
+					{
+						"x" : 40,
+						"y" : 25
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "3061e30286c84964ee608987c6b250cf6091bb11c3da8fcabfa291d4d22e954b",
+					"_path" : "Map/Obj/guide/tutorial/key/8/4.png",
+					"origin" : 
+					{
+						"x" : 39,
+						"y" : 24
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "7d7a56ac32fedaa526f2eddedbcda81a215a2f9b6d721fd5c81a646d50aa7315",
+					"_path" : "Map/Obj/guide/tutorial/key/8/5.png",
+					"origin" : 
+					{
+						"x" : 37,
+						"y" : 22
+					},
+					"z" : 0
+				}
+			},
+			"9" : 
+			{
+				"0" : 
+				{
+					"_hash" : "c42ac529d7750f2fe4879ab1f5cf10f405efd5e5590a7e219fd41d783aed437d",
+					"_path" : "Map/Obj/guide/tutorial/key/9/0.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 25
+					},
+					"z" : 0
+				},
+				"1" : 
+				{
+					"_hash" : "2f09a39d7a7f2755c8028bbb4d05418f7726f0d8a2b75528530741ee4ad33a44",
+					"_path" : "Map/Obj/guide/tutorial/key/9/1.png",
+					"origin" : 
+					{
+						"x" : 26,
+						"y" : 24
+					},
+					"z" : 0
+				},
+				"2" : 
+				{
+					"_hash" : "29267887769e49f010047d6885117341d1944afd3053935c4e28af2871e62ec7",
+					"_path" : "Map/Obj/guide/tutorial/key/9/2.png",
+					"origin" : 
+					{
+						"x" : 25,
+						"y" : 23
+					},
+					"z" : 0
+				},
+				"3" : 
+				{
+					"_hash" : "dc46ceec703eaee5be4b9415c6ab897dc878d6e68aac7c9c036955f8b2922993",
+					"_path" : "Map/Obj/guide/tutorial/key/9/3.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 24
+					},
+					"z" : 0
+				},
+				"4" : 
+				{
+					"_hash" : "c4a03f130bc82a73bf051f362fae628133b9044762e779a6e0391ea662b2e3cc",
+					"_path" : "Map/Obj/guide/tutorial/key/9/4.png",
+					"origin" : 
+					{
+						"x" : 27,
+						"y" : 23
+					},
+					"z" : 0
+				},
+				"5" : 
+				{
+					"_hash" : "347a127d82a412ddabbda636db5bfbeb0f1dd406a8a2a3ad9fa7e80284e46249",
+					"_path" : "Map/Obj/guide/tutorial/key/9/5.png",
+					"origin" : 
+					{
+						"x" : 28,
+						"y" : 25
+					},
+					"z" : 0
+				}
+			}
+		},
+		"suryun" : 
+		{
+			"0" : 
+			{
+				"0" : 
+				{
+					"_hash" : "55978e33c5ef8aa80240f97a81b8ac25da956c090234edf8da4e0f032ee09d0d",
+					"_path" : "Map/Obj/guide/tutorial/suryun/0/0.png",
+					"origin" : 
+					{
+						"x" : 105,
+						"y" : 98
+					},
+					"z" : 0
+				}
+			},
+			"1" : 
+			{
+				"0" : 
+				{
+					"_hash" : "fbdbdebb004404ce2ed39a8dd806c848237dba78cdaa3c4e3c0355375fa6461e",
+					"_path" : "Map/Obj/guide/tutorial/suryun/1/0.png",
+					"origin" : 
+					{
+						"x" : 108,
+						"y" : 93
+					},
+					"z" : 0
+				}
+			},
+			"2" : 
+			{
+				"0" : 
+				{
+					"_hash" : "0fc6c640a2a8cc9d1e8e607834d01495e9a237355d5050e47bd1cbd1c6dbb048",
+					"_path" : "Map/Obj/guide/tutorial/suryun/2/0.png",
+					"origin" : 
+					{
+						"x" : 120,
+						"y" : 110
+					},
+					"z" : 0
+				}
+			},
+			"3" : 
+			{
+				"0" : 
+				{
+					"_hash" : "474f335233d8548c12cc3af351abc1acf8972572cc4616177482a0b6a8063808",
+					"_path" : "Map/Obj/guide/tutorial/suryun/3/0.png",
+					"origin" : 
+					{
+						"x" : 105,
+						"y" : 105
+					},
+					"z" : 0
+				}
+			},
+			"4" : 
+			{
+				"0" : 
+				{
+					"_hash" : "56708e11998586a6afd2166d2f1275095b262949eb4982d810bac21932d7e31c",
+					"_path" : "Map/Obj/guide/tutorial/suryun/4/0.png",
+					"origin" : 
+					{
+						"x" : 158,
+						"y" : 102
+					},
+					"z" : 0
+				}
+			}
+		}
+	}
+}

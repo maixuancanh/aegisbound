@@ -1,0 +1,739 @@
+{
+  "version": 1,
+  "createdAt": "2026-09-14",
+  "game": "kinesis-borrowed-shelter",
+  "status": "art-integrated-not-playtested",
+  "runtimeIntegrated": true,
+  "playtested": false,
+  "coordinateSpace": "normalized screen-space art anchors [0,1], NOT world collision coordinates",
+  "worldMapping": "Convert with unprojectGround({x:u*960,y:v*540}); anchors are visual estimates, validate sprite feet and clearance before runtime.",
+  "rules": [
+    "No UI/characters/vehicles baked into base",
+    "Dynamic gate/barricade/relay sprites still required",
+    "Markers in art-direction preview only",
+    "Preserve image aspect ratio; no stretch"
+  ],
+  "stages": [
+    {
+      "key": "quick-rescue",
+      "asset": "/assets/artgen/stages/quick-rescue-v3.png",
+      "file": "quick-rescue-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3261309,
+      "sha256": "554ee64688464ca58bc143cc063424908e5574b1031e7b013aadff1d726f98cf",
+      "name": "Quick Rescue — Giao lộ sơ tán",
+      "purpose": "Hai tuyến dân, cửa quái riêng, taxi bên phải.",
+      "floor": [
+        0.16,
+        0.43,
+        0.86,
+        0.87
+      ],
+      "player": [
+        0.48,
+        0.66
+      ],
+      "enemyEntries": [
+        {
+          "id": "enemy-rear-arch",
+          "at": [
+            0.344,
+            0.355
+          ],
+          "to": [
+            0.4,
+            0.48
+          ]
+        },
+        {
+          "id": "enemy-rear-alley",
+          "at": [
+            0.655,
+            0.315
+          ],
+          "to": [
+            0.62,
+            0.48
+          ]
+        },
+        {
+          "id": "enemy-right-stairs",
+          "at": [
+            0.85,
+            0.35
+          ],
+          "to": [
+            0.78,
+            0.46
+          ]
+        }
+      ],
+      "civilianRoutes": [
+        {
+          "id": "civilian-left-lower",
+          "points": [
+            [
+              0.09,
+              0.64
+            ],
+            [
+              0.26,
+              0.67
+            ],
+            [
+              0.49,
+              0.66
+            ],
+            [
+              0.7,
+              0.64
+            ],
+            [
+              0.79,
+              0.64
+            ]
+          ]
+        },
+        {
+          "id": "civilian-left-upper",
+          "points": [
+            [
+              0.1,
+              0.27
+            ],
+            [
+              0.18,
+              0.44
+            ],
+            [
+              0.29,
+              0.52
+            ],
+            [
+              0.48,
+              0.58
+            ],
+            [
+              0.7,
+              0.64
+            ],
+            [
+              0.79,
+              0.64
+            ]
+          ]
+        }
+      ],
+      "taxi": {
+        "in": [
+          0.99,
+          0.64
+        ],
+        "dock": [
+          0.83,
+          0.64
+        ],
+        "door": [
+          0.79,
+          0.64
+        ],
+        "exit": [
+          0.99,
+          0.64
+        ]
+      },
+      "sockets": [
+        {
+          "id": "side-gate",
+          "at": [
+            0.29,
+            0.52
+          ]
+        },
+        {
+          "id": "scaffold-trigger",
+          "at": [
+            0.25,
+            0.47
+          ]
+        },
+        {
+          "id": "electric-cabinet",
+          "at": [
+            0.27,
+            0.51
+          ]
+        }
+      ],
+      "note": "Rào/median phía phải trong base là đảo đường cố định; lane xe đi phía dưới, không đi xuyên đảo. Muốn đảo này phá được phải tách thêm sprite."
+    },
+    {
+      "key": "hold-line",
+      "asset": "/assets/artgen/stages/hold-line-v3.png",
+      "file": "hold-line-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2925719,
+      "sha256": "d984f6805a187b0dc30e6e377f571df746e7a213d3aa02f36daebf2195673678",
+      "name": "Hold the Line — Sân truyền tin",
+      "purpose": "Ba socket trạm, đổi sector phòng thủ.",
+      "floor": [
+        0.15,
+        0.4,
+        0.85,
+        0.85
+      ],
+      "player": [
+        0.49,
+        0.64
+      ],
+      "enemyEntries": [
+        {
+          "id": "enemy-left-ramp",
+          "at": [
+            0.18,
+            0.36
+          ],
+          "to": [
+            0.3,
+            0.45
+          ]
+        },
+        {
+          "id": "enemy-right-ramp",
+          "at": [
+            0.83,
+            0.36
+          ],
+          "to": [
+            0.7,
+            0.45
+          ]
+        },
+        {
+          "id": "enemy-left-service",
+          "at": [
+            0.1,
+            0.62
+          ],
+          "to": [
+            0.27,
+            0.65
+          ]
+        },
+        {
+          "id": "enemy-right-service",
+          "at": [
+            0.9,
+            0.64
+          ],
+          "to": [
+            0.74,
+            0.65
+          ]
+        }
+      ],
+      "civilianRoutes": [],
+      "sockets": [
+        {
+          "id": "relay-a",
+          "at": [
+            0.344,
+            0.516
+          ]
+        },
+        {
+          "id": "relay-b",
+          "at": [
+            0.643,
+            0.516
+          ]
+        },
+        {
+          "id": "relay-central",
+          "at": [
+            0.5,
+            0.701
+          ]
+        },
+        {
+          "id": "gate-left",
+          "at": [
+            0.22,
+            0.4
+          ]
+        },
+        {
+          "id": "gate-right",
+          "at": [
+            0.78,
+            0.4
+          ]
+        }
+      ],
+      "note": "Các vòng kim loại phẳng là đế cố định không collision; máy relay và cổng là sprites riêng."
+    },
+    {
+      "key": "counter-chain",
+      "asset": "/assets/artgen/stages/counter-chain-v3.png",
+      "file": "counter-chain-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3012389,
+      "sha256": "1e2e61c59a81761eddcef23e52e1b856c85ac5a26e0b67f520f95e0dbf40062a",
+      "name": "Counter Chain — Xưởng phản công",
+      "purpose": "Ba cửa đội hình và cửa chỉ huy, vùng phản công rộng.",
+      "floor": [
+        0.16,
+        0.37,
+        0.85,
+        0.88
+      ],
+      "player": [
+        0.48,
+        0.66
+      ],
+      "enemyEntries": [
+        {
+          "id": "squad-left",
+          "at": [
+            0.272,
+            0.3
+          ],
+          "to": [
+            0.32,
+            0.44
+          ]
+        },
+        {
+          "id": "squad-middle",
+          "at": [
+            0.502,
+            0.3
+          ],
+          "to": [
+            0.5,
+            0.45
+          ]
+        },
+        {
+          "id": "squad-right",
+          "at": [
+            0.725,
+            0.3
+          ],
+          "to": [
+            0.68,
+            0.44
+          ]
+        },
+        {
+          "id": "flank-left",
+          "at": [
+            0.09,
+            0.42
+          ],
+          "to": [
+            0.23,
+            0.52
+          ]
+        },
+        {
+          "id": "flank-right",
+          "at": [
+            0.91,
+            0.42
+          ],
+          "to": [
+            0.79,
+            0.52
+          ]
+        }
+      ],
+      "civilianRoutes": [],
+      "sockets": [
+        {
+          "id": "cover-left",
+          "at": [
+            0.3,
+            0.57
+          ]
+        },
+        {
+          "id": "cover-right",
+          "at": [
+            0.7,
+            0.57
+          ]
+        },
+        {
+          "id": "environment-trigger",
+          "at": [
+            0.24,
+            0.44
+          ]
+        }
+      ],
+      "note": "Lối giữa có bậc: foot-height hoặc đoạn approach cần xử lý khi nối runtime; không teleport từ cửa thẳng vào sân."
+    },
+    {
+      "key": "last-shelter",
+      "asset": "/assets/artgen/stages/last-shelter-v4.png",
+      "file": "last-shelter-v4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2963775,
+      "sha256": "835f249e249c8864d99152028371ea5c636ad30abfc3afe933d18a09f19a14e2",
+      "name": "Last Shelter — Cổng cuối cùng",
+      "purpose": "Cổng phụ, đường ngắn và bypass dài, taxi riêng.",
+      "floor": [
+        0.18,
+        0.4,
+        0.88,
+        0.85
+      ],
+      "player": [
+        0.48,
+        0.65
+      ],
+      "enemyEntries": [
+        {
+          "id": "enemy-upper-left",
+          "at": [
+            0.26,
+            0.32
+          ],
+          "to": [
+            0.33,
+            0.41
+          ]
+        },
+        {
+          "id": "enemy-rear-gate",
+          "at": [
+            0.4,
+            0.305
+          ],
+          "to": [
+            0.48,
+            0.42
+          ]
+        },
+        {
+          "id": "enemy-upper-right",
+          "at": [
+            0.67,
+            0.33
+          ],
+          "to": [
+            0.67,
+            0.45
+          ]
+        }
+      ],
+      "civilianRoutes": [
+        {
+          "id": "short-route",
+          "points": [
+            [
+              0.1,
+              0.48
+            ],
+            [
+              0.29,
+              0.47
+            ],
+            [
+              0.39,
+              0.42
+            ],
+            [
+              0.56,
+              0.45
+            ],
+            [
+              0.72,
+              0.57
+            ],
+            [
+              0.79,
+              0.6
+            ]
+          ],
+          "gate": "shortcut-gate"
+        },
+        {
+          "id": "long-bypass",
+          "points": [
+            [
+              0.1,
+              0.5
+            ],
+            [
+              0.23,
+              0.68
+            ],
+            [
+              0.4,
+              0.79
+            ],
+            [
+              0.66,
+              0.78
+            ],
+            [
+              0.74,
+              0.67
+            ],
+            [
+              0.79,
+              0.6
+            ]
+          ]
+        }
+      ],
+      "taxi": {
+        "in": [
+          0.99,
+          0.6
+        ],
+        "dock": [
+          0.83,
+          0.6
+        ],
+        "door": [
+          0.79,
+          0.6
+        ],
+        "exit": [
+          0.99,
+          0.6
+        ]
+      },
+      "sockets": [
+        {
+          "id": "shortcut-gate",
+          "at": [
+            0.36,
+            0.445
+          ]
+        },
+        {
+          "id": "electric-cabinet",
+          "at": [
+            0.29,
+            0.46
+          ]
+        },
+        {
+          "id": "barricade-build",
+          "at": [
+            0.67,
+            0.73
+          ]
+        }
+      ],
+      "note": "Bản v4 đã bỏ tường ngang che vùng nhân vật và lan can cắt đường xe. Hai tuyến hiện là blueprint; cần socket sprites để thể hiện trạng thái ngắn/đóng/mở."
+    },
+    {
+      "key": "challenges",
+      "asset": "/assets/artgen/stages/challenges-v3.png",
+      "file": "challenges-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2817512,
+      "sha256": "9210d9c21b6a16650d552ea2b3ff04d3e4ba73492ca943f22c7b7b7dcc073a1c",
+      "name": "Challenges — Đài quan sát thử thách",
+      "purpose": "Cửa modular cho sáu bài authored, hai socket mục tiêu.",
+      "floor": [
+        0.16,
+        0.37,
+        0.85,
+        0.78
+      ],
+      "player": [
+        0.48,
+        0.66
+      ],
+      "enemyEntries": [
+        {
+          "id": "rear-left",
+          "at": [
+            0.295,
+            0.27
+          ],
+          "to": [
+            0.33,
+            0.42
+          ]
+        },
+        {
+          "id": "rear-center",
+          "at": [
+            0.5,
+            0.27
+          ],
+          "to": [
+            0.5,
+            0.43
+          ]
+        },
+        {
+          "id": "rear-right",
+          "at": [
+            0.687,
+            0.27
+          ],
+          "to": [
+            0.65,
+            0.42
+          ]
+        },
+        {
+          "id": "lane-left",
+          "at": [
+            0.12,
+            0.4
+          ],
+          "to": [
+            0.28,
+            0.52
+          ]
+        },
+        {
+          "id": "lane-right",
+          "at": [
+            0.87,
+            0.4
+          ],
+          "to": [
+            0.74,
+            0.52
+          ]
+        }
+      ],
+      "civilianRoutes": [],
+      "sockets": [
+        {
+          "id": "objective-a",
+          "at": [
+            0.33,
+            0.545
+          ]
+        },
+        {
+          "id": "objective-b",
+          "at": [
+            0.67,
+            0.545
+          ]
+        }
+      ],
+      "note": "Kịch bản chọn cửa/route riêng. Đường đồng trên sàn chỉ trang trí cố định, không phải reticle/collision. Stair ở dưới không dùng làm điểm sinh quái mặc định."
+    },
+    {
+      "key": "practice",
+      "asset": "/assets/artgen/stages/practice-v3.png",
+      "file": "practice-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3122094,
+      "sha256": "c6ba6443aa58a9cb48ad17f2e2e3e9679c2f645931236532fd7b4f272d5f5ade",
+      "name": "Practice — Sân luyện tâm linh",
+      "purpose": "Cảnh sáng/yên tĩnh, đủ bay mục tiêu và khoảng trống.",
+      "floor": [
+        0.16,
+        0.39,
+        0.85,
+        0.88
+      ],
+      "player": [
+        0.48,
+        0.66
+      ],
+      "enemyEntries": [
+        {
+          "id": "target-left",
+          "at": [
+            0.324,
+            0.3
+          ],
+          "to": [
+            0.33,
+            0.44
+          ]
+        },
+        {
+          "id": "target-center",
+          "at": [
+            0.5,
+            0.3
+          ],
+          "to": [
+            0.5,
+            0.44
+          ]
+        },
+        {
+          "id": "target-right",
+          "at": [
+            0.68,
+            0.3
+          ],
+          "to": [
+            0.65,
+            0.44
+          ]
+        },
+        {
+          "id": "side-left",
+          "at": [
+            0.16,
+            0.39
+          ],
+          "to": [
+            0.26,
+            0.53
+          ]
+        },
+        {
+          "id": "side-right",
+          "at": [
+            0.84,
+            0.39
+          ],
+          "to": [
+            0.74,
+            0.53
+          ]
+        }
+      ],
+      "civilianRoutes": [],
+      "sockets": [
+        {
+          "id": "optional-target",
+          "at": [
+            0.5,
+            0.51
+          ]
+        },
+        {
+          "id": "optional-cover-a",
+          "at": [
+            0.34,
+            0.6
+          ]
+        },
+        {
+          "id": "optional-cover-b",
+          "at": [
+            0.66,
+            0.6
+          ]
+        }
+      ],
+      "note": "Tùy chọn training đặt mục tiêu trên floor; không để teleport/debug cue này lọt vào mode thi đấu."
+    }
+  ]
+}

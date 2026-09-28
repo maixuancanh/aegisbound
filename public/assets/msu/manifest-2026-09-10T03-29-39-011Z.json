@@ -1,0 +1,1012 @@
+{
+  "version": 1,
+  "source": "https://resource-search.msu.io/",
+  "game": "kinesis-borrowed-shelter",
+  "generatedAt": "2026-09-10T03:29:39.011Z",
+  "releaseReady": false,
+  "testing": "Not run at user request",
+  "records": [
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kinesis-npc",
+      "category": "npc",
+      "id": "1531052",
+      "name": "Kinesis",
+      "query": "Kinesis",
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/1531052/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/1531052/stand/0.png",
+            "delay": 90,
+            "origin": {
+              "x": 35,
+              "y": 82
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/1531052/stand/0.png",
+            "localPath": "assets/msu/files/cdefecbb68e4d91e0bc3826d.png",
+            "sha256": "837369898f3879568733f2396787a6800a74ef0f1a8be1de9562dd57b030b74d",
+            "bytes": 3277,
+            "width": 75,
+            "height": 82
+          }
+        ]
+      },
+      "use": "identity-reference",
+      "gap": "NPC stand only; hold/throw/hit action set not supplied",
+      "acquiredAt": "2026-09-10T03:29:15.764Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "sounds": {},
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=1531052&category=npc&limit=5",
+      "sourceName": "Kinesis",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=1531052",
+      "availableActions": [
+        {
+          "name": "illustration2",
+          "frames": 8
+        },
+        {
+          "name": "stand",
+          "frames": 1
+        }
+      ]
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "psychic-clutch",
+      "category": "skill",
+      "id": "142120000",
+      "name": "Psychic Clutch",
+      "query": "Psychic",
+      "actions": {
+        "mob": [
+          {
+            "_path": "Skill/14212/skill/142120000/mob/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/0.png",
+            "delay": 120,
+            "origin": {
+              "x": 38,
+              "y": 81
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/0.png",
+            "localPath": "assets/msu/files/84967c60519bbcf6faced00c.png",
+            "sha256": "65308cf6b8228f82140b568e3b95a0a6f04fc877158b6e5633747e1526360db1",
+            "bytes": 11283,
+            "width": 80,
+            "height": 84
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/1.png",
+            "delay": 120,
+            "origin": {
+              "x": 41,
+              "y": 79
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/1.png",
+            "localPath": "assets/msu/files/82af2a996655573d9e67f128.png",
+            "sha256": "f4b93c12ce90d6f6e17fb292366e9af230a859bcef6fcebff1371f972404b5c7",
+            "bytes": 10976,
+            "width": 80,
+            "height": 80
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/2.png",
+            "delay": 120,
+            "origin": {
+              "x": 42,
+              "y": 81
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/2.png",
+            "localPath": "assets/msu/files/c7acdc5b6ac31a565e8b6fec.png",
+            "sha256": "abbd639378c0eb2cff2beee760a11d12718d6de850fe839d18b7eb868387c44d",
+            "bytes": 11105,
+            "width": 80,
+            "height": 92
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/3.png",
+            "delay": 120,
+            "origin": {
+              "x": 44,
+              "y": 82
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/3.png",
+            "localPath": "assets/msu/files/0050dbf2f22caad25e7d0ad3.png",
+            "sha256": "a45b183b860dc53d81351f25aa5c77f094a932e127a25173e1515824a82997bf",
+            "bytes": 11107,
+            "width": 84,
+            "height": 96
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/4.png",
+            "delay": 120,
+            "origin": {
+              "x": 45,
+              "y": 82
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/4.png",
+            "localPath": "assets/msu/files/941b8f4676cc35392c2a193f.png",
+            "sha256": "45cb5861b249c238e256d81341a98cd8ea7ef9dcde7c6498ed77362ba4fd2873",
+            "bytes": 11545,
+            "width": 88,
+            "height": 92
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/5.png",
+            "delay": 120,
+            "origin": {
+              "x": 45,
+              "y": 85
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/5.png",
+            "localPath": "assets/msu/files/5efcf561c4c78076ba3a2134.png",
+            "sha256": "472f11618474d40ba7ddead08add76a51ba57312147d623507fd8b815cc55f7f",
+            "bytes": 12042,
+            "width": 92,
+            "height": 96
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/6.png",
+            "delay": 120,
+            "origin": {
+              "x": 43,
+              "y": 86
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/6.png",
+            "localPath": "assets/msu/files/f4f755d814287dd1a0e23b15.png",
+            "sha256": "3ebae9624138797cfdd261997d21beed072ceb16173e72768051c48ce937b105",
+            "bytes": 11803,
+            "width": 88,
+            "height": 96
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/mob/7.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/7.png",
+            "delay": 120,
+            "origin": {
+              "x": 40,
+              "y": 84
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/mob/7.png",
+            "localPath": "assets/msu/files/ffbfeec9732810cd3bbc0932.png",
+            "sha256": "e437b7423659181a6ccc5800e1c2bca0c42f86129f3dab5cb7e1342766d505cd",
+            "bytes": 11733,
+            "width": 84,
+            "height": 92
+          }
+        ],
+        "stuff": [
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/0.png",
+            "origin": {
+              "x": 32,
+              "y": 32
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/0.png",
+            "localPath": "assets/msu/files/79393a9a66bbf2b72e9ebe62.png",
+            "sha256": "6095bdd24d1a7f1c7bbf7a65cc1c5ddd0a2a3bed343a75be9d2b6e246bd179c6",
+            "bytes": 3317,
+            "width": 64,
+            "height": 64
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/1.png",
+            "origin": {
+              "x": 42,
+              "y": 42
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/1.png",
+            "localPath": "assets/msu/files/8bbe557e3021e8ece631bb35.png",
+            "sha256": "611c3f8a28e8f9acd940d564ae8c171960f7f6c14c4b49fbe324c00881ded001",
+            "bytes": 5779,
+            "width": 84,
+            "height": 84
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/2.png",
+            "origin": {
+              "x": 60,
+              "y": 60
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/2.png",
+            "localPath": "assets/msu/files/7d9ba9164b71a503f14c9e5a.png",
+            "sha256": "6f709bea167c168f8055026c7e444954a05e426036c7e85b16839d9940729fcd",
+            "bytes": 9244,
+            "width": 120,
+            "height": 120
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/3.png",
+            "origin": {
+              "x": 80,
+              "y": 80
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/3.png",
+            "localPath": "assets/msu/files/8002904e4ad66af47bdcc9d2.png",
+            "sha256": "2578a3681b064b4786b31e72e1fc64275be6b885b3f735fc0ddd0ac5f7411475",
+            "bytes": 16088,
+            "width": 160,
+            "height": 160
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/4.png",
+            "origin": {
+              "x": 19,
+              "y": 34
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/4.png",
+            "localPath": "assets/msu/files/99a1c0ac36ea8bce333ac7a2.png",
+            "sha256": "28c73d528056fe88a754562b8a6de260a03afa6478eb2cf20c40a9f239d97e34",
+            "bytes": 2449,
+            "width": 39,
+            "height": 69
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/5.png",
+            "origin": {
+              "x": 38,
+              "y": 36
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/5.png",
+            "localPath": "assets/msu/files/95ffd790154358ecfa0cc69b.png",
+            "sha256": "e75d8a41ff276721c09053e38773be52dc1bce3720fed7e9649712cddf331c05",
+            "bytes": 3620,
+            "width": 76,
+            "height": 73
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/6.png",
+            "origin": {
+              "x": 58,
+              "y": 60
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/6.png",
+            "localPath": "assets/msu/files/62cced7764f6585150cdf094.png",
+            "sha256": "eca641512eb41afbbf7b3f6beb030574c3eff2a906d3fabc96bff43bf3869fe9",
+            "bytes": 7782,
+            "width": 117,
+            "height": 121
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/7.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/7.png",
+            "origin": {
+              "x": 52,
+              "y": 78
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/7.png",
+            "localPath": "assets/msu/files/fc81913a5cb6e44d627c7765.png",
+            "sha256": "43d64d6773274efcc8fd4ce99e08ba84540fcb39172972bfe5b064b36155b3df",
+            "bytes": 9936,
+            "width": 104,
+            "height": 157
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/8.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/8.png",
+            "origin": {
+              "x": 33,
+              "y": 36
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/8.png",
+            "localPath": "assets/msu/files/ddf7393c346c48a155045ea2.png",
+            "sha256": "d24b72c48685c992ee08ab1a1a0bce754c23f73ee1dffd21b08aef04996127f4",
+            "bytes": 3110,
+            "width": 67,
+            "height": 73
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/9.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/9.png",
+            "origin": {
+              "x": 46,
+              "y": 53
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/9.png",
+            "localPath": "assets/msu/files/2e99872602f8fbe98e95db3c.png",
+            "sha256": "f84c5b56f671244321a73a9752f33e7e6013e012ce7d4936814674d08564f4c4",
+            "bytes": 5868,
+            "width": 92,
+            "height": 106
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/10.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/10.png",
+            "origin": {
+              "x": 53,
+              "y": 67
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/10.png",
+            "localPath": "assets/msu/files/0cf06d30f43e6ebad0db32a5.png",
+            "sha256": "8ef09862db764e9dde54c56e5fbac272c60df32170fa10455fa8db963ab74976",
+            "bytes": 8542,
+            "width": 107,
+            "height": 135
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/11.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/11.png",
+            "origin": {
+              "x": 70,
+              "y": 81
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/11.png",
+            "localPath": "assets/msu/files/2f4261a2bf73c0dea327b8d2.png",
+            "sha256": "0adda2114f87f912efbd35cb7ea5192402aad9c204c1dc68d8f9db22f0f476cd",
+            "bytes": 12460,
+            "width": 140,
+            "height": 162
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/12.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/12.png",
+            "origin": {
+              "x": 24,
+              "y": 31
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/12.png",
+            "localPath": "assets/msu/files/0350863010b3406c7a3bca57.png",
+            "sha256": "ffc5ebb8194caaa579aac874130cfb62adc9eb658aeec5833b973ee29a6b8d16",
+            "bytes": 2154,
+            "width": 48,
+            "height": 63
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/13.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/13.png",
+            "origin": {
+              "x": 36,
+              "y": 48
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/13.png",
+            "localPath": "assets/msu/files/c690e2343817c32cb0d94ad5.png",
+            "sha256": "310a62439fc6b2945c60ec11c570672278175513fe4495bc1d24e5e9e25084aa",
+            "bytes": 4745,
+            "width": 72,
+            "height": 97
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/14.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/14.png",
+            "origin": {
+              "x": 71,
+              "y": 53
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/14.png",
+            "localPath": "assets/msu/files/4263ca205867a4f1b33a0648.png",
+            "sha256": "cbecb201fa8141d791dbbdf63e56351928d4a716aabcb6e19abe6a4e2fe3ed11",
+            "bytes": 8560,
+            "width": 143,
+            "height": 107
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/15.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/15.png",
+            "origin": {
+              "x": 64,
+              "y": 86
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/15.png",
+            "localPath": "assets/msu/files/a1033e7553bef37669a99fa8.png",
+            "sha256": "7b9a61d79506ced8d84f60a409f164790a4eb78c7414b279b7432d85f7c5cadb",
+            "bytes": 12075,
+            "width": 128,
+            "height": 172
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/16.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/16.png",
+            "origin": {
+              "x": 30,
+              "y": 29
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/16.png",
+            "localPath": "assets/msu/files/01fba8a88627e00ba233a107.png",
+            "sha256": "187ae8d60b87357a88963b07c1ac20ef5678eed0bc46fe265ad32f890b9d7fc5",
+            "bytes": 2829,
+            "width": 61,
+            "height": 59
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/17.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/17.png",
+            "origin": {
+              "x": 40,
+              "y": 46
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/17.png",
+            "localPath": "assets/msu/files/958f4f169b4eaddacfc34fbf.png",
+            "sha256": "a934879a6f667b6d5519d88e44d9fd20a7ddda39f79b1396a4bd26c931ae41e3",
+            "bytes": 5961,
+            "width": 80,
+            "height": 92
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/18.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/18.png",
+            "origin": {
+              "x": 64,
+              "y": 60
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/18.png",
+            "localPath": "assets/msu/files/066ab8ef11c548eac12a726e.png",
+            "sha256": "6f44a8da0e38743749d40b797675691517d4f15b7f12fcc26ebd49cd07b5f90c",
+            "bytes": 10835,
+            "width": 128,
+            "height": 120
+          },
+          {
+            "_path": "Skill/14212/skill/142120000/stuff/19.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/19.png",
+            "origin": {
+              "x": 84,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/stuff/19.png",
+            "localPath": "assets/msu/files/2083222e9b8135a2d4c24659.png",
+            "sha256": "3dd975d02ddcb402e89dbb302abb24d65a00b8763752040a487844bbfd58f31e",
+            "bytes": 16282,
+            "width": 169,
+            "height": 149
+          }
+        ],
+        "icon": [
+          {
+            "_path": "Skill/14212/skill/142120000/icon.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/icon.png",
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14212/skill/142120000/icon.png",
+            "localPath": "assets/msu/files/453f804523b3163c6e8e665b.png",
+            "sha256": "a294bc3ddae74e80c5cad3b66006faae139d18b491d43dc2a43f810ef47b98eb",
+            "bytes": 1320,
+            "width": 32,
+            "height": 32
+          }
+        ]
+      },
+      "sound": true,
+      "use": "cover-and-capture-candidates",
+      "acquiredAt": "2026-09-10T03:29:16.848Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "sounds": {
+        "End": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Skill/142120000/End.mp3",
+          "localPath": "assets/msu/files/27adeac70dbea560bf90c1cf.mp3",
+          "sha256": "b654407ecdeebe080d3c138664aeaed71822452b4cd8aee54c455e3498f19610",
+          "bytes": 12000
+        },
+        "Use": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Skill/142120000/Use.mp3",
+          "localPath": "assets/msu/files/d40325a4a38580e8280fce10.mp3",
+          "sha256": "6e5263547dc8e04c193850ce0b1295937816d1bf602ba28145abb1672043de66",
+          "bytes": 12960
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=142120000&category=skill&limit=5",
+      "sourceName": "Psychic Clutch",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=skill&id=142120000",
+      "availableActions": [
+        {
+          "name": "icon",
+          "frames": 1
+        },
+        {
+          "name": "iconDisabled",
+          "frames": 1
+        },
+        {
+          "name": "iconMouseOver",
+          "frames": 1
+        },
+        {
+          "name": "mob",
+          "frames": 8
+        },
+        {
+          "name": "stuff",
+          "frames": 20
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=skill&id=142120000"
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "psychic-bulwark",
+      "category": "skill",
+      "id": "142110009",
+      "name": "Psychic Bulwark",
+      "query": "Psychic",
+      "actions": {
+        "effect": [
+          {
+            "_path": "Skill/14211/skill/142110009/effect/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/0.png",
+            "delay": 150,
+            "origin": {
+              "x": 144,
+              "y": 183
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/0.png",
+            "localPath": "assets/msu/files/ef9074eb84f063628f3682dc.png",
+            "sha256": "ac62d64566d3e3da3aa67dbafbd889fa2627dc156885c1b24485e86a1e3e82f9",
+            "bytes": 14410,
+            "width": 282,
+            "height": 282
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/1.png",
+            "delay": 150,
+            "origin": {
+              "x": 144,
+              "y": 182
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/1.png",
+            "localPath": "assets/msu/files/74714cf38156142f0738fd25.png",
+            "sha256": "39693dda45d2448cc6bd3171173e2c5e43dd828bf79fce7e74c29de3caf40f1a",
+            "bytes": 16804,
+            "width": 282,
+            "height": 280
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/2.png",
+            "delay": 150,
+            "origin": {
+              "x": 141,
+              "y": 180
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/2.png",
+            "localPath": "assets/msu/files/cd065ddae502b41fad5c59d7.png",
+            "sha256": "719aaa6529c62866feb290b1693eb97efa919842ccfa705297f0622891e35ac3",
+            "bytes": 17723,
+            "width": 276,
+            "height": 275
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/3.png",
+            "delay": 150,
+            "origin": {
+              "x": 139,
+              "y": 178
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/3.png",
+            "localPath": "assets/msu/files/05fc0d1a6e1927f4e4a86086.png",
+            "sha256": "63726d90ec486296298fbe283c0d86fecbdb05f934fcba05ee116ef6922b8245",
+            "bytes": 17541,
+            "width": 272,
+            "height": 272
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/4.png",
+            "delay": 150,
+            "origin": {
+              "x": 154,
+              "y": 205
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/4.png",
+            "localPath": "assets/msu/files/07903404445c7fc5c3dc4fe6.png",
+            "sha256": "fe8d503e93994e59485019ad7fcefdf9700cb27fa5a1e0bb84a429344ce62ae5",
+            "bytes": 46085,
+            "width": 321,
+            "height": 306
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/5.png",
+            "delay": 150,
+            "origin": {
+              "x": 135,
+              "y": 191
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/5.png",
+            "localPath": "assets/msu/files/a528efe0c2e908bd5b6bc8aa.png",
+            "sha256": "2190492507066c2476873f813f0778c469a273a9ada171e310ae01e879db8d7c",
+            "bytes": 45283,
+            "width": 283,
+            "height": 277
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/6.png",
+            "delay": 150,
+            "origin": {
+              "x": 119,
+              "y": 171
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/6.png",
+            "localPath": "assets/msu/files/f0c7dd5100cb2cc092187b6c.png",
+            "sha256": "44621486e071c2019eacacd25f54a887bebca5f11a5e0787b0d9e59cf53857b8",
+            "bytes": 41614,
+            "width": 251,
+            "height": 242
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/7.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/7.png",
+            "delay": 150,
+            "origin": {
+              "x": 118,
+              "y": 164
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/7.png",
+            "localPath": "assets/msu/files/02e6c7b8e2291b138487cea7.png",
+            "sha256": "851436e423b018f96225b40c1bb057a0026c130ef21fc11c453c9c5ae1f8f0a1",
+            "bytes": 44688,
+            "width": 250,
+            "height": 232
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/8.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/8.png",
+            "delay": 150,
+            "origin": {
+              "x": 108,
+              "y": 153
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/8.png",
+            "localPath": "assets/msu/files/4c246c6270177f66ab6ed7fc.png",
+            "sha256": "28eb0cc6dc087985e2882a730b58dbbff3d6c795e4ad9ed02a3dea7f5608b317",
+            "bytes": 26397,
+            "width": 215,
+            "height": 217
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect/9.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/9.png",
+            "delay": 150,
+            "origin": {
+              "x": 106,
+              "y": 145
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect/9.png",
+            "localPath": "assets/msu/files/e6e9fd2ccdcb616393bbcc0e.png",
+            "sha256": "ae7c4c8ba1275cfff7dfa6886e399dfc676f5f4c00a7bbf4bd60868556161cd4",
+            "bytes": 8916,
+            "width": 206,
+            "height": 206
+          }
+        ],
+        "effect2": [
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/0.png",
+            "delay": 150,
+            "origin": {
+              "x": 146,
+              "y": 184
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/0.png",
+            "localPath": "assets/msu/files/f737042b65b15c7c7989f280.png",
+            "sha256": "db14a1207d0d31a09c2a6ee1219fb11e00e63cdcf56f17cfc225f157c9881d76",
+            "bytes": 28283,
+            "width": 284,
+            "height": 284
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/1.png",
+            "delay": 150,
+            "origin": {
+              "x": 149,
+              "y": 187
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/1.png",
+            "localPath": "assets/msu/files/177b69a7d4f9d6e536edf29b.png",
+            "sha256": "89761de0002cf85ec8a2709efb73062768e3088be6738b86891a18b7a923fd32",
+            "bytes": 31114,
+            "width": 291,
+            "height": 290
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/2.png",
+            "delay": 150,
+            "origin": {
+              "x": 148,
+              "y": 186
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/2.png",
+            "localPath": "assets/msu/files/b8522519f0f3f423744519b2.png",
+            "sha256": "50936fbcde9c96c0ff19f10343a03afa97540aa13660e2d1e0ca2148dc265503",
+            "bytes": 33695,
+            "width": 288,
+            "height": 288
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/3.png",
+            "delay": 150,
+            "origin": {
+              "x": 147,
+              "y": 186
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/3.png",
+            "localPath": "assets/msu/files/29e0953d1bf451f96046498b.png",
+            "sha256": "f7930c198be6bd3d22ed4784e110419753db440581e3a919baf18a690aa85a16",
+            "bytes": 35550,
+            "width": 286,
+            "height": 288
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/4.png",
+            "delay": 150,
+            "origin": {
+              "x": 196,
+              "y": 232
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/4.png",
+            "localPath": "assets/msu/files/78f7e20483561d1b06291089.png",
+            "sha256": "227c505a728360c737bcc20d1217b8647b4244422f50b161a65c5642a0ce4e51",
+            "bytes": 34503,
+            "width": 386,
+            "height": 384
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/5.png",
+            "delay": 150,
+            "origin": {
+              "x": 196,
+              "y": 233
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/5.png",
+            "localPath": "assets/msu/files/6451a36a115e681287a1c33b.png",
+            "sha256": "05e942181f3832cc3ef3de9bd73f762c9852313195e503a9caaec2a1f65f5a6f",
+            "bytes": 37354,
+            "width": 386,
+            "height": 386
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/6.png",
+            "delay": 150,
+            "origin": {
+              "x": 196,
+              "y": 232
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/6.png",
+            "localPath": "assets/msu/files/f90c48c7fcf9898d8a9e21bc.png",
+            "sha256": "cc87976bd64d339d71980c04ccdc1be8b5c2596f6a86001d3f4b78fb69747ffe",
+            "bytes": 45342,
+            "width": 387,
+            "height": 385
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/7.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/7.png",
+            "delay": 150,
+            "origin": {
+              "x": 191,
+              "y": 230
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/7.png",
+            "localPath": "assets/msu/files/96af648b3c937428ba7c12e0.png",
+            "sha256": "470e0456a72a910a9147c8d6e4f5f297fa247c38900c83af3f5e67869fec56d0",
+            "bytes": 60628,
+            "width": 378,
+            "height": 381
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/8.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/8.png",
+            "delay": 150,
+            "origin": {
+              "x": 187,
+              "y": 227
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/8.png",
+            "localPath": "assets/msu/files/8d8c462ab545f57926c78267.png",
+            "sha256": "6256fbeef76c9e8d3f89c259b896153b7086a74fe5c50ad20b39de48fd8a25ff",
+            "bytes": 54527,
+            "width": 369,
+            "height": 375
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/effect2/9.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/9.png",
+            "delay": 150,
+            "origin": {
+              "x": 117,
+              "y": 204
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/effect2/9.png",
+            "localPath": "assets/msu/files/84a325db98aff0ed20c6bea8.png",
+            "sha256": "8812cdc308386ba88a8f4e59a3a0d38cc345221830c005cbcb0ec4abcfc89fa2",
+            "bytes": 35276,
+            "width": 251,
+            "height": 327
+          }
+        ],
+        "special": [
+          {
+            "_path": "Skill/14211/skill/142110009/special/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/0.png",
+            "origin": {
+              "x": 90,
+              "y": 119
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/0.png",
+            "localPath": "assets/msu/files/a5087a86ca83d82939e6062b.png",
+            "sha256": "f2970398933f77528cf6bd5d42f79a0c954f931208cd8fe6909e15822d0e23f5",
+            "bytes": 19308,
+            "width": 176,
+            "height": 176
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/special/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/1.png",
+            "origin": {
+              "x": 90,
+              "y": 118
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/1.png",
+            "localPath": "assets/msu/files/ae435274be6ec18eb9ce1491.png",
+            "sha256": "9516f85b4649ce3fa890a203c6421aa307b42a95318334daa161897a31638390",
+            "bytes": 19389,
+            "width": 175,
+            "height": 175
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/special/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/2.png",
+            "origin": {
+              "x": 90,
+              "y": 105
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/2.png",
+            "localPath": "assets/msu/files/9fef161275916040005bc9b6.png",
+            "sha256": "dc31dca781fae4d252f027f8c6d65eec35d8dfa83afd1da1300e91386edf33b1",
+            "bytes": 14409,
+            "width": 164,
+            "height": 162
+          },
+          {
+            "_path": "Skill/14211/skill/142110009/special/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/3.png",
+            "origin": {
+              "x": 86,
+              "y": 104
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/special/3.png",
+            "localPath": "assets/msu/files/42ad5891d9293b67b847196b.png",
+            "sha256": "0143abf20414fd07a0556a3c40aaf2e2a05d019f13e69c41eeec50363eeaf3a1",
+            "bytes": 11223,
+            "width": 160,
+            "height": 158
+          }
+        ],
+        "icon": [
+          {
+            "_path": "Skill/14211/skill/142110009/icon.png",
+            "cdn_url": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/icon.png",
+            "sourceUrl": "https://resource-static.msu.io/data/Skill/14211/skill/142110009/icon.png",
+            "localPath": "assets/msu/files/ce734dc5faefb9daa4f0196a.png",
+            "sha256": "d70aaeac4a1140f67a65014b7deb0466491b4f7435edd621612627193bde1b9a",
+            "bytes": 747,
+            "width": 32,
+            "height": 32
+          }
+        ]
+      },
+      "sound": true,
+      "use": "defense-effects",
+      "acquiredAt": "2026-09-10T03:29:27.890Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "sounds": {
+        "Use": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Skill/142110009/Use.mp3",
+          "localPath": "assets/msu/files/eb0d77d8c52430e7b47117ff.mp3",
+          "sha256": "1fd1dc0f40dfbb87045f3c7fc1916e67a4ae87fe287c639a3ab453d02ca79437",
+          "bytes": 16320
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=142110009&category=skill&limit=5",
+      "sourceName": "Psychic Bulwark",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=skill&id=142110009",
+      "availableActions": [
+        {
+          "name": "effect",
+          "frames": 10
+        },
+        {
+          "name": "effect2",
+          "frames": 10
+        },
+        {
+          "name": "icon",
+          "frames": 1
+        },
+        {
+          "name": "iconDisabled",
+          "frames": 1
+        },
+        {
+          "name": "iconMouseOver",
+          "frames": 1
+        },
+        {
+          "name": "special",
+          "frames": 4
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=skill&id=142110009"
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kerning-city",
+      "category": "map",
+      "id": "103000000",
+      "name": "Kerning City - Kerning City",
+      "query": "Kerning",
+      "payloadUrl": "https://resource-static.msu.io/data/Map/Map/Map1/103000000.json",
+      "use": "map-layout-source",
+      "gap": "Map layout is not a background image; back/object/tile dependencies must be resolved",
+      "acquiredAt": "2026-09-10T03:29:37.756Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {},
+      "sounds": {},
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=103000000&category=map&limit=5",
+      "sourceName": "Kerning City - Kerning City",
+      "layoutPath": "assets/msu/sources/kerning-city-layout.json",
+      "dependencies": {
+        "backgroundSets": [
+          "sunsetCity"
+        ],
+        "objectSets": [
+          "acc2",
+          "guide",
+          "houseMC",
+          "connect"
+        ],
+        "tileSets": [
+          "holeBrick",
+          "brownBrick"
+        ]
+      }
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kinesis-theme",
+      "category": "bgm",
+      "id": "Bgm43:Kinesis Theme I",
+      "name": "Kinesis Theme I",
+      "query": "Kinesis",
+      "mediaUrl": "https://resource-static.msu.io/data/Sound/Bgm43/Kinesis Theme I.mp3",
+      "use": "bgm-candidate",
+      "acquiredAt": "2026-09-10T03:29:38.093Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {},
+      "sounds": {},
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=Bgm43%3AKinesis+Theme+I&category=bgm&limit=5",
+      "sourceName": "Kinesis Theme I",
+      "media": {
+        "sourceUrl": "https://resource-static.msu.io/data/Sound/Bgm43/Kinesis%20Theme%20I.mp3",
+        "localPath": "assets/msu/files/50620daf09df7d7d861d14b3.mp3",
+        "sha256": "a81ab9893999c6854db3cee1465b53fd28aad546774ba701a9377ca9fd524172",
+        "bytes": 1339037
+      }
+    }
+  ],
+  "failures": []
+}

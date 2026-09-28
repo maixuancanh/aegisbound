@@ -1,0 +1,1026 @@
+{
+	"0" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"1" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : 760,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 26
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 911,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 27
+			},
+			"10" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 10,
+				"r" : 0,
+				"x" : 2270,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 23
+			},
+			"11" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 11,
+				"r" : 0,
+				"x" : 2421,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 24
+			},
+			"12" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "4",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 12,
+				"r" : 0,
+				"x" : 2587,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 25
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 1062,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 28
+			},
+			"3" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 3,
+				"r" : 0,
+				"x" : 1213,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 29
+			},
+			"4" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 4,
+				"r" : 0,
+				"x" : 1364,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 17
+			},
+			"5" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 5,
+				"r" : 0,
+				"x" : 1515,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 18
+			},
+			"6" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 6,
+				"r" : 0,
+				"x" : 1666,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 19
+			},
+			"7" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 7,
+				"r" : 0,
+				"x" : 1817,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 20
+			},
+			"8" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 8,
+				"r" : 0,
+				"x" : 1968,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 21
+			},
+			"9" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 9,
+				"r" : 0,
+				"x" : 2119,
+				"y" : 15,
+				"z" : 9,
+				"zM" : 22
+			}
+		},
+		"tile" : null
+	},
+	"2" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : 166,
+				"y" : -149,
+				"z" : 9,
+				"zM" : 15
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 517,
+				"y" : -149,
+				"z" : 9,
+				"zM" : 14
+			}
+		},
+		"tile" : null
+	},
+	"3" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "2",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : 75,
+				"y" : 1,
+				"z" : 9,
+				"zM" : 16
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 864,
+				"y" : 18,
+				"z" : 9,
+				"zM" : 13
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 1504,
+				"y" : 19,
+				"z" : 9,
+				"zM" : 11
+			},
+			"3" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 3,
+				"r" : 0,
+				"x" : 1878,
+				"y" : 19,
+				"z" : 9,
+				"zM" : 11
+			},
+			"4" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 4,
+				"r" : 0,
+				"x" : 2440,
+				"y" : 18,
+				"z" : 9,
+				"zM" : 12
+			},
+			"5" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofObj",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 5,
+				"r" : 0,
+				"x" : 2649,
+				"y" : 18,
+				"z" : 10,
+				"zM" : 12
+			}
+		},
+		"tile" : null
+	},
+	"4" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"5" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"6" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"7" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : 119,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 0
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 357,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 1
+			},
+			"10" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 10,
+				"r" : 0,
+				"x" : 2610,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 10
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 595,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 2
+			},
+			"3" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 3,
+				"r" : 0,
+				"x" : 833,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 3
+			},
+			"4" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 4,
+				"r" : 0,
+				"x" : 1071,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 4
+			},
+			"5" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 5,
+				"r" : 0,
+				"x" : 1309,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 5
+			},
+			"6" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 6,
+				"r" : 0,
+				"x" : 1547,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 6
+			},
+			"7" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 7,
+				"r" : 0,
+				"x" : 1785,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 7
+			},
+			"8" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 8,
+				"r" : 0,
+				"x" : 2023,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 8
+			},
+			"9" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_old",
+				"l1" : "roofTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 9,
+				"r" : 0,
+				"x" : 2261,
+				"y" : 156,
+				"z" : 9,
+				"zM" : 9
+			}
+		},
+		"tile" : null
+	},
+	"back" : 
+	{
+		"0" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 73,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 3,
+			"x" : 5,
+			"y" : -177
+		},
+		"1" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 72,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 1,
+			"x" : -17,
+			"y" : -118
+		},
+		"10" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 82,
+			"rx" : -35,
+			"ry" : -60,
+			"type" : 0,
+			"x" : 23,
+			"y" : 28
+		},
+		"11" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 83,
+			"rx" : -100,
+			"ry" : -100,
+			"type" : 0,
+			"x" : 2557,
+			"y" : 27
+		},
+		"2" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 74,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 0,
+			"x" : 428,
+			"y" : -169
+		},
+		"3" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 75,
+			"rx" : -2,
+			"ry" : 0,
+			"type" : 4,
+			"x" : -94,
+			"y" : -149
+		},
+		"4" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 76,
+			"rx" : -1,
+			"ry" : -10,
+			"type" : 1,
+			"x" : -14,
+			"y" : -22
+		},
+		"5" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 77,
+			"rx" : -3,
+			"ry" : -35,
+			"type" : 1,
+			"x" : -2,
+			"y" : -9
+		},
+		"6" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 79,
+			"rx" : -20,
+			"ry" : -60,
+			"type" : 1,
+			"x" : 511,
+			"y" : 9
+		},
+		"7" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 80,
+			"rx" : -35,
+			"ry" : -60,
+			"type" : 0,
+			"x" : 665,
+			"y" : -13
+		},
+		"8" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 81,
+			"rx" : -35,
+			"ry" : -60,
+			"type" : 0,
+			"x" : 435,
+			"y" : 20
+		},
+		"9" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 82,
+			"rx" : -35,
+			"ry" : -60,
+			"type" : 0,
+			"x" : 1110,
+			"y" : 15
+		}
+	},
+	"foothold" : 
+	{
+		"7" : 
+		{
+			"0" : 
+			{
+				"1" : 
+				{
+					"next" : 2,
+					"piece" : 0,
+					"prev" : 0,
+					"x1" : 0,
+					"x2" : 238,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"1" : 
+			{
+				"2" : 
+				{
+					"next" : 3,
+					"piece" : 1,
+					"prev" : 1,
+					"x1" : 238,
+					"x2" : 476,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"10" : 
+			{
+				"11" : 
+				{
+					"next" : 0,
+					"piece" : 10,
+					"prev" : 10,
+					"x1" : 2380,
+					"x2" : 2816,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"2" : 
+			{
+				"3" : 
+				{
+					"next" : 4,
+					"piece" : 2,
+					"prev" : 2,
+					"x1" : 476,
+					"x2" : 714,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"3" : 
+			{
+				"4" : 
+				{
+					"next" : 5,
+					"piece" : 3,
+					"prev" : 3,
+					"x1" : 714,
+					"x2" : 952,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"4" : 
+			{
+				"5" : 
+				{
+					"next" : 6,
+					"piece" : 4,
+					"prev" : 4,
+					"x1" : 952,
+					"x2" : 1190,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"5" : 
+			{
+				"6" : 
+				{
+					"next" : 7,
+					"piece" : 5,
+					"prev" : 5,
+					"x1" : 1190,
+					"x2" : 1428,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"6" : 
+			{
+				"7" : 
+				{
+					"next" : 8,
+					"piece" : 6,
+					"prev" : 6,
+					"x1" : 1428,
+					"x2" : 1666,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"7" : 
+			{
+				"8" : 
+				{
+					"next" : 9,
+					"piece" : 7,
+					"prev" : 7,
+					"x1" : 1666,
+					"x2" : 1904,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"8" : 
+			{
+				"9" : 
+				{
+					"next" : 10,
+					"piece" : 8,
+					"prev" : 8,
+					"x1" : 1904,
+					"x2" : 2142,
+					"y1" : 63,
+					"y2" : 63
+				}
+			},
+			"9" : 
+			{
+				"10" : 
+				{
+					"next" : 11,
+					"piece" : 9,
+					"prev" : 9,
+					"x1" : 2142,
+					"x2" : 2380,
+					"y1" : 63,
+					"y2" : 63
+				}
+			}
+		}
+	},
+	"info" : 
+	{
+		"VRBottom" : 280,
+		"VRLeft" : 1,
+		"VRRight" : 2814,
+		"VRTop" : -600,
+		"bgm" : "Bgm38/battlefield",
+		"cloud" : 0,
+		"fieldLimit" : 271096,
+		"fieldScript" : "",
+		"fly" : 0,
+		"forcedReturn" : 330004200,
+		"hideMinimap" : 0,
+		"mapMark" : "spinOff1",
+		"mobRate" : "1",
+		"noChair" : 1,
+		"noMapCmd" : 0,
+		"onFirstUserEnter" : "",
+		"onUserEnter" : "",
+		"partyStandAlone" : 0,
+		"quarterView" : 0,
+		"returnMap" : 330004200,
+		"standAlone" : 0,
+		"swim" : 0,
+		"town" : 0,
+		"version" : 10
+	},
+	"ladderRope" : null,
+	"life" : 
+	{
+		"0" : 
+		{
+			"cy" : 63,
+			"f" : 0,
+			"fh" : 5,
+			"hide" : 0,
+			"id" : "2700114",
+			"mobTime" : -1,
+			"rx0" : 972,
+			"rx1" : 1170,
+			"type" : "m",
+			"x" : 1072,
+			"y" : 50
+		},
+		"1" : 
+		{
+			"cy" : 63,
+			"f" : 0,
+			"fh" : 5,
+			"hide" : 0,
+			"id" : "1530242",
+			"mobTime" : 0,
+			"rx0" : 1125,
+			"rx1" : 1175,
+			"type" : "n",
+			"x" : 1175,
+			"y" : 50
+		}
+	},
+	"miniMap" : 
+	{
+		"canvas" : 
+		{
+			"_hash" : "6e5858465e3e3a66432aa926a531fa96c5721deb1bfb17c1d0371ee85327047f",
+			"_path" : "Map/Map/Map3/330005400/miniMap/canvas.png"
+		},
+		"centerX" : 82,
+		"centerY" : 511,
+		"height" : 811,
+		"mag" : 4,
+		"width" : 2990
+	},
+	"portal" : 
+	{
+		"0" : 
+		{
+			"horizontalImpact" : 0,
+			"pn" : "sp",
+			"pt" : 0,
+			"tm" : 999999999,
+			"tn" : "",
+			"x" : 414,
+			"y" : 51
+		},
+		"1" : 
+		{
+			"delay" : 0,
+			"hideTooltip" : 0,
+			"horizontalImpact" : 0,
+			"onlyOnce" : 0,
+			"pn" : "out00",
+			"pt" : 7,
+			"script" : "TroubleField_Out",
+			"tm" : 999999999,
+			"tn" : "",
+			"x" : 427,
+			"y" : 57
+		}
+	},
+	"reactor" : null
+}

@@ -1,0 +1,13 @@
+# Asset provenance
+
+The active guardian uses the generated transparent poses `hero-idle-empty-v1.png` and `hero-throw-empty-v1.png`. Both hands are empty; the original engine renders shields separately. The older `auto-rescue-guardian-atlas-v2.png` is retained for regression coverage and is not loaded by the active entry.
+
+The active renderer also loads separate generated enemy atlases (`auto-rescue-heavy-enemy-v2.png`, `auto-rescue-rogue-enemy-v2.png`, `auto-rescue-beast-enemy-v2.png`), five separate civilian sheets (`auto-rescue-civilian-1-v2.png` through `-5-v2.png`) and `auto-rescue-van-v1.png`. Atlas JSON supplies non-grid frame rectangles. The preserved Quick Play engine determines position and action; these files only replace the four requested visual categories. `src/scene/original-character-art.mjs` maps them into a Chain Jam-only copy of the original renderer. `legacy-kinesis/` is unchanged.
+
+The active game reuses the Kinesis Quick Play courtyard plates, character-independent VFX, original event-to-SFX map and button texture. Background music is the user-supplied `YggdrasilPrayer.mp3`, looped at 25% volume. Playback is attempted after loading; browsers may require a user interaction before allowing sound. The copied `public/assets/artgen/` and `public/assets/msu/` resources include MapleStory/MSU third-party material. Permission for casino redistribution has not been independently verified, so a public competition submission needs a rights check or replacement assets.
+
+The generated UI artwork includes the desktop and mobile consoles, Aegisbound logo, battlefield border, website background, result panel and replacement cover objects. Console labels and values are HTML text rather than baked into the artwork. Desktop and mobile controls use separate panel assets to preserve their proportions.
+
+Fonts: DM Sans and Space Grotesk, requested from Google Fonts, with system fallbacks. Network font failure does not prevent play. Chain Jam's official widget is loaded from `https://jam.chain.wtf/widget.js`.
+
+Official SDK: downloaded from `https://sdk.chain.wtf/sdk/casino-sdk.zip` (package version 0.4.0). `third_party/chain-casino-sdk/` contains unchanged copies of its `src/guest.ts`, `src/types.ts`, `src/bet-limits.ts`, and `simulator/contracts/ICasinoGameV2.sol` so a fresh checkout can build. The distributed SDK archive contained no top-level LICENSE or NOTICE file in the inspected copy; the Solidity interface itself carries an MIT SPDX identifier. Do not assume the TypeScript files have a redistribution license without confirmation from Chain. This file records provenance and does not claim that generated artwork has exclusive rights or that third-party branding is owned by this project.

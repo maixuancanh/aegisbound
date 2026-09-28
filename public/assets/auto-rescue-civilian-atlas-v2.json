@@ -1,0 +1,9 @@
+{
+  "civilians": [
+    { "image": "auto-rescue-civilian-1-v2.png", "size": { "w": 1536, "h": 1024 }, "frames": { "walk": { "x": 130, "y": 114, "w": 539, "h": 809 }, "run": { "x": 826, "y": 172, "w": 675, "h": 737 } } },
+    { "image": "auto-rescue-civilian-2-v2.png", "size": { "w": 1774, "h": 887 }, "frames": { "walk": { "x": 162, "y": 48, "w": 535, "h": 803 }, "run": { "x": 961, "y": 72, "w": 709, "h": 741 } } },
+    { "image": "auto-rescue-civilian-3-v2.png", "size": { "w": 1774, "h": 887 }, "frames": { "walk": { "x": 142, "y": 82, "w": 497, "h": 761 }, "run": { "x": 1035, "y": 100, "w": 571, "h": 741 } } },
+    { "image": "auto-rescue-civilian-4-v2.png", "size": { "w": 1774, "h": 887 }, "frames": { "walk": { "x": 156, "y": 14, "w": 541, "h": 849 }, "run": { "x": 1029, "y": 34, "w": 639, "h": 827 } } },
+    { "image": "auto-rescue-civilian-5-v2.png", "size": { "w": 1536, "h": 1024 }, "frames": { "walk": { "x": 154, "y": 124, "w": 519, "h": 817 }, "run": { "x": 906, "y": 166, "w": 593, "h": 773 } } }
+  ]
+}

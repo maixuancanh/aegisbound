@@ -1,0 +1,645 @@
+{
+	"0" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"1" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : -70,
+				"y" : -230,
+				"z" : 9,
+				"zM" : 3
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 389,
+				"y" : -231,
+				"z" : 9,
+				"zM" : 5
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "2",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 851,
+				"y" : -231,
+				"z" : 9,
+				"zM" : 4
+			}
+		},
+		"tile" : null
+	},
+	"2" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : 56,
+				"y" : -163,
+				"z" : 9,
+				"zM" : 0
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "4",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 717,
+				"y" : -163,
+				"z" : 9,
+				"zM" : 0
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "5",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 137,
+				"y" : -93,
+				"z" : 8,
+				"zM" : 0
+			},
+			"3" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "6",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 3,
+				"r" : 0,
+				"x" : 402,
+				"y" : -94,
+				"z" : 9,
+				"zM" : 0
+			},
+			"4" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "7",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 4,
+				"r" : 0,
+				"x" : 666,
+				"y" : -93,
+				"z" : 8,
+				"zM" : 0
+			},
+			"5" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classWall",
+				"l2" : "8",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 5,
+				"r" : 0,
+				"x" : -374,
+				"y" : -132,
+				"z" : 9,
+				"zM" : 0
+			}
+		},
+		"tile" : null
+	},
+	"3" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : -183,
+				"y" : -44,
+				"z" : 9,
+				"zM" : 0
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 227,
+				"y" : 28,
+				"z" : 9,
+				"zM" : 0
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 647,
+				"y" : 28,
+				"z" : 9,
+				"zM" : 0
+			},
+			"3" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "2",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 3,
+				"r" : 0,
+				"x" : 615,
+				"y" : -55,
+				"z" : 9,
+				"zM" : 0
+			},
+			"4" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "2",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 4,
+				"r" : 0,
+				"x" : 195,
+				"y" : -55,
+				"z" : 9,
+				"zM" : 0
+			},
+			"5" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "3",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 5,
+				"r" : 0,
+				"x" : 1034,
+				"y" : 20,
+				"z" : 9,
+				"zM" : 0
+			},
+			"6" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "science",
+				"l2" : "4",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 6,
+				"r" : 0,
+				"x" : 1074,
+				"y" : -168,
+				"z" : 8,
+				"zM" : 0
+			},
+			"7" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "music",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 7,
+				"r" : 0,
+				"x" : -302,
+				"y" : -387,
+				"z" : 9,
+				"zM" : 0
+			},
+			"8" : 
+			{
+				"dynamic" : 0,
+				"f" : 1,
+				"l0" : "school_night",
+				"l1" : "music",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 8,
+				"r" : 0,
+				"x" : 1082,
+				"y" : -386,
+				"z" : 9,
+				"zM" : 0
+			}
+		},
+		"tile" : null
+	},
+	"4" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"5" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"6" : 
+	{
+		"info" : null,
+		"obj" : 
+		{
+			"0" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classTile",
+				"l2" : "0",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 0,
+				"r" : 0,
+				"x" : -70,
+				"y" : 163,
+				"z" : 9,
+				"zM" : 0
+			},
+			"1" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classTile",
+				"l2" : "1",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 1,
+				"r" : 0,
+				"x" : 389,
+				"y" : 163,
+				"z" : 9,
+				"zM" : 1
+			},
+			"2" : 
+			{
+				"dynamic" : 0,
+				"f" : 0,
+				"l0" : "school_night",
+				"l1" : "classTile",
+				"l2" : "2",
+				"move" : 0,
+				"oS" : "spinOff1",
+				"piece" : 2,
+				"r" : 0,
+				"x" : 851,
+				"y" : 163,
+				"z" : 9,
+				"zM" : 2
+			}
+		},
+		"tile" : null
+	},
+	"7" : 
+	{
+		"info" : null,
+		"obj" : null,
+		"tile" : null
+	},
+	"back" : 
+	{
+		"0" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 73,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 3,
+			"x" : 5,
+			"y" : -112
+		},
+		"1" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 72,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 1,
+			"x" : -6,
+			"y" : -149
+		},
+		"2" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 74,
+			"rx" : 0,
+			"ry" : 0,
+			"type" : 0,
+			"x" : -178,
+			"y" : -111
+		},
+		"3" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 75,
+			"rx" : -2,
+			"ry" : 0,
+			"type" : 4,
+			"x" : -94,
+			"y" : -109
+		},
+		"4" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 76,
+			"rx" : -1,
+			"ry" : -10,
+			"type" : 1,
+			"x" : -14,
+			"y" : 5
+		},
+		"5" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 77,
+			"rx" : -3,
+			"ry" : -20,
+			"type" : 1,
+			"x" : -2,
+			"y" : -3
+		},
+		"6" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 78,
+			"rx" : -40,
+			"ry" : -40,
+			"type" : 1,
+			"x" : -55,
+			"y" : 78
+		},
+		"7" : 
+		{
+			"a" : 255,
+			"ani" : 0,
+			"bS" : "spinOff1",
+			"backTags" : "",
+			"cx" : 0,
+			"cy" : 0,
+			"f" : 0,
+			"front" : 0,
+			"no" : 83,
+			"rx" : -40,
+			"ry" : -40,
+			"type" : 1,
+			"x" : -179,
+			"y" : 64
+		}
+	},
+	"foothold" : 
+	{
+		"6" : 
+		{
+			"0" : 
+			{
+				"1" : 
+				{
+					"next" : 2,
+					"piece" : 0,
+					"prev" : 0,
+					"x1" : -410,
+					"x2" : 270,
+					"y1" : 92,
+					"y2" : 92
+				}
+			},
+			"1" : 
+			{
+				"2" : 
+				{
+					"next" : 3,
+					"piece" : 1,
+					"prev" : 1,
+					"x1" : 270,
+					"x2" : 508,
+					"y1" : 92,
+					"y2" : 92
+				}
+			},
+			"2" : 
+			{
+				"3" : 
+				{
+					"next" : 0,
+					"piece" : 2,
+					"prev" : 2,
+					"x1" : 508,
+					"x2" : 1195,
+					"y1" : 92,
+					"y2" : 92
+				}
+			}
+		}
+	},
+	"info" : 
+	{
+		"VRBottom" : 237,
+		"VRLeft" : -410,
+		"VRRight" : 1194,
+		"VRTop" : -531,
+		"bgm" : "Bgm38/HollowAttack",
+		"cloud" : 0,
+		"fieldLimit" : 67479292,
+		"fieldScript" : "",
+		"fieldType" : 95,
+		"fixedMobCapacity" : 25,
+		"fly" : 0,
+		"forcedReturn" : 999999999,
+		"hideMinimap" : 1,
+		"mapMark" : "spinOff1",
+		"mobRate" : "1",
+		"noMapCmd" : 0,
+		"onFirstUserEnter" : "",
+		"onUserEnter" : "",
+		"partyStandAlone" : 0,
+		"quarterView" : 0,
+		"returnMap" : 330002025,
+		"standAlone" : 0,
+		"swim" : 0,
+		"town" : 0,
+		"version" : 10
+	},
+	"ladderRope" : null,
+	"life" : null,
+	"miniMap" : 
+	{
+		"canvas" : 
+		{
+			"_hash" : "18d49e8e1b80a3442c5ba387328254282e4fb096b5bc6bff5502bf06bc3b4a82",
+			"_path" : "Map/Map/Map3/330002025/miniMap/canvas.png"
+		},
+		"centerX" : 506,
+		"centerY" : 701,
+		"height" : 986,
+		"mag" : 4,
+		"width" : 1749
+	},
+	"portal" : 
+	{
+		"0" : 
+		{
+			"horizontalImpact" : 0,
+			"pn" : "sp",
+			"pt" : 0,
+			"tm" : 999999999,
+			"tn" : "",
+			"x" : -152,
+			"y" : 78
+		},
+		"1" : 
+		{
+			"horizontalImpact" : 0,
+			"pn" : "drop00",
+			"pt" : 1,
+			"tm" : 999999999,
+			"tn" : "",
+			"x" : 431,
+			"y" : 90
+		}
+	},
+	"reactor" : null
+}

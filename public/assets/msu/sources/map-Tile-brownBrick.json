@@ -1,0 +1,366 @@
+{
+	"bsc" : 
+	{
+		"0" : 
+		{
+			"_hash" : "61b0a05c03176f3e87ec8e716526a805dc5b2ab83c7ca01440c7ffe134de6f1f",
+			"_path" : "Map/Tile/brownBrick/bsc/0.png",
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : 0
+		},
+		"1" : 
+		{
+			"_hash" : "3c986251b4b1f83503c2a06cf6c365ca9f36bed7809e5ceb991435e2c810ec97",
+			"_path" : "Map/Tile/brownBrick/bsc/1.png",
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : 0
+		},
+		"2" : 
+		{
+			"_hash" : "a237322b8efc881aecaacaf13eb2e509aeed6b2a8853dffd520e9c18861568ca",
+			"_path" : "Map/Tile/brownBrick/bsc/2.png",
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : 0
+		},
+		"3" : 
+		{
+			"_hash" : "a4e714aa0a01a77c4beef55ed15529f7eb2fd2ab1e01abf1ff835dd26fd2ac14",
+			"_path" : "Map/Tile/brownBrick/bsc/3.png",
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : 0
+		},
+		"4" : 
+		{
+			"_hash" : "711f2beedc6e3dc66f73f6bf5b94b879a931a008e117b805c3749fdffd82bcde",
+			"_path" : "Map/Tile/brownBrick/bsc/4.png",
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : 0
+		}
+	},
+	"edD" : 
+	{
+		"0" : 
+		{
+			"_hash" : "664a9e1e3785bcab2298f5c0225ef339b68d01edd23183c13fe9916b14b1f654",
+			"_path" : "Map/Tile/brownBrick/edD/0.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 24,
+				"y" : 0
+			},
+			"z" : -4
+		}
+	},
+	"edU" : 
+	{
+		"0" : 
+		{
+			"_hash" : "e483c2de94bf123a3d379cee3df391cce5751935c812dc09eb87e6e2afb61935",
+			"_path" : "Map/Tile/brownBrick/edU/0.png",
+			"foothold" : 
+			{
+				"x" : -35,
+				"y" : -24
+			},
+			"origin" : 
+			{
+				"x" : 37,
+				"y" : 27
+			},
+			"z" : -4
+		}
+	},
+	"enH0" : 
+	{
+		"0" : 
+		{
+			"_hash" : "70a2e064a014b6c6664886d3bf8469c6d7afa8a5656e08b73ddb2366b7940a63",
+			"_path" : "Map/Tile/brownBrick/enH0/0.png",
+			"foothold" : 
+			{
+				"x" : 0,
+				"y" : -24
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 27
+			},
+			"z" : -3
+		},
+		"1" : 
+		{
+			"_hash" : "fb3c9b78d1430a4abf5f27327300e8ddae6e54faee41a07e81bc8856da265d86",
+			"_path" : "Map/Tile/brownBrick/enH0/1.png",
+			"foothold" : 
+			{
+				"x" : 0,
+				"y" : -24
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 27
+			},
+			"z" : -3
+		},
+		"2" : 
+		{
+			"_hash" : "bc8eef76b468959ae5f6dfbd7305977ac4dd49e788feb3c5d36fdbd16804a5c3",
+			"_path" : "Map/Tile/brownBrick/enH0/2.png",
+			"foothold" : 
+			{
+				"x" : 0,
+				"y" : -24
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 27
+			},
+			"z" : -3
+		}
+	},
+	"enH1" : 
+	{
+		"0" : 
+		{
+			"_hash" : "3db638655ae0628cc3cf8e1749bc5354598565e9da8fb6c694952672e79bc1dc",
+			"_path" : "Map/Tile/brownBrick/enH1/0.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -3
+		},
+		"1" : 
+		{
+			"_hash" : "37707332d9f79fd86306756ae16fe77aea708383c974244e7854bdbd95d3b98d",
+			"_path" : "Map/Tile/brownBrick/enH1/1.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -3
+		},
+		"2" : 
+		{
+			"_hash" : "64cad31c7749fbb38912e9208c301cfae133284fee1d7dbd1aadfc3235d12996",
+			"_path" : "Map/Tile/brownBrick/enH1/2.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -3
+		}
+	},
+	"enV0" : 
+	{
+		"0" : 
+		{
+			"_hash" : "43ca8c7262f92cfd11f43fecb0c2bc067c5fd5fe8066b53c0db8eeb3a644e3cc",
+			"_path" : "Map/Tile/brownBrick/enV0/0.png",
+			"foothold" : 
+			{
+				"x" : -35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 30,
+				"y" : 0
+			},
+			"z" : -2
+		},
+		"1" : 
+		{
+			"_hash" : "69b0e0f1d53d82ba8673d87ea12621ab4e116fa0fb2eaf3b2440a40d475165fc",
+			"_path" : "Map/Tile/brownBrick/enV0/1.png",
+			"foothold" : 
+			{
+				"x" : -35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 31,
+				"y" : 0
+			},
+			"z" : -2
+		},
+		"2" : 
+		{
+			"_hash" : "1424246cc5a1f648fa42c0a3780a18767acbed7cf91cfb37b35d1be4d97560da",
+			"_path" : "Map/Tile/brownBrick/enV0/2.png",
+			"foothold" : 
+			{
+				"x" : -35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 22,
+				"y" : 0
+			},
+			"z" : -2
+		}
+	},
+	"enV1" : 
+	{
+		"0" : 
+		{
+			"_hash" : "9276fbda351e835eafabd2c9aa59d5b12be60cbefb6b0cbd0b765ab6fb001e8d",
+			"_path" : "Map/Tile/brownBrick/enV1/0.png",
+			"foothold" : 
+			{
+				"x" : 35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -2
+		},
+		"1" : 
+		{
+			"_hash" : "deecc4496af28a8588c44400d6b678e7f784870167cf9d1ae08eb9ef390ecff8",
+			"_path" : "Map/Tile/brownBrick/enV1/1.png",
+			"foothold" : 
+			{
+				"x" : 35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -2
+		},
+		"2" : 
+		{
+			"_hash" : "97181f82cf712b8b7e69cc39fa082ae3c1fd51904742d25ab061167bff039cdb",
+			"_path" : "Map/Tile/brownBrick/enV1/2.png",
+			"foothold" : 
+			{
+				"x" : 35,
+				"y" : 0
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -2
+		}
+	},
+	"info" : null,
+	"slLD" : 
+	{
+		"0" : 
+		{
+			"_hash" : "2e4b7795b022be12a73b8ee34db604de6f4ac76cd1520370bca3711b47b90fe5",
+			"_path" : "Map/Tile/brownBrick/slLD/0.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 90,
+				"y" : 0
+			},
+			"z" : -3
+		}
+	},
+	"slLU" : 
+	{
+		"0" : 
+		{
+			"_hash" : "657e6ba422438d9d06f9cb08293ca1499637efb3cf8fac070217a6700ca58d20",
+			"_path" : "Map/Tile/brownBrick/slLU/0.png",
+			"foothold" : 
+			{
+				"x" : -90,
+				"y" : -84
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 90,
+				"y" : 86
+			},
+			"z" : -3
+		}
+	},
+	"slRD" : 
+	{
+		"0" : 
+		{
+			"_hash" : "4b4882727ac6a4125248932748d5eb29b06ad6f3a90178b50093a353bded054e",
+			"_path" : "Map/Tile/brownBrick/slRD/0.png",
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"z" : -3
+		}
+	},
+	"slRU" : 
+	{
+		"0" : 
+		{
+			"_hash" : "f469c2d205e82c67c488ad6fc1646c90d06fccc2b104e9c7f2b6d9694f24d5a4",
+			"_path" : "Map/Tile/brownBrick/slRU/0.png",
+			"foothold" : 
+			{
+				"x" : 0,
+				"y" : -84
+			},
+			"map" : null,
+			"origin" : 
+			{
+				"x" : 0,
+				"y" : 86
+			},
+			"z" : -3
+		}
+	}
+}

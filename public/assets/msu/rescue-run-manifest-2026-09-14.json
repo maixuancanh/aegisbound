@@ -1,0 +1,673 @@
+{
+  "version": 1,
+  "source": "https://resource-search.msu.io/",
+  "game": "kinesis-borrowed-shelter",
+  "acquiredAt": "2026-09-14T01:56:03.966Z",
+  "releaseReady": false,
+  "testing": "User-owned playtest; browser tests not run",
+  "records": [
+    {
+      "key": "rescue-civilian-0",
+      "category": "npc",
+      "id": "9001031",
+      "sourceName": "Male Resident",
+      "role": "civilian",
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=9001031&category=npc&limit=10",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=9001031",
+      "resourceUrl": "https://resource-static.msu.io/data/Npc/9001031.json",
+      "sourcePayload": {
+        "localPath": "assets/msu/rescue-run/sources/npc-9001031-sprite.json",
+        "sha256": "fa7f8559df59579d32f99ce8ae7629048a02a3e432b89e82dde52ae33ad69951",
+        "bytes": 762
+      },
+      "sourceSearch": {
+        "localPath": "assets/msu/rescue-run/sources/npc-9001031-search.json",
+        "sha256": "089ea30f2fa37d5b4adc4362f8bc92d5b978666ddc3541c8ff06993c87fa5929",
+        "bytes": 289
+      },
+      "availableActions": [
+        {
+          "name": "move",
+          "frames": 4
+        },
+        {
+          "name": "stand",
+          "frames": 1
+        }
+      ],
+      "render": {
+        "height": 70,
+        "facing": "left",
+        "referenceHeight": 76
+      },
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/9001031/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001031/stand/0.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-9001031-stand-0.png",
+            "sha256": "40a9a2da2389b89a42bc07d88e3b68145e2bd82304b23ed57ebab7d54cd80ea8",
+            "bytes": 3054,
+            "width": 50,
+            "height": 76,
+            "groundOffsetY": 2
+          }
+        ],
+        "move": [
+          {
+            "_path": "Npc/9001031/move/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001031/move/0.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 75
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/move/0.png",
+            "localPath": "assets/msu/rescue-run/npc-9001031-move-0.png",
+            "sha256": "d1d92f351d2d3c7988b552a1d23100b9e67b8be3484133045bafbd40fee8c4c0",
+            "bytes": 3008,
+            "width": 50,
+            "height": 77,
+            "groundOffsetY": 2
+          },
+          {
+            "_path": "Npc/9001031/move/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001031/move/1.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/move/1.png",
+            "localPath": "assets/msu/rescue-run/npc-9001031-move-1.png",
+            "sha256": "ce0ae7dbcb18f87e213ef8ecd60de216b6c14e8a4b881e01b72b707d1b719738",
+            "bytes": 2971,
+            "width": 50,
+            "height": 76,
+            "groundOffsetY": 2
+          },
+          {
+            "_path": "Npc/9001031/move/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001031/move/2.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 75
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/move/2.png",
+            "localPath": "assets/msu/rescue-run/npc-9001031-move-2.png",
+            "sha256": "76df5a1544758634ecccb60577d9969203c0169a49117184e2ff98af4e172e2a",
+            "bytes": 3048,
+            "width": 50,
+            "height": 77,
+            "groundOffsetY": 2
+          },
+          {
+            "_path": "Npc/9001031/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001031/stand/0.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-9001031-stand-0.png",
+            "sha256": "40a9a2da2389b89a42bc07d88e3b68145e2bd82304b23ed57ebab7d54cd80ea8",
+            "bytes": 3054,
+            "width": 50,
+            "height": 76,
+            "groundOffsetY": 2
+          }
+        ]
+      }
+    },
+    {
+      "key": "rescue-civilian-1",
+      "category": "npc",
+      "id": "9001032",
+      "sourceName": "Female Resident",
+      "role": "civilian",
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=9001032&category=npc&limit=10",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=9001032",
+      "resourceUrl": "https://resource-static.msu.io/data/Npc/9001032.json",
+      "sourcePayload": {
+        "localPath": "assets/msu/rescue-run/sources/npc-9001032-sprite.json",
+        "sha256": "e644413304c0ebfc92a298081448e2be6c487e8172049a6f30db574f191d5cee",
+        "bytes": 762
+      },
+      "sourceSearch": {
+        "localPath": "assets/msu/rescue-run/sources/npc-9001032-search.json",
+        "sha256": "319641c425d32eba2cf0fb1bdbf551572a945f58b83bb619e90f1fbeb59e2172",
+        "bytes": 292
+      },
+      "availableActions": [
+        {
+          "name": "move",
+          "frames": 4
+        },
+        {
+          "name": "stand",
+          "frames": 1
+        }
+      ],
+      "render": {
+        "height": 64,
+        "facing": "left",
+        "referenceHeight": 67
+      },
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/9001032/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001032/stand/0.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 75
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-9001032-stand-0.png",
+            "sha256": "f4b513b69f500ad361a62d1ce856e1126f20e8b93ec20bf31008917958c773ea",
+            "bytes": 3415,
+            "width": 53,
+            "height": 67,
+            "groundOffsetY": -8
+          }
+        ],
+        "move": [
+          {
+            "_path": "Npc/9001032/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001032/stand/0.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 75
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-9001032-stand-0.png",
+            "sha256": "f4b513b69f500ad361a62d1ce856e1126f20e8b93ec20bf31008917958c773ea",
+            "bytes": 3415,
+            "width": 53,
+            "height": 67,
+            "groundOffsetY": -8
+          },
+          {
+            "_path": "Npc/9001032/move/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001032/move/1.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/move/1.png",
+            "localPath": "assets/msu/rescue-run/npc-9001032-move-1.png",
+            "sha256": "a01091c596baabe245de159f5d03408a042eae113b0e429b4538fdd4e3163bb7",
+            "bytes": 3349,
+            "width": 53,
+            "height": 67,
+            "groundOffsetY": -7
+          },
+          {
+            "_path": "Npc/9001032/move/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001032/move/2.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 75
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/move/2.png",
+            "localPath": "assets/msu/rescue-run/npc-9001032-move-2.png",
+            "sha256": "f2a529ad07aaae6c01db13c85edb47465ef16bbfc095eeca6f908c2f4d8f78a1",
+            "bytes": 3428,
+            "width": 53,
+            "height": 67,
+            "groundOffsetY": -8
+          },
+          {
+            "_path": "Npc/9001032/move/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/9001032/move/3.png",
+            "delay": 240,
+            "origin": {
+              "x": 20,
+              "y": 74
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/move/3.png",
+            "localPath": "assets/msu/rescue-run/npc-9001032-move-3.png",
+            "sha256": "2717c058953c24674bbb31eef5ccc391dabf509500c08bb693d13cc77c359868",
+            "bytes": 3461,
+            "width": 53,
+            "height": 67,
+            "groundOffsetY": -7
+          }
+        ]
+      }
+    },
+    {
+      "key": "rescue-civilian-2",
+      "category": "npc",
+      "id": "1531032",
+      "sourceName": "Jin",
+      "role": "civilian",
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=1531032&category=npc&limit=10",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=1531032",
+      "resourceUrl": "https://resource-static.msu.io/data/Npc/1531032.json",
+      "sourcePayload": {
+        "localPath": "assets/msu/rescue-run/sources/npc-1531032-sprite.json",
+        "sha256": "d298b0b1102930e1ca589aaf685a1d827ddeb7b9ac17027c831a81ed6380fb15",
+        "bytes": 343
+      },
+      "sourceSearch": {
+        "localPath": "assets/msu/rescue-run/sources/npc-1531032-search.json",
+        "sha256": "9071c4b54d57c0294efeee3639ad972343d050c5a414a370673fbad2b9f3dcb3",
+        "bytes": 205
+      },
+      "availableActions": [
+        {
+          "name": "default",
+          "frames": 1
+        },
+        {
+          "name": "stand",
+          "frames": 1
+        }
+      ],
+      "render": {
+        "height": 68,
+        "facing": "left",
+        "referenceHeight": 72
+      },
+      "note": "Complete original Jin NPC. No move action is supplied by MSU; moving uses the intact stand frame.",
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/1531032/info/default.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/1531032/info/default.png",
+            "delay": 150,
+            "origin": {
+              "x": 21,
+              "y": 72
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/1531032/info/default.png",
+            "localPath": "assets/msu/rescue-run/npc-1531032-info-default.png",
+            "sha256": "02f2fd5bc1eab11746b8816d454e4dc2418ab31efc1c11b339913c0fbbd51cb0",
+            "bytes": 2950,
+            "width": 44,
+            "height": 72,
+            "groundOffsetY": 0
+          }
+        ]
+      }
+    },
+    {
+      "key": "rescue-vehicle",
+      "category": "npc",
+      "id": "2450022",
+      "sourceName": "Auto Taxi",
+      "role": "vehicle",
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=vehicle&selected=npc:2450022&category=npc&limit=20",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=2450022",
+      "resourceUrl": "https://resource-static.msu.io/data/Npc/2450022.json",
+      "sourcePayload": {
+        "localPath": "assets/msu/rescue-run/sources/npc-2450022-sprite.json",
+        "sha256": "0d72db09f1a22d21218c3c63d15a5c54bf3e67d5664129065bfeacabb769c7c8",
+        "bytes": 156
+      },
+      "sourceSearch": {
+        "localPath": "assets/msu/rescue-run/sources/npc-2450022-search.json",
+        "sha256": "ff196661a81b3ae26c05b05bfc48d480bcb51349602608b51e80d1d6ea7c3677",
+        "bytes": 6138
+      },
+      "availableActions": [
+        {
+          "name": "stand",
+          "frames": 1
+        }
+      ],
+      "render": {
+        "height": 128,
+        "facing": "left",
+        "referenceHeight": 97
+      },
+      "note": "Original yellow Auto Taxi. Source orientation faces left; gameplay flips it only after its turnaround.",
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/2450022/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2450022/stand/0.png",
+            "delay": 5000,
+            "origin": {
+              "x": 46,
+              "y": 97
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2450022/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-2450022-stand-0.png",
+            "sha256": "066559b62288ceee5297d73413a31694923b3fc891cf5e42b01e73ffd4fe159f",
+            "bytes": 5158,
+            "width": 92,
+            "height": 97,
+            "groundOffsetY": 0
+          }
+        ]
+      }
+    },
+    {
+      "key": "rescue-relay",
+      "category": "npc",
+      "id": "2052026",
+      "sourceName": "Intergalactic Transmitter",
+      "role": "scenery",
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=2052026&category=npc&limit=10",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=npc&id=2052026",
+      "resourceUrl": "https://resource-static.msu.io/data/Npc/2052026.json",
+      "sourcePayload": {
+        "localPath": "assets/msu/rescue-run/sources/npc-2052026-sprite.json",
+        "sha256": "0b598a1ef518709c04c9de2f89968b8c5db9ce801305a2c16559e310188c8592",
+        "bytes": 1602
+      },
+      "sourceSearch": {
+        "localPath": "assets/msu/rescue-run/sources/npc-2052026-search.json",
+        "sha256": "450ac89f7b23ea7523466813f5b99b7e1420016128d9da557b60a3e22d52684b",
+        "bytes": 313
+      },
+      "availableActions": [
+        {
+          "name": "stand",
+          "frames": 11
+        }
+      ],
+      "render": {
+        "height": 100,
+        "facing": "left",
+        "referenceHeight": 235
+      },
+      "note": "Non-character MSU transmitter prop catalogued under NPC; used as the optional rescue trial relay.",
+      "actions": {
+        "stand": [
+          {
+            "_path": "Npc/2052026/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/0.png",
+            "origin": {
+              "x": 78,
+              "y": 234
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/0.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-0.png",
+            "sha256": "19330a775c27e603e7067824f1ee1473e9b078e088ea72404ebb7d7255ac1c7e",
+            "bytes": 20781,
+            "width": 146,
+            "height": 236,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/1.png",
+            "origin": {
+              "x": 85,
+              "y": 240
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/1.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-1.png",
+            "sha256": "c99d3a92349691ba8ed712826ef8edaede18c92c7070c6d802390a6e7456a3fd",
+            "bytes": 21817,
+            "width": 153,
+            "height": 242,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/2.png",
+            "origin": {
+              "x": 106,
+              "y": 241
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/2.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-2.png",
+            "sha256": "58a9bc23e56fbdb325a384f589037d6a30f150e43cfd341b02c22576858ca2d9",
+            "bytes": 22231,
+            "width": 174,
+            "height": 243,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/3.png",
+            "origin": {
+              "x": 112,
+              "y": 242
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/3.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-3.png",
+            "sha256": "d056409ee98f05234fb873a0226ba63493b1f81004cf8a7281f7d451cff0c7a7",
+            "bytes": 22735,
+            "width": 180,
+            "height": 244,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/4.png",
+            "origin": {
+              "x": 112,
+              "y": 242
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/4.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-4.png",
+            "sha256": "83e901beeda1cb8e689880b05643fdd13f2a80d4455c602d3b42554dfc9f8b2f",
+            "bytes": 23090,
+            "width": 200,
+            "height": 244,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/5.png",
+            "origin": {
+              "x": 96,
+              "y": 242
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/5.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-5.png",
+            "sha256": "89dcfa6f18ae4081c04b000348ea5ec4838a65b3bbc343a9ed21eb960071fba7",
+            "bytes": 23016,
+            "width": 200,
+            "height": 244,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/6.png",
+            "origin": {
+              "x": 92,
+              "y": 242
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/6.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-6.png",
+            "sha256": "9772330d2b488ade81afc206d46a96636e6a29583abf393c8c13bf8f9615f14e",
+            "bytes": 23105,
+            "width": 196,
+            "height": 244,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/7.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/7.png",
+            "origin": {
+              "x": 79,
+              "y": 242
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/7.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-7.png",
+            "sha256": "df672a75b37174748215bb657d981d52daf2689ab5854e70ae46eb2beec690ef",
+            "bytes": 22456,
+            "width": 169,
+            "height": 244,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/8.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/8.png",
+            "origin": {
+              "x": 78,
+              "y": 241
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/8.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-8.png",
+            "sha256": "0ebdd46977a748a7240f9334aa5fc2882159732c6cd16db33052df4eb411380f",
+            "bytes": 22247,
+            "width": 163,
+            "height": 243,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/9.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/9.png",
+            "origin": {
+              "x": 78,
+              "y": 240
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/9.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-9.png",
+            "sha256": "7abaa4db6df31a6c2e08fe038d2ef7e98f5433dad32abdbd29240cd035a02861",
+            "bytes": 22079,
+            "width": 152,
+            "height": 242,
+            "groundOffsetY": 1
+          },
+          {
+            "_path": "Npc/2052026/stand/10.png",
+            "cdn_url": "https://resource-static.msu.io/data/Npc/2052026/stand/10.png",
+            "origin": {
+              "x": 78,
+              "y": 234
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/10.png",
+            "localPath": "assets/msu/rescue-run/npc-2052026-stand-10.png",
+            "sha256": "fa1e412a5c9da0cadafaea9916783d054f888dee3fc4a7fa1585015094243c22",
+            "bytes": 21160,
+            "width": 146,
+            "height": 236,
+            "groundOffsetY": 1
+          }
+        ]
+      }
+    }
+  ],
+  "reviewCandidates": [
+    {
+      "id": "9000125",
+      "sourceName": "School Bus",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/9000125/stand/0.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-9000125.png",
+      "sha256": "e82b8147aeb6ee659bab21a621bc8794d54c469d7f0df503e191980b5be2e8ed",
+      "bytes": 5504,
+      "width": 90,
+      "height": 98,
+      "decision": "rejected",
+      "reason": "Catalog name says School Bus but actual art is a narrow yellow taxi, not a bus.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "2450022",
+      "sourceName": "Auto Taxi",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/2450022/stand/0.png",
+      "localPath": "assets/msu/rescue-run/npc-2450022-stand-0.png",
+      "sha256": "066559b62288ceee5297d73413a31694923b3fc891cf5e42b01e73ffd4fe159f",
+      "bytes": 5158,
+      "width": 92,
+      "height": 97,
+      "decision": "selected",
+      "reason": "Requested Auto Taxi resource; intact yellow taxi with passenger cabin and wheels.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "9001031",
+      "sourceName": "Male Resident",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/9001031/stand/0.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-9001031.png",
+      "sha256": "40a9a2da2389b89a42bc07d88e3b68145e2bd82304b23ed57ebab7d54cd80ea8",
+      "bytes": 3054,
+      "width": 50,
+      "height": 76,
+      "decision": "selected",
+      "reason": "Brown-haired civilian in glasses and a light shirt.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "9001032",
+      "sourceName": "Female Resident",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/9001032/stand/0.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-9001032.png",
+      "sha256": "f4b513b69f500ad361a62d1ce856e1126f20e8b93ec20bf31008917958c773ea",
+      "bytes": 3415,
+      "width": 53,
+      "height": 67,
+      "decision": "selected",
+      "reason": "Blonde civilian in yellow with glasses.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "1531033",
+      "sourceName": "Young",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/1531033/info/default.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-1531033.png",
+      "sha256": "9c018108ae29f7f9f200535994da6b0b8d4d5840932a9e1ac464e83f20142497",
+      "bytes": 3739,
+      "width": 54,
+      "height": 68,
+      "decision": "rejected",
+      "reason": "Viewed gray-haired NPC in dark clothes; stronger silhouette separation selected instead.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "1531032",
+      "sourceName": "Jin",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/1531032/info/default.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-1531032.png",
+      "sha256": "02f2fd5bc1eab11746b8816d454e4dc2418ab31efc1c11b339913c0fbbd51cb0",
+      "bytes": 2950,
+      "width": 44,
+      "height": 72,
+      "decision": "selected",
+      "reason": "Dark-haired NPC in school uniform; kept as original Jin.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "1531007",
+      "sourceName": "Jay",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/1531007/info/default.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-1531007.png",
+      "sha256": "361bb64f89515906550959c466ce1ba536c751caf32d8a50b52e23e0991f6499",
+      "bytes": 4846,
+      "width": 60,
+      "height": 100,
+      "decision": "rejected",
+      "reason": "Viewed tall chair-bound silhouette; not selected for walking evacuees.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    },
+    {
+      "id": "2052026",
+      "sourceName": "Intergalactic Transmitter",
+      "sourceUrl": "https://resource-static.msu.io/data/Npc/2052026/stand/0.png",
+      "localPath": "assets/msu/rescue-run/candidate-npc-2052026.png",
+      "sha256": "19330a775c27e603e7067824f1ee1473e9b078e088ea72404ebb7d7255ac1c7e",
+      "bytes": 20781,
+      "width": 146,
+      "height": 236,
+      "decision": "selected",
+      "reason": "Blue-domed tripod transmitter with red aerial.",
+      "inspection": "Original PNG viewed with view_image, not a browser playtest."
+    }
+  ],
+  "renderNotes": [
+    "Sprites retain their source origin, aspect ratio, palette and character identity; no composited or generated characters.",
+    "groundOffsetY is derived from inspected opaque bottom bounds minus original origin.y. It places feet, wheels and transmitter legs on projected ground.",
+    "render.height/referenceHeight is a fixed scale across each record animation, multiplied by projectBody scale; frames do not change scale mid-animation.",
+    "The rescue state field van uses the intact Auto Taxi resource; source-facing left is preserved for arrival and mirrored only for departure."
+  ]
+}

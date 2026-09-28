@@ -1,0 +1,233 @@
+{
+	"ani" : 
+	{
+		"0" : 
+		{
+			"0" : 
+			{
+				"_hash" : "068926faa6de873dc89028b0525334b2aa80e383278aaf286800220831aa84b9",
+				"_path" : "Map/Back/sunsetCity/ani/0/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 194,
+					"y" : 242
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/0/0",
+				"_path" : "Map/Back/sunsetCity/ani/0/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 194,
+					"y" : 242
+				},
+				"z" : 0
+			}
+		},
+		"1" : 
+		{
+			"0" : 
+			{
+				"_hash" : "508f495a84cc254f5c80a400332e9d63fd5a019fe2be90d996bae77d9f17b758",
+				"_path" : "Map/Back/sunsetCity/ani/1/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 212,
+					"y" : 253
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/1/0",
+				"_path" : "Map/Back/sunsetCity/ani/1/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 212,
+					"y" : 253
+				},
+				"z" : 0
+			}
+		},
+		"2" : 
+		{
+			"0" : 
+			{
+				"_hash" : "8c34d55b86efb57a43c9aa923245d9197b396a7b7af59796975109273c02fd31",
+				"_path" : "Map/Back/sunsetCity/ani/2/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 277,
+					"y" : 309
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/2/0",
+				"_path" : "Map/Back/sunsetCity/ani/2/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 277,
+					"y" : 309
+				},
+				"z" : 0
+			}
+		},
+		"3" : 
+		{
+			"0" : 
+			{
+				"_hash" : "68173fe6aad8f68d805d67f08bf1a731de6b3f2f91a77c5c9f68d3d058b7ef1f",
+				"_path" : "Map/Back/sunsetCity/ani/3/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 188,
+					"y" : 221
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/3/0",
+				"_path" : "Map/Back/sunsetCity/ani/3/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 188,
+					"y" : 221
+				},
+				"z" : 0
+			}
+		},
+		"4" : 
+		{
+			"0" : 
+			{
+				"_hash" : "2543c35d840c849d0feff81f7c338dd7a8e4c13c1625face7dbfee954caf9d32",
+				"_path" : "Map/Back/sunsetCity/ani/4/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 264,
+					"y" : 329
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/4/0",
+				"_path" : "Map/Back/sunsetCity/ani/4/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 264,
+					"y" : 329
+				},
+				"z" : 0
+			}
+		},
+		"5" : 
+		{
+			"0" : 
+			{
+				"_hash" : "f3267f7728160071ef2a5e42fe895c565eec187ca6783606f31d948f668d51d4",
+				"_path" : "Map/Back/sunsetCity/ani/5/0.png",
+				"a0" : 255,
+				"a1" : 170,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 258,
+					"y" : 361
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/sunsetCity.img",
+				"_inlink" : "ani/5/0",
+				"_path" : "Map/Back/sunsetCity/ani/5/0.png",
+				"a0" : 170,
+				"a1" : 255,
+				"delay" : 4000,
+				"origin" : 
+				{
+					"x" : 258,
+					"y" : 361
+				},
+				"z" : 0
+			}
+		}
+	},
+	"back" : 
+	{
+		"0" : 
+		{
+			"_hash" : "dbc7919f597eeabe35b4fd2116f4cb0b341163d77823ca85b72599a65afa147f",
+			"_path" : "Map/Back/sunsetCity/back/0.png",
+			"origin" : 
+			{
+				"x" : 450,
+				"y" : 399
+			},
+			"z" : 0
+		},
+		"1" : 
+		{
+			"_hash" : "d6836583e0f992f7facab3a18b52296ff18f1715698b35675340926580107b5f",
+			"_path" : "Map/Back/sunsetCity/back/1.png",
+			"origin" : 
+			{
+				"x" : 144,
+				"y" : 227
+			},
+			"z" : 0
+		},
+		"2" : 
+		{
+			"_hash" : "6a601bb69e8348703a2ccde7eb047dc764b0571bcd6f78be0177a95b1c8e427f",
+			"_path" : "Map/Back/sunsetCity/back/2.png",
+			"origin" : 
+			{
+				"x" : 540,
+				"y" : 331
+			},
+			"z" : -1
+		}
+	}
+}

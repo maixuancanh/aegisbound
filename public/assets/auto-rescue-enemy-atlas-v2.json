@@ -1,0 +1,7 @@
+{
+  "enemies": {
+    "heavy": { "image": "auto-rescue-heavy-enemy-v2.png", "size": { "w": 1536, "h": 1024 }, "frames": { "advance": { "x": 20, "y": 50, "w": 673, "h": 877 }, "attack": { "x": 790, "y": 68, "w": 741, "h": 855 } } },
+    "rogue": { "image": "auto-rescue-rogue-enemy-v2.png", "size": { "w": 1774, "h": 887 }, "frames": { "advance": { "x": 82, "y": 114, "w": 693, "h": 693 }, "attack": { "x": 975, "y": 86, "w": 731, "h": 721 } } },
+    "beast": { "image": "auto-rescue-beast-enemy-v2.png", "size": { "w": 1774, "h": 887 }, "frames": { "advance": { "x": 48, "y": 194, "w": 705, "h": 527 }, "attack": { "x": 931, "y": 232, "w": 817, "h": 503 } } }
+  }
+}

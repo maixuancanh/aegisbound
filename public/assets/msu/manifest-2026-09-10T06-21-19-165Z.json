@@ -1,0 +1,1420 @@
+{
+  "version": 1,
+  "source": "https://resource-search.msu.io/",
+  "game": "kinesis-borrowed-shelter",
+  "generatedAt": "2026-09-10T06:21:19.165Z",
+  "releaseReady": false,
+  "testing": "Not run at user request",
+  "records": [
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kerning-octopus",
+      "category": "mob",
+      "id": "1120100",
+      "name": "Octopus",
+      "query": "Octopus",
+      "sound": true,
+      "use": "enemy-spitter-and-captured-cover",
+      "acquiredAt": "2026-09-10T06:21:09.331Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {
+        "die1": [
+          {
+            "_path": "Mob/1120100/die1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/die1/0.png",
+            "delay": 180,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "origin": {
+              "x": 36,
+              "y": 72
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/die1/0.png",
+            "localPath": "assets/msu/files/9e725c70584b30e686c6b903.png",
+            "sha256": "15af0c29917bd5c932d7819d1a2d9b5636c3fbdcedf28e56612884417596cf33",
+            "bytes": 2214,
+            "width": 66,
+            "height": 70
+          },
+          {
+            "_path": "Mob/1120100/die1/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/die1/1.png",
+            "delay": 180,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "origin": {
+              "x": 36,
+              "y": 72
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/die1/1.png",
+            "localPath": "assets/msu/files/ce9f6ce978c86828d8a3aaab.png",
+            "sha256": "b51f35f81daa3cdb065f4dfb57cee2686b63aedffe519de99f2aba3351373190",
+            "bytes": 2302,
+            "width": 65,
+            "height": 72
+          },
+          {
+            "_path": "Mob/1120100/die1/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/die1/2.png",
+            "delay": 180,
+            "head": {
+              "x": -4,
+              "y": -62
+            },
+            "origin": {
+              "x": 38,
+              "y": 68
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/die1/2.png",
+            "localPath": "assets/msu/files/86457045a84cbb268a3b2745.png",
+            "sha256": "0caef2b2d95b0e3e38d6bc0dc454c7e73f183d9ca520f616d6e80c3d10771183",
+            "bytes": 2526,
+            "width": 67,
+            "height": 68
+          },
+          {
+            "_path": "Mob/1120100/die1/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/die1/3.png",
+            "delay": 300,
+            "head": {
+              "x": -22,
+              "y": -47
+            },
+            "origin": {
+              "x": 49,
+              "y": 57
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/die1/3.png",
+            "localPath": "assets/msu/files/5919573714c4d85ed901b1c5.png",
+            "sha256": "cc68f564c05c2818090e181509080fdc4608bbd77d457bac4fc5616fa8ee145a",
+            "bytes": 2535,
+            "width": 89,
+            "height": 57
+          }
+        ],
+        "hit1": [
+          {
+            "_path": "Mob/1120100/hit1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/hit1/0.png",
+            "delay": 300,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -38,
+              "y": -73
+            },
+            "origin": {
+              "x": 38,
+              "y": 73
+            },
+            "rb": {
+              "x": 36,
+              "y": 7
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/hit1/0.png",
+            "localPath": "assets/msu/files/925330f0720e3e5749970603.png",
+            "sha256": "072c831a920ba8f0eaf8f965a2d8b95f610aea75eebf0c93d90e56dda5c5d59c",
+            "bytes": 2128,
+            "width": 74,
+            "height": 80
+          }
+        ],
+        "move": [
+          {
+            "_path": "Mob/1120100/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/0.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -31,
+              "y": -69
+            },
+            "origin": {
+              "x": 31,
+              "y": 69
+            },
+            "rb": {
+              "x": 31,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/0.png",
+            "localPath": "assets/msu/files/e275cecf98aa99abea394f72.png",
+            "sha256": "97a95fbcec600d94ac37fb47bc122f1d1b6065759f543990cf87c3bcbd2dc9c9",
+            "bytes": 2029,
+            "width": 62,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/1.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -33,
+              "y": -69
+            },
+            "origin": {
+              "x": 33,
+              "y": 69
+            },
+            "rb": {
+              "x": 29,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/1.png",
+            "localPath": "assets/msu/files/0745436982e167b1f636b39d.png",
+            "sha256": "679b529e6d8eb22c55621376ed2fdc95ba0245f7a76772086f7c4dff05f8921d",
+            "bytes": 2103,
+            "width": 62,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/2.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -34,
+              "y": -70
+            },
+            "origin": {
+              "x": 34,
+              "y": 70
+            },
+            "rb": {
+              "x": 31,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/2.png",
+            "localPath": "assets/msu/files/082afd418d06609b0a3df7ce.png",
+            "sha256": "c99508d20337980274ec372e89ea76628382daa8a7c771c48416826d06bd8679",
+            "bytes": 2082,
+            "width": 65,
+            "height": 70
+          },
+          {
+            "_path": "Mob/1120100/stand/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/3.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -36,
+              "y": -69
+            },
+            "origin": {
+              "x": 36,
+              "y": 69
+            },
+            "rb": {
+              "x": 30,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/3.png",
+            "localPath": "assets/msu/files/45882ffaaeb41ab22f18aac4.png",
+            "sha256": "9e40893aa8a1bf11799c2149ad075cb406c94a2eedaf60ed64ff6ca1d74b6852",
+            "bytes": 2254,
+            "width": 66,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/4.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -35,
+              "y": -69
+            },
+            "origin": {
+              "x": 35,
+              "y": 69
+            },
+            "rb": {
+              "x": 29,
+              "y": 1
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/4.png",
+            "localPath": "assets/msu/files/f711163b20ea91b91a5abf44.png",
+            "sha256": "d7d16cb2db4282eee59896d2802d402fbc1d68e3910ae2cf14b0d9967d7ca21d",
+            "bytes": 2061,
+            "width": 64,
+            "height": 70
+          }
+        ],
+        "stand": [
+          {
+            "_path": "Mob/1120100/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/0.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -31,
+              "y": -69
+            },
+            "origin": {
+              "x": 31,
+              "y": 69
+            },
+            "rb": {
+              "x": 31,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/0.png",
+            "localPath": "assets/msu/files/e275cecf98aa99abea394f72.png",
+            "sha256": "97a95fbcec600d94ac37fb47bc122f1d1b6065759f543990cf87c3bcbd2dc9c9",
+            "bytes": 2029,
+            "width": 62,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/1.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -33,
+              "y": -69
+            },
+            "origin": {
+              "x": 33,
+              "y": 69
+            },
+            "rb": {
+              "x": 29,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/1.png",
+            "localPath": "assets/msu/files/0745436982e167b1f636b39d.png",
+            "sha256": "679b529e6d8eb22c55621376ed2fdc95ba0245f7a76772086f7c4dff05f8921d",
+            "bytes": 2103,
+            "width": 62,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/2.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -34,
+              "y": -70
+            },
+            "origin": {
+              "x": 34,
+              "y": 70
+            },
+            "rb": {
+              "x": 31,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/2.png",
+            "localPath": "assets/msu/files/082afd418d06609b0a3df7ce.png",
+            "sha256": "c99508d20337980274ec372e89ea76628382daa8a7c771c48416826d06bd8679",
+            "bytes": 2082,
+            "width": 65,
+            "height": 70
+          },
+          {
+            "_path": "Mob/1120100/stand/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/3.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -36,
+              "y": -69
+            },
+            "origin": {
+              "x": 36,
+              "y": 69
+            },
+            "rb": {
+              "x": 30,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/3.png",
+            "localPath": "assets/msu/files/45882ffaaeb41ab22f18aac4.png",
+            "sha256": "9e40893aa8a1bf11799c2149ad075cb406c94a2eedaf60ed64ff6ca1d74b6852",
+            "bytes": 2254,
+            "width": 66,
+            "height": 69
+          },
+          {
+            "_path": "Mob/1120100/stand/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1120100/stand/4.png",
+            "delay": 120,
+            "head": {
+              "x": -4,
+              "y": -64
+            },
+            "lt": {
+              "x": -35,
+              "y": -69
+            },
+            "origin": {
+              "x": 35,
+              "y": 69
+            },
+            "rb": {
+              "x": 29,
+              "y": 1
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1120100/stand/4.png",
+            "localPath": "assets/msu/files/f711163b20ea91b91a5abf44.png",
+            "sha256": "d7d16cb2db4282eee59896d2802d402fbc1d68e3910ae2cf14b0d9967d7ca21d",
+            "bytes": 2061,
+            "width": 64,
+            "height": 70
+          }
+        ]
+      },
+      "sounds": {
+        "Damage": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/0100100/Damage.mp3",
+          "localPath": "assets/msu/files/8de6d2da550da2f8908788c6.mp3",
+          "sha256": "7f4d92a0e0392e9dde1b9242d737a156157948284489bc41cb24ae1c5169481b",
+          "bytes": 936
+        },
+        "Die": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/1120100/Die.mp3",
+          "localPath": "assets/msu/files/0557a6a650de22bee8ee54b9.mp3",
+          "sha256": "271c3a312afc89d904ccff95534ed0091ea6840f994130c337e095a7ee3bc842",
+          "bytes": 5070
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=1120100&category=mob&limit=5",
+      "sourceName": "Octopus",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=mob&id=1120100",
+      "availableActions": [
+        {
+          "name": "die1",
+          "frames": 4
+        },
+        {
+          "name": "hit1",
+          "frames": 1
+        },
+        {
+          "name": "move",
+          "frames": 5
+        },
+        {
+          "name": "stand",
+          "frames": 5
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=mob&id=1120100"
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kerning-necki",
+      "category": "mob",
+      "id": "2130103",
+      "name": "Jr. Necki",
+      "query": "Jr. Necki",
+      "sound": true,
+      "use": "enemy-warden-and-captured-cover",
+      "acquiredAt": "2026-09-10T06:21:12.286Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {
+        "die1": [
+          {
+            "_path": "Mob/2130103/die1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/die1/0.png",
+            "delay": 300,
+            "head": {
+              "x": -6,
+              "y": -29
+            },
+            "origin": {
+              "x": 14,
+              "y": 29
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/die1/0.png",
+            "localPath": "assets/msu/files/afb5553df264f96a858e414f.png",
+            "sha256": "e20fc3bd1ac829c4d8bd9d1c8a6180b129fc8fd8e79571f181525577236b756a",
+            "bytes": 644,
+            "width": 28,
+            "height": 29
+          },
+          {
+            "_path": "Mob/2130103/die1/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/die1/1.png",
+            "delay": 150,
+            "head": {
+              "x": -17,
+              "y": -12
+            },
+            "origin": {
+              "x": 23,
+              "y": 32
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/die1/1.png",
+            "localPath": "assets/msu/files/413cdfd48b78c9bc9e9f46c8.png",
+            "sha256": "6c4750e8df32bd7673cf192f64b4e7ed5bb37a69d7e167a93d9e21ec6cb42ef9",
+            "bytes": 1349,
+            "width": 46,
+            "height": 32
+          },
+          {
+            "_path": "Mob/2130103/die1/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/die1/2.png",
+            "delay": 500,
+            "head": {
+              "x": -17,
+              "y": -12
+            },
+            "origin": {
+              "x": 23,
+              "y": 18
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/die1/2.png",
+            "localPath": "assets/msu/files/a1e1988c96f0be891596ce9a.png",
+            "sha256": "495a070f0d1f3a3f23b5a6f679f914665facd776b395cee3de26c4d6743e4ec7",
+            "bytes": 632,
+            "width": 46,
+            "height": 18
+          }
+        ],
+        "hit1": [
+          {
+            "_path": "Mob/2130103/hit1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/hit1/0.png",
+            "delay": 300,
+            "head": {
+              "x": 6,
+              "y": -29
+            },
+            "lt": {
+              "x": -11,
+              "y": -37
+            },
+            "origin": {
+              "x": 11,
+              "y": 37
+            },
+            "rb": {
+              "x": 11,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/hit1/0.png",
+            "localPath": "assets/msu/files/ee81871f039de4500505b3d2.png",
+            "sha256": "9fea3b8c977edf65b2c2e88f68864c555bb9cb47a470189360b6463cd35cd2ce",
+            "bytes": 636,
+            "width": 22,
+            "height": 37
+          }
+        ],
+        "move": [
+          {
+            "_path": "Mob/2130103/move/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/move/0.png",
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -15,
+              "y": -28
+            },
+            "origin": {
+              "x": 15,
+              "y": 28
+            },
+            "rb": {
+              "x": 16,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/move/0.png",
+            "localPath": "assets/msu/files/3bdb0c736b83d65bc35e0428.png",
+            "sha256": "09c86baf2f24038f6adf1233cbf202416c75dc224fe216180eabbfaccc19547c",
+            "bytes": 569,
+            "width": 31,
+            "height": 28
+          },
+          {
+            "_path": "Mob/2130103/move/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/move/1.png",
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -15,
+              "y": -28
+            },
+            "origin": {
+              "x": 16,
+              "y": 28
+            },
+            "rb": {
+              "x": 16,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/move/1.png",
+            "localPath": "assets/msu/files/14125cd12c56c07b79c466ae.png",
+            "sha256": "ac68cf4170481c34cba47361e0b37ad562eb0752135bb10dacdfd11de51051ff",
+            "bytes": 567,
+            "width": 33,
+            "height": 28
+          },
+          {
+            "_path": "Mob/2130103/move/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/move/2.png",
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -15,
+              "y": -28
+            },
+            "origin": {
+              "x": 14,
+              "y": 28
+            },
+            "rb": {
+              "x": 16,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/move/2.png",
+            "localPath": "assets/msu/files/c8a36c2417239f24c821a184.png",
+            "sha256": "a72bb9018ede87672f5a10b3b96e8e207181d1fde4f34a4924090312c97bbea4",
+            "bytes": 582,
+            "width": 28,
+            "height": 28
+          }
+        ],
+        "stand": [
+          {
+            "_path": "Mob/2130103/move/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/move/2.png",
+            "delay": 500,
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -14,
+              "y": -28
+            },
+            "origin": {
+              "x": 14,
+              "y": 28
+            },
+            "rb": {
+              "x": 14,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/move/2.png",
+            "localPath": "assets/msu/files/c8a36c2417239f24c821a184.png",
+            "sha256": "a72bb9018ede87672f5a10b3b96e8e207181d1fde4f34a4924090312c97bbea4",
+            "bytes": 582,
+            "width": 28,
+            "height": 28
+          },
+          {
+            "_path": "Mob/2130103/stand/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/stand/1.png",
+            "delay": 150,
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -15,
+              "y": -28
+            },
+            "origin": {
+              "x": 15,
+              "y": 28
+            },
+            "rb": {
+              "x": 16,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/stand/1.png",
+            "localPath": "assets/msu/files/4943eafc0f80d4a4d3e6dcfb.png",
+            "sha256": "d31e1469e579f62444ea6b36508e4ae60c9d56e0a7030eb1baae18d8d068134d",
+            "bytes": 590,
+            "width": 31,
+            "height": 28
+          },
+          {
+            "_path": "Mob/2130103/stand/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2130103/stand/2.png",
+            "delay": 80,
+            "head": {
+              "x": -6,
+              "y": -26
+            },
+            "lt": {
+              "x": -15,
+              "y": -28
+            },
+            "origin": {
+              "x": 15,
+              "y": 28
+            },
+            "rb": {
+              "x": 16,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2130103/stand/2.png",
+            "localPath": "assets/msu/files/64cbf27640413df6af0d5644.png",
+            "sha256": "1d1b3ee764dfb38d51a7a9fcfaecb2bfb820712993b270d8d5e44e31c4e399d6",
+            "bytes": 603,
+            "width": 31,
+            "height": 28
+          }
+        ]
+      },
+      "sounds": {
+        "Damage": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/0100100/Damage.mp3",
+          "localPath": "assets/msu/files/8de6d2da550da2f8908788c6.mp3",
+          "sha256": "7f4d92a0e0392e9dde1b9242d737a156157948284489bc41cb24ae1c5169481b",
+          "bytes": 936
+        },
+        "Die": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/2130103/Die.mp3",
+          "localPath": "assets/msu/files/824174c2fc813cd963acd928.mp3",
+          "sha256": "65d2f028a02343641a8c24ab8f4793d708976d9ef0ec46d2c36de44ae7210093",
+          "bytes": 3588
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=2130103&category=mob&limit=5",
+      "sourceName": "Jr. Necki",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=mob&id=2130103",
+      "availableActions": [
+        {
+          "name": "die1",
+          "frames": 3
+        },
+        {
+          "name": "hit1",
+          "frames": 1
+        },
+        {
+          "name": "move",
+          "frames": 3
+        },
+        {
+          "name": "stand",
+          "frames": 3
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=mob&id=2130103"
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kerning-bubbling",
+      "category": "mob",
+      "id": "1210103",
+      "name": "Bubbling",
+      "query": "Bubbling",
+      "sound": true,
+      "use": "enemy-drifter-and-captured-cover",
+      "acquiredAt": "2026-09-10T06:21:13.718Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {
+        "die1": [
+          {
+            "_path": "Mob/1210103/die1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/die1/0.png",
+            "delay": 180,
+            "head": {
+              "x": -5,
+              "y": -24
+            },
+            "origin": {
+              "x": 26,
+              "y": 65
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/die1/0.png",
+            "localPath": "assets/msu/files/83e8f28871d49beccc102805.png",
+            "sha256": "82ee7730003219ad72f1599042170cce9c25bd179346fb02ba01f1bcc26e8c0b",
+            "bytes": 1741,
+            "width": 63,
+            "height": 65
+          },
+          {
+            "_path": "Mob/1210103/die1/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/die1/1.png",
+            "delay": 180,
+            "head": {
+              "x": -5,
+              "y": -15
+            },
+            "origin": {
+              "x": 30,
+              "y": 63
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/die1/1.png",
+            "localPath": "assets/msu/files/5f09283ac77a57b6246a7e8f.png",
+            "sha256": "587d8540215fabbf7e7f2d36b21e984343f6e96b1ba7a3bfc9893ac766996e2f",
+            "bytes": 1298,
+            "width": 56,
+            "height": 63
+          },
+          {
+            "_path": "Mob/1210103/die1/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/die1/2.png",
+            "delay": 180,
+            "head": {
+              "x": -5,
+              "y": -15
+            },
+            "origin": {
+              "x": 26,
+              "y": 57
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/die1/2.png",
+            "localPath": "assets/msu/files/e924a65b3be7a324285efecf.png",
+            "sha256": "f4789b0309e5c71068ae5834c49c6beaae150697fd8976755ad1d9fbc587dce0",
+            "bytes": 838,
+            "width": 49,
+            "height": 57
+          },
+          {
+            "_path": "Mob/1210103/die1/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/die1/3.png",
+            "delay": 300,
+            "head": {
+              "x": -5,
+              "y": -15
+            },
+            "origin": {
+              "x": 14,
+              "y": 44
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/die1/3.png",
+            "localPath": "assets/msu/files/edfc406fbf497396802df7d2.png",
+            "sha256": "690f5a11bee5a5543a20edc2d9c26a4c0c198c44b157c30ce747fad795c41922",
+            "bytes": 522,
+            "width": 31,
+            "height": 44
+          }
+        ],
+        "hit1": [
+          {
+            "_path": "Mob/1210103/hit1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/hit1/0.png",
+            "delay": 300,
+            "head": {
+              "x": -2,
+              "y": -46
+            },
+            "lt": {
+              "x": -23,
+              "y": -46
+            },
+            "origin": {
+              "x": 23,
+              "y": 66
+            },
+            "rb": {
+              "x": 26,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/hit1/0.png",
+            "localPath": "assets/msu/files/1b94494de328cfe83972fd88.png",
+            "sha256": "339b6e3ca6c359027b15cdbd1dbb495aac9d96774bb0ae7eb002a0c8e036cc10",
+            "bytes": 2115,
+            "width": 68,
+            "height": 66
+          }
+        ],
+        "jump": [
+          {
+            "_path": "Mob/1210103/move/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/3.png",
+            "delay": "150",
+            "head": {
+              "x": -4,
+              "y": -49
+            },
+            "lt": {
+              "x": -27,
+              "y": -49
+            },
+            "origin": {
+              "x": 27,
+              "y": 54
+            },
+            "rb": {
+              "x": 19,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/3.png",
+            "localPath": "assets/msu/files/269e1e4363afd14780f54917.png",
+            "sha256": "398f040b0f066d3418c67ca002b5f05143ec5f2a00e82ba4941bebdc338066d3",
+            "bytes": 2067,
+            "width": 66,
+            "height": 67
+          }
+        ],
+        "move": [
+          {
+            "_path": "Mob/1210103/move/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/0.png",
+            "delay": "200",
+            "head": {
+              "x": -4,
+              "y": -41
+            },
+            "lt": {
+              "x": -29,
+              "y": -41
+            },
+            "origin": {
+              "x": 29,
+              "y": 51
+            },
+            "rb": {
+              "x": 26,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/0.png",
+            "localPath": "assets/msu/files/ae21b195f7013fe9d87ed913.png",
+            "sha256": "3dea21d5ebea876197cc74c6b541c42c0e66fc38645807d36c6046f63a196cc9",
+            "bytes": 2041,
+            "width": 75,
+            "height": 51
+          },
+          {
+            "_path": "Mob/1210103/move/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/1.png",
+            "delay": "50",
+            "head": {
+              "x": -8,
+              "y": -40
+            },
+            "lt": {
+              "x": -31,
+              "y": -40
+            },
+            "origin": {
+              "x": 31,
+              "y": 56
+            },
+            "rb": {
+              "x": 26,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/1.png",
+            "localPath": "assets/msu/files/3c3d5748ec2a6af9bf77f1c3.png",
+            "sha256": "cd5735a111ec69554c7b39222e8f0a0dd7a284050d65e0bb58f205b8da28a55f",
+            "bytes": 2006,
+            "width": 62,
+            "height": 56
+          },
+          {
+            "_path": "Mob/1210103/move/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/2.png",
+            "delay": "150",
+            "head": {
+              "x": -4,
+              "y": -66
+            },
+            "lt": {
+              "x": -27,
+              "y": -66
+            },
+            "origin": {
+              "x": 27,
+              "y": 71
+            },
+            "rb": {
+              "x": 19,
+              "y": -16
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/2.png",
+            "localPath": "assets/msu/files/3a96e1b17743e6ac2ecf2058.png",
+            "sha256": "6c369eeabe1dafd994bc7c5dfbebcbbb44176df51e0fe4b767b0178d665e4916",
+            "bytes": 2011,
+            "width": 58,
+            "height": 61
+          },
+          {
+            "_path": "Mob/1210103/move/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/3.png",
+            "delay": "150",
+            "head": {
+              "x": -4,
+              "y": -66
+            },
+            "lt": {
+              "x": -27,
+              "y": -66
+            },
+            "origin": {
+              "x": 27,
+              "y": 71
+            },
+            "rb": {
+              "x": 19,
+              "y": -17
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/3.png",
+            "localPath": "assets/msu/files/269e1e4363afd14780f54917.png",
+            "sha256": "398f040b0f066d3418c67ca002b5f05143ec5f2a00e82ba4941bebdc338066d3",
+            "bytes": 2067,
+            "width": 66,
+            "height": 67
+          },
+          {
+            "_path": "Mob/1210103/move/4.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/4.png",
+            "delay": "100",
+            "head": {
+              "x": -2,
+              "y": -55
+            },
+            "lt": {
+              "x": -27,
+              "y": -58
+            },
+            "origin": {
+              "x": 27,
+              "y": 95
+            },
+            "rb": {
+              "x": 21,
+              "y": -10
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/4.png",
+            "localPath": "assets/msu/files/246b3a344c0b06898ddd55f1.png",
+            "sha256": "465181c5e8ffdf53fb02358a60d2dece0caf13feb3fb8f31b25c7e0dca6697a6",
+            "bytes": 2074,
+            "width": 68,
+            "height": 87
+          },
+          {
+            "_path": "Mob/1210103/move/5.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/5.png",
+            "delay": "100",
+            "head": {
+              "x": 6,
+              "y": -42
+            },
+            "lt": {
+              "x": -28,
+              "y": -42
+            },
+            "origin": {
+              "x": 28,
+              "y": 75
+            },
+            "rb": {
+              "x": 25,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/5.png",
+            "localPath": "assets/msu/files/fb551a3e791cd2f81974e88a.png",
+            "sha256": "1eb187ec3eb978f32d2b3726f51dc5f8c077b03dda6100a2ad0bac009d2f4b14",
+            "bytes": 2030,
+            "width": 61,
+            "height": 75
+          },
+          {
+            "_path": "Mob/1210103/move/6.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/move/6.png",
+            "delay": "300",
+            "head": {
+              "x": 3,
+              "y": -43
+            },
+            "lt": {
+              "x": -27,
+              "y": -43
+            },
+            "origin": {
+              "x": 27,
+              "y": 46
+            },
+            "rb": {
+              "x": 24,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/move/6.png",
+            "localPath": "assets/msu/files/94a115c0bc77274bb95e0716.png",
+            "sha256": "21e88ab1ab46a38467626ee7ba3e73c96dccb075e1f592ab4a474d6961e913af",
+            "bytes": 1982,
+            "width": 65,
+            "height": 49
+          }
+        ],
+        "stand": [
+          {
+            "_path": "Mob/1210103/stand/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/stand/0.png",
+            "delay": "200",
+            "head": {
+              "x": 3,
+              "y": -43
+            },
+            "lt": {
+              "x": -27,
+              "y": -43
+            },
+            "origin": {
+              "x": 27,
+              "y": 49
+            },
+            "rb": {
+              "x": 24,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/stand/0.png",
+            "localPath": "assets/msu/files/84edc97c4b976ad17a4f6f59.png",
+            "sha256": "d2af84b7fb1bcdfdb3d18b4af2b3a46efc77aec80e81f4e0c56aa619fe0e8259",
+            "bytes": 1940,
+            "width": 69,
+            "height": 49
+          },
+          {
+            "_path": "Mob/1210103/stand/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/stand/1.png",
+            "delay": "300",
+            "head": {
+              "x": 3,
+              "y": -42
+            },
+            "lt": {
+              "x": -28,
+              "y": -42
+            },
+            "origin": {
+              "x": 28,
+              "y": 49
+            },
+            "rb": {
+              "x": 24,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/stand/1.png",
+            "localPath": "assets/msu/files/c8e3ce8e90e407e4ebd6c6dd.png",
+            "sha256": "03fd694071c984bcb3b4c57cb275903632df89112f0a8de63f00eb5a1eadbd6b",
+            "bytes": 1971,
+            "width": 74,
+            "height": 49
+          },
+          {
+            "_path": "Mob/1210103/stand/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/1210103/stand/2.png",
+            "delay": "250",
+            "head": {
+              "x": 2,
+              "y": -44
+            },
+            "lt": {
+              "x": -26,
+              "y": -44
+            },
+            "origin": {
+              "x": 26,
+              "y": 50
+            },
+            "rb": {
+              "x": 23,
+              "y": 0
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/1210103/stand/2.png",
+            "localPath": "assets/msu/files/551cd9748294a668ba599ebc.png",
+            "sha256": "066ca75541599b9225a7226dbf9295e4a2991e67b017a123a73c018f3c90fbbd",
+            "bytes": 1976,
+            "width": 62,
+            "height": 50
+          }
+        ]
+      },
+      "sounds": {
+        "Damage": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/1210103/Damage.mp3",
+          "localPath": "assets/msu/files/d9fef90b951c0ff3d7e209d6.mp3",
+          "sha256": "e2cc0cb7bce93720af115bc51aaad93061daba3207900b1b26b3bf93b8b828cf",
+          "bytes": 1872
+        },
+        "Die": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/1210103/Die.mp3",
+          "localPath": "assets/msu/files/629018f1f4d6d426c2f1a69a.mp3",
+          "sha256": "afe2ec3ea04e364e50d56ae0817320836f2835401b6c2cd0214e8bff5c56c781",
+          "bytes": 702
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=1210103&category=mob&limit=5",
+      "sourceName": "Bubbling",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=mob&id=1210103",
+      "availableActions": [
+        {
+          "name": "die1",
+          "frames": 4
+        },
+        {
+          "name": "hit1",
+          "frames": 1
+        },
+        {
+          "name": "jump",
+          "frames": 1
+        },
+        {
+          "name": "move",
+          "frames": 7
+        },
+        {
+          "name": "stand",
+          "frames": 3
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=mob&id=1210103"
+    },
+    {
+      "game": "kinesis-borrowed-shelter",
+      "key": "kerning-stirge",
+      "category": "mob",
+      "id": "2300100",
+      "name": "Stirge",
+      "query": "Stirge",
+      "sound": true,
+      "use": "enemy-looper-and-captured-cover",
+      "acquiredAt": "2026-09-10T06:21:17.327Z",
+      "status": "acquired-not-integrated",
+      "visualAccepted": false,
+      "actions": {
+        "die1": [
+          {
+            "_path": "Mob/2300100/die1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/die1/0.png",
+            "delay": 130,
+            "head": {
+              "x": 1,
+              "y": -7
+            },
+            "origin": {
+              "x": 12,
+              "y": 67
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/die1/0.png",
+            "localPath": "assets/msu/files/6a6c70e56f81ec2bbb6cca42.png",
+            "sha256": "4f19d3c929985b9de799d6ca55b99cf219d914e2a0e8fa055778131b2bfdd8b0",
+            "bytes": 671,
+            "width": 24,
+            "height": 47
+          },
+          {
+            "_path": "Mob/2300100/die1/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/die1/1.png",
+            "delay": 130,
+            "head": {
+              "x": 1,
+              "y": -7
+            },
+            "origin": {
+              "x": 10,
+              "y": 67
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/die1/1.png",
+            "localPath": "assets/msu/files/6396ddc811d278df97d36f6a.png",
+            "sha256": "8555c8a0aa5fed03a26e7c6886ba6adf2477ea9158d8e63a0e6737f5eec5f4e5",
+            "bytes": 540,
+            "width": 21,
+            "height": 47
+          },
+          {
+            "_path": "Mob/2300100/die1/2.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/die1/2.png",
+            "delay": 130,
+            "head": {
+              "x": 1,
+              "y": -7
+            },
+            "origin": {
+              "x": 12,
+              "y": 67
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/die1/2.png",
+            "localPath": "assets/msu/files/52548c72bb610d0df23bb8f8.png",
+            "sha256": "673b6cc7b032d601a70e3f94a385a50f094a8634003b72fac5e13a20c2d647cd",
+            "bytes": 656,
+            "width": 24,
+            "height": 47
+          },
+          {
+            "_path": "Mob/2300100/die1/3.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/die1/3.png",
+            "delay": 300,
+            "head": {
+              "x": 1,
+              "y": -7
+            },
+            "origin": {
+              "x": 10,
+              "y": 67
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/die1/3.png",
+            "localPath": "assets/msu/files/2a67f755b1d62a4e37eb775e.png",
+            "sha256": "e796f83a03fa032aa76acb45b384d21c3f2c8c75a65310f6c95aab05f1c572a8",
+            "bytes": 421,
+            "width": 21,
+            "height": 47
+          }
+        ],
+        "fly": [
+          {
+            "_path": "Mob/2300100/fly/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/fly/0.png",
+            "delay": 150,
+            "head": {
+              "x": 1,
+              "y": -42
+            },
+            "lt": {
+              "x": -23,
+              "y": -50
+            },
+            "origin": {
+              "x": 23,
+              "y": 50
+            },
+            "rb": {
+              "x": 23,
+              "y": -20
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/fly/0.png",
+            "localPath": "assets/msu/files/c68cc816c3f91a41af746ae2.png",
+            "sha256": "1bd7c2ce5ae93d34ac47ea88bcec2ff057af236facb9cd97660099b6d4357ec9",
+            "bytes": 790,
+            "width": 46,
+            "height": 30
+          },
+          {
+            "_path": "Mob/2300100/fly/1.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/fly/1.png",
+            "delay": 150,
+            "head": {
+              "x": 1,
+              "y": -42
+            },
+            "lt": {
+              "x": -16,
+              "y": -62
+            },
+            "origin": {
+              "x": 16,
+              "y": 62
+            },
+            "rb": {
+              "x": 16,
+              "y": -19
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/fly/1.png",
+            "localPath": "assets/msu/files/af86eff150e0dac9f8f4ddd8.png",
+            "sha256": "13b8f2c75e3e58b9ea32b34d2a68859d766c17fe137b215facd12168c5225d1a",
+            "bytes": 762,
+            "width": 32,
+            "height": 43
+          }
+        ],
+        "hit1": [
+          {
+            "_path": "Mob/2300100/hit1/0.png",
+            "cdn_url": "https://resource-static.msu.io/data/Mob/2300100/hit1/0.png",
+            "delay": 300,
+            "head": {
+              "x": 1,
+              "y": -42
+            },
+            "lt": {
+              "x": -17,
+              "y": -62
+            },
+            "origin": {
+              "x": 17,
+              "y": 62
+            },
+            "rb": {
+              "x": 17,
+              "y": -18
+            },
+            "sourceUrl": "https://resource-static.msu.io/data/Mob/2300100/hit1/0.png",
+            "localPath": "assets/msu/files/1dc94d93773e965b54fcec59.png",
+            "sha256": "76210ce978cc79cb930836e35d1103be5cb126a56d878b10726f50fec7faa8d4",
+            "bytes": 758,
+            "width": 34,
+            "height": 44
+          }
+        ]
+      },
+      "sounds": {
+        "Damage": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/2300100/Damage.mp3",
+          "localPath": "assets/msu/files/5c58fd2eea3b32eed08d42c0.mp3",
+          "sha256": "56fa219e7fbe4b405dd3618167187b465df1aaab6924576676278b241f028de1",
+          "bytes": 1560
+        },
+        "Die": {
+          "sourceUrl": "https://resource-static.msu.io/data/Sound/Mob/2300100/Die.mp3",
+          "localPath": "assets/msu/files/0937fc83ca47dc4ba08157d1.mp3",
+          "sha256": "bc79fca43e22602120d40b3fd283924e9c9e5e2c4e2bdce7e506b6d77e3043ba",
+          "bytes": 1482
+        }
+      },
+      "discoveryUrl": "https://resource-search.msu.io/api/msn-proxy/api/search?q=2300100&category=mob&limit=5",
+      "sourceName": "Stirge",
+      "payloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sprite?category=mob&id=2300100",
+      "availableActions": [
+        {
+          "name": "die1",
+          "frames": 4
+        },
+        {
+          "name": "fly",
+          "frames": 2
+        },
+        {
+          "name": "hit1",
+          "frames": 1
+        }
+      ],
+      "soundPayloadUrl": "https://resource-search.msu.io/api/msn-proxy/api/sound?category=mob&id=2300100"
+    }
+  ],
+  "failures": []
+}

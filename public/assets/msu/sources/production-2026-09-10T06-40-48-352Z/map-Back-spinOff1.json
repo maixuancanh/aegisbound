@@ -1,0 +1,1471 @@
+{
+	"ani" : 
+	{
+		"0" : 
+		{
+			"0" : 
+			{
+				"_hash" : "23e33e47215cf9106d69766d630fc8810c69022674f4fbb909dc52a83c5e9c4c",
+				"_path" : "Map/Back/spinOff1/ani/0/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 900,
+				"origin" : 
+				{
+					"x" : 65,
+					"y" : 13
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/0/0",
+				"_path" : "Map/Back/spinOff1/ani/0/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 900,
+				"origin" : 
+				{
+					"x" : 65,
+					"y" : 13
+				},
+				"z" : 0
+			}
+		},
+		"1" : 
+		{
+			"0" : 
+			{
+				"_hash" : "407e77ad7421dd2c5e6682f64e86b6bb5986325d2ae1e40df48c227d495ff91e",
+				"_path" : "Map/Back/spinOff1/ani/1/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 900,
+				"origin" : 
+				{
+					"x" : 89,
+					"y" : 18
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/1/0",
+				"_path" : "Map/Back/spinOff1/ani/1/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 900,
+				"origin" : 
+				{
+					"x" : 89,
+					"y" : 18
+				},
+				"z" : 0
+			}
+		},
+		"10" : 
+		{
+			"0" : 
+			{
+				"_hash" : "eb4bcdd2206a0608a6205069b5e92c926b94d662791f9cb70e2432f1d3ad95f7",
+				"_path" : "Map/Back/spinOff1/ani/10/0.png",
+				"origin" : 
+				{
+					"x" : 146,
+					"y" : 68
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_hash" : "030d7511bd9990afc0e15340ea8ad4182641e8007e24358439bf4ba8bb1d7f14",
+				"_path" : "Map/Back/spinOff1/ani/10/1.png",
+				"origin" : 
+				{
+					"x" : 146,
+					"y" : 69
+				},
+				"z" : 0
+			}
+		},
+		"2" : 
+		{
+			"0" : 
+			{
+				"_hash" : "2f3b039c9711eb1deb16c333adb66a3ae188a3e311f67832d1f1ef6128c28a25",
+				"_path" : "Map/Back/spinOff1/ani/2/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 1200,
+				"origin" : 
+				{
+					"x" : 120,
+					"y" : 20
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/2/0",
+				"_path" : "Map/Back/spinOff1/ani/2/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 1200,
+				"origin" : 
+				{
+					"x" : 120,
+					"y" : 20
+				},
+				"z" : 0
+			}
+		},
+		"3" : 
+		{
+			"0" : 
+			{
+				"_hash" : "9120a62ff9deabeab0b671d682605bc48191ce4ea7c1f4030dedaaa2f18caf22",
+				"_path" : "Map/Back/spinOff1/ani/3/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 1080,
+				"origin" : 
+				{
+					"x" : 33,
+					"y" : 19
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/3/0",
+				"_path" : "Map/Back/spinOff1/ani/3/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 1080,
+				"origin" : 
+				{
+					"x" : 33,
+					"y" : 19
+				},
+				"z" : 0
+			}
+		},
+		"4" : 
+		{
+			"0" : 
+			{
+				"_hash" : "a9d3387ffcb064b890ba690b934143bdfa46c5159c050d3584d0576904de0ec5",
+				"_path" : "Map/Back/spinOff1/ani/4/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 720,
+				"origin" : 
+				{
+					"x" : 105,
+					"y" : 22
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/4/0",
+				"_path" : "Map/Back/spinOff1/ani/4/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 720,
+				"origin" : 
+				{
+					"x" : 105,
+					"y" : 22
+				},
+				"z" : 0
+			}
+		},
+		"5" : 
+		{
+			"0" : 
+			{
+				"_hash" : "f4a259f03d7cbda04b0a2a81d4f353d7a402069a3b545aa7b788f3fc4debb3ed",
+				"_path" : "Map/Back/spinOff1/ani/5/0.png",
+				"a0" : 200,
+				"a1" : 50,
+				"delay" : 1300,
+				"origin" : 
+				{
+					"x" : 154,
+					"y" : 15
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_filepath" : "Map/Back/spinOff1.img",
+				"_inlink" : "ani/5/0",
+				"_path" : "Map/Back/spinOff1/ani/5/0.png",
+				"a0" : 50,
+				"a1" : 200,
+				"delay" : 1300,
+				"origin" : 
+				{
+					"x" : 154,
+					"y" : 15
+				},
+				"z" : 0
+			}
+		},
+		"6" : 
+		{
+			"0" : 
+			{
+				"_hash" : "0264ee521124f9fbbbdd2d6fc8273047089bae2669667be12981773c51764d24",
+				"_path" : "Map/Back/spinOff1/ani/6/0.png",
+				"origin" : 
+				{
+					"x" : 218,
+					"y" : 94
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_hash" : "52e6be3e60cc008a59c4b6f424ba61332b64fb4fb5fda20e49d02c5efca0cec3",
+				"_path" : "Map/Back/spinOff1/ani/6/1.png",
+				"origin" : 
+				{
+					"x" : 218,
+					"y" : 93
+				},
+				"z" : 0
+			}
+		},
+		"7" : 
+		{
+			"0" : 
+			{
+				"_hash" : "9c8c0b7f44abf03a2fec7341b729c3bae85d45a6456b5c21363b278d9aad0609",
+				"_path" : "Map/Back/spinOff1/ani/7/0.png",
+				"origin" : 
+				{
+					"x" : 218,
+					"y" : 93
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_hash" : "f7a3f91caa07811231560f7f18e6c22bc57350355774e16137f56f38323062f6",
+				"_path" : "Map/Back/spinOff1/ani/7/1.png",
+				"origin" : 
+				{
+					"x" : 218,
+					"y" : 93
+				},
+				"z" : 0
+			}
+		},
+		"8" : 
+		{
+			"0" : 
+			{
+				"_hash" : "5cf22e2fd92c361f734f3b27f7041e54c82a1ec60fafb2567469351e4f12f299",
+				"_path" : "Map/Back/spinOff1/ani/8/0.png",
+				"origin" : 
+				{
+					"x" : 185,
+					"y" : 92
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_hash" : "6c40d909ee7b78b35a4e375b1488316a8fa14470fecdb2bcad4521b93e44fe77",
+				"_path" : "Map/Back/spinOff1/ani/8/1.png",
+				"origin" : 
+				{
+					"x" : 185,
+					"y" : 91
+				},
+				"z" : 0
+			}
+		},
+		"9" : 
+		{
+			"0" : 
+			{
+				"_hash" : "84ffa3484fdd95df221efb516ddfc946751e2593635bf22e36a1fb74d8bf8664",
+				"_path" : "Map/Back/spinOff1/ani/9/0.png",
+				"origin" : 
+				{
+					"x" : 146,
+					"y" : 68
+				},
+				"z" : 0
+			},
+			"1" : 
+			{
+				"_hash" : "972f0d35cfb48451f6bea5b45a7cbc34973f903dc2c9f21c9acc14e3a0bf6d59",
+				"_path" : "Map/Back/spinOff1/ani/9/1.png",
+				"origin" : 
+				{
+					"x" : 146,
+					"y" : 69
+				},
+				"z" : 0
+			}
+		}
+	},
+	"back" : 
+	{
+		"0" : 
+		{
+			"_hash" : "1eab886ffa7ed5c649d3f725fd4c3e4c3c37a5d22d75e7341e88ebf897aef8e0",
+			"_path" : "Map/Back/spinOff1/back/0.png",
+			"origin" : 
+			{
+				"x" : 338,
+				"y" : 183
+			},
+			"z" : 0
+		},
+		"1" : 
+		{
+			"_hash" : "89f336a3d5e9073c642944f1b3e4556c0600c9ab1bd573d5fdcb6c20d7cd0af6",
+			"_path" : "Map/Back/spinOff1/back/1.png",
+			"origin" : 
+			{
+				"x" : 276,
+				"y" : 71
+			},
+			"z" : 0
+		},
+		"10" : 
+		{
+			"_hash" : "2891d39b57aab92f5d78d051043cab42352234b56c0fca967536725b217443cb",
+			"_path" : "Map/Back/spinOff1/back/10.png",
+			"origin" : 
+			{
+				"x" : 318,
+				"y" : 108
+			},
+			"z" : 0
+		},
+		"100" : 
+		{
+			"_hash" : "cf9d65ab3df5a3a36ab2520de0788a4992b83cae401944f37e9840af26017b2d",
+			"_path" : "Map/Back/spinOff1/back/100.png",
+			"origin" : 
+			{
+				"x" : 993,
+				"y" : -25
+			},
+			"z" : 0
+		},
+		"101" : 
+		{
+			"_hash" : "5d4f63194171589ac94a2f9849ed33cdc4697265ee8f499c9e6e65c2db9da572",
+			"_path" : "Map/Back/spinOff1/back/101.png",
+			"origin" : 
+			{
+				"x" : 416,
+				"y" : -25
+			},
+			"z" : 0
+		},
+		"102" : 
+		{
+			"_hash" : "bd134966a8eeca179812e4e0717a143db87b3e6cde312bb2d5ef70b4aea9abcd",
+			"_path" : "Map/Back/spinOff1/back/102.png",
+			"origin" : 
+			{
+				"x" : -102,
+				"y" : -25
+			},
+			"z" : 0
+		},
+		"103" : 
+		{
+			"_hash" : "bc89e40a43fcf1c91078a458f26f90136df308223e12b1a84b77f723ae991cd2",
+			"_path" : "Map/Back/spinOff1/back/103.png",
+			"origin" : 
+			{
+				"x" : -592,
+				"y" : -25
+			},
+			"z" : 0
+		},
+		"11" : 
+		{
+			"_hash" : "cd703cb57f0e72a541214cc8eeb9ab399aee15666277095a27e4f16988838d97",
+			"_path" : "Map/Back/spinOff1/back/11.png",
+			"origin" : 
+			{
+				"x" : 155,
+				"y" : 101
+			},
+			"z" : 0
+		},
+		"12" : 
+		{
+			"_hash" : "7e6190e0db578ad0eff0c124e399df143e5cd812d6ebf2400d196abf39e47257",
+			"_path" : "Map/Back/spinOff1/back/12.png",
+			"origin" : 
+			{
+				"x" : 139,
+				"y" : 108
+			},
+			"z" : 0
+		},
+		"13" : 
+		{
+			"_hash" : "7725120ae89c9fcae025852a6ac95787697e92ca5957373bcbd2208e1a75532b",
+			"_path" : "Map/Back/spinOff1/back/13.png",
+			"origin" : 
+			{
+				"x" : 410,
+				"y" : 79
+			},
+			"z" : 0
+		},
+		"14" : 
+		{
+			"_hash" : "0667a8ec324df79ffe4b9cd3564b3d398f920bd7c01767574a1261f7ba4ca190",
+			"_path" : "Map/Back/spinOff1/back/14.png",
+			"origin" : 
+			{
+				"x" : 299,
+				"y" : 50
+			},
+			"z" : 0
+		},
+		"15" : 
+		{
+			"_hash" : "b07c9f972a8f8f91055c8dd23b0bf797684c28e961bc145ed9abbcca0aa44060",
+			"_path" : "Map/Back/spinOff1/back/15.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 34
+			},
+			"z" : 0
+		},
+		"16" : 
+		{
+			"_hash" : "6172056fa2a3d8ff5690d400e85ca060ffa2154e0b4ccf9a36d59942d88656b5",
+			"_path" : "Map/Back/spinOff1/back/16.png",
+			"origin" : 
+			{
+				"x" : 100,
+				"y" : 85
+			},
+			"z" : 0
+		},
+		"17" : 
+		{
+			"_hash" : "7c4f65cfd37df8cb1070a7730057ea559fa2094d6a0fe57516f80647fa1d1d3e",
+			"_path" : "Map/Back/spinOff1/back/17.png",
+			"origin" : 
+			{
+				"x" : 103,
+				"y" : 116
+			},
+			"z" : 0
+		},
+		"18" : 
+		{
+			"_hash" : "ec1f7bf0af90986b976d1367d1b190e2adb08cc14cda1511e3b1d301a3bdfde7",
+			"_path" : "Map/Back/spinOff1/back/18.png",
+			"origin" : 
+			{
+				"x" : 134,
+				"y" : 151
+			},
+			"z" : 0
+		},
+		"19" : 
+		{
+			"_hash" : "44fe9bb1658dce9746dddbba800204dc93621aaf5c9122053948625dd6a8651b",
+			"_path" : "Map/Back/spinOff1/back/19.png",
+			"origin" : 
+			{
+				"x" : 135,
+				"y" : 144
+			},
+			"z" : 0
+		},
+		"2" : 
+		{
+			"_hash" : "261109a2ec59aec35cbae053d27e56c37b244fc8a5cee8d1f759766e88a80719",
+			"_path" : "Map/Back/spinOff1/back/2.png",
+			"origin" : 
+			{
+				"x" : 328,
+				"y" : 82
+			},
+			"z" : 0
+		},
+		"20" : 
+		{
+			"_hash" : "fc9689b7efca44517429f7f751fc63001d3f3d287fe2b08ae7ee6d3eef4bfdd4",
+			"_path" : "Map/Back/spinOff1/back/20.png",
+			"origin" : 
+			{
+				"x" : 20,
+				"y" : 20
+			},
+			"z" : 0
+		},
+		"21" : 
+		{
+			"_hash" : "e0532de344b3d40085423f32517bcb3f852a09537b5f1e064ee53950f551b36d",
+			"_path" : "Map/Back/spinOff1/back/21.png",
+			"origin" : 
+			{
+				"x" : 5,
+				"y" : 376
+			},
+			"z" : 0
+		},
+		"22" : 
+		{
+			"_hash" : "1a5552533879133bb6994701e3761e2131ecdb476fb12fc34ab06dd159366cd4",
+			"_path" : "Map/Back/spinOff1/back/22.png",
+			"origin" : 
+			{
+				"x" : 390,
+				"y" : 154
+			},
+			"z" : 0
+		},
+		"23" : 
+		{
+			"_hash" : "1079ab47d00ff921584ec33b95106058599c4ab35a03d2db00bfbad12917e9f3",
+			"_path" : "Map/Back/spinOff1/back/23.png",
+			"origin" : 
+			{
+				"x" : 252,
+				"y" : 196
+			},
+			"z" : 0
+		},
+		"24" : 
+		{
+			"_hash" : "3891483308868830ac6a50c2dbeef192a0c715658e341d7f255619c3c39309e4",
+			"_path" : "Map/Back/spinOff1/back/24.png",
+			"origin" : 
+			{
+				"x" : 289,
+				"y" : 189
+			},
+			"z" : 0
+		},
+		"25" : 
+		{
+			"_hash" : "4e0000977ae62fd1a6837c178e3812a63a89abf83ad9234bff9aeece1301f3b9",
+			"_path" : "Map/Back/spinOff1/back/25.png",
+			"origin" : 
+			{
+				"x" : 393,
+				"y" : 189
+			},
+			"z" : 0
+		},
+		"26" : 
+		{
+			"_hash" : "30f75743bf846b40d381bb67f7ec32aeb330e8e4572ac71e4cefcd7b3b90a326",
+			"_path" : "Map/Back/spinOff1/back/26.png",
+			"origin" : 
+			{
+				"x" : 521,
+				"y" : 234
+			},
+			"z" : 0
+		},
+		"27" : 
+		{
+			"_hash" : "7620973d9d7c9da57d25ad700c3d81e15b0a5f133dce2ac3172e6267753d96bd",
+			"_path" : "Map/Back/spinOff1/back/27.png",
+			"origin" : 
+			{
+				"x" : 426,
+				"y" : 148
+			},
+			"z" : 0
+		},
+		"28" : 
+		{
+			"_hash" : "eacd79541e00e7129ac9306829337f4319bd4d88fe7d96a95bf6133b1e3c3d29",
+			"_path" : "Map/Back/spinOff1/back/28.png",
+			"origin" : 
+			{
+				"x" : 511,
+				"y" : 104
+			},
+			"z" : 0
+		},
+		"29" : 
+		{
+			"_hash" : "1fe087a7ac0a8ff5eeb5accda3d47e7fc94e5e02e9ba5f22237c1828721941bb",
+			"_path" : "Map/Back/spinOff1/back/29.png",
+			"origin" : 
+			{
+				"x" : 315,
+				"y" : 258
+			},
+			"z" : 0
+		},
+		"3" : 
+		{
+			"_hash" : "2541422df8eb9f1186cdacd06a4ef46a786203db058cb9634a2b1277cc0a9674",
+			"_path" : "Map/Back/spinOff1/back/3.png",
+			"origin" : 
+			{
+				"x" : 100,
+				"y" : 126
+			},
+			"z" : 0
+		},
+		"30" : 
+		{
+			"_hash" : "cb727d1d06717b427f576a91654cf2262729e1b0d807d0483a0ba16294ce0f74",
+			"_path" : "Map/Back/spinOff1/back/30.png",
+			"origin" : 
+			{
+				"x" : 600,
+				"y" : 169
+			},
+			"z" : 0
+		},
+		"31" : 
+		{
+			"_hash" : "3abb15adeba0e3d8953e69379e8544ec6dd08da07294a884352052ba4b88923d",
+			"_path" : "Map/Back/spinOff1/back/31.png",
+			"origin" : 
+			{
+				"x" : 111,
+				"y" : 169
+			},
+			"z" : 0
+		},
+		"32" : 
+		{
+			"_hash" : "f4334289213432a7197ff8e2488866fa8014b93c9430e8b9c32272b12382d289",
+			"_path" : "Map/Back/spinOff1/back/32.png",
+			"origin" : 
+			{
+				"x" : 82,
+				"y" : 138
+			},
+			"z" : 0
+		},
+		"33" : 
+		{
+			"_hash" : "37a1162d216e6f1b424256ce7b2cc075c780da9e2e63a7f4ff743a5b815fce85",
+			"_path" : "Map/Back/spinOff1/back/33.png",
+			"origin" : 
+			{
+				"x" : 74,
+				"y" : 126
+			},
+			"z" : 0
+		},
+		"34" : 
+		{
+			"_hash" : "a381e37a1e9f7612dffc6b8858385dc2aba5c391e572c4ce97db45b3d6038b02",
+			"_path" : "Map/Back/spinOff1/back/34.png",
+			"origin" : 
+			{
+				"x" : 81,
+				"y" : 154
+			},
+			"z" : 0
+		},
+		"35" : 
+		{
+			"_filepath" : "Map/Back/spinOff1.img",
+			"_inlink" : "back/21",
+			"_path" : "Map/Back/spinOff1/back/21.png",
+			"origin" : 
+			{
+				"x" : 5,
+				"y" : 376
+			},
+			"z" : 0
+		},
+		"36" : 
+		{
+			"_hash" : "66e0bc3a23166858bad04482c115365f69733133bf4fc59164e9b3a20f15496f",
+			"_path" : "Map/Back/spinOff1/back/36.png",
+			"origin" : 
+			{
+				"x" : 522,
+				"y" : 113
+			},
+			"z" : 0
+		},
+		"37" : 
+		{
+			"_hash" : "5bfa0a36674f6016f8f087b4b7bd6bf622820c15ad37d56c2e9bc5a7acd51d87",
+			"_path" : "Map/Back/spinOff1/back/37.png",
+			"origin" : 
+			{
+				"x" : 299,
+				"y" : 51
+			},
+			"z" : 0
+		},
+		"38" : 
+		{
+			"_hash" : "344af4ce1deec8732f8556fd5db0f8ef8cb6ac96741347836cad025a94f19e8d",
+			"_path" : "Map/Back/spinOff1/back/38.png",
+			"origin" : 
+			{
+				"x" : 440,
+				"y" : 223
+			},
+			"z" : 0
+		},
+		"39" : 
+		{
+			"_hash" : "d9c4c5fd8cbae43f99e62fdedb1be1d9152b43e82cf3219b253f702d41955def",
+			"_path" : "Map/Back/spinOff1/back/39.png",
+			"origin" : 
+			{
+				"x" : 329,
+				"y" : 124
+			},
+			"z" : 0
+		},
+		"4" : 
+		{
+			"_hash" : "75a2d86115a279553440da0d84a4e6bea80e198437165955099766d61eab6798",
+			"_path" : "Map/Back/spinOff1/back/4.png",
+			"origin" : 
+			{
+				"x" : 338,
+				"y" : 61
+			},
+			"z" : 0
+		},
+		"40" : 
+		{
+			"_hash" : "19051698b8d6e32b9ccdd084d2a95cc44237a99c0914ff9040878c66d779ccee",
+			"_path" : "Map/Back/spinOff1/back/40.png",
+			"origin" : 
+			{
+				"x" : 330,
+				"y" : 381
+			},
+			"z" : 0
+		},
+		"41" : 
+		{
+			"_hash" : "b8e80a7c60ed8f2b52a3cce61e0133f562cf11dc4f7388ac552593df168572e5",
+			"_path" : "Map/Back/spinOff1/back/41.png",
+			"origin" : 
+			{
+				"x" : 330,
+				"y" : 381
+			},
+			"z" : 0
+		},
+		"42" : 
+		{
+			"_hash" : "3a41852030adb28d87e4ee35d1bd1cdae13855ef294bc430a8e828a9624855f8",
+			"_path" : "Map/Back/spinOff1/back/42.png",
+			"origin" : 
+			{
+				"x" : 331,
+				"y" : 381
+			},
+			"z" : 0
+		},
+		"43" : 
+		{
+			"_hash" : "27e3408b95e5c3d2458f2b693c3be4bd08cbb646cc74a425d1d6daf727c35de5",
+			"_path" : "Map/Back/spinOff1/back/43.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 84
+			},
+			"z" : 0
+		},
+		"44" : 
+		{
+			"_hash" : "d6105f12f0678083d724d82cb867897a030df313e7a7a854c869c2a16c1d55ca",
+			"_path" : "Map/Back/spinOff1/back/44.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 136
+			},
+			"z" : 0
+		},
+		"45" : 
+		{
+			"_hash" : "68a537dd4388cf8431037accf83ebcd8cadddf276d926a858d1179dffe82830e",
+			"_path" : "Map/Back/spinOff1/back/45.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 165
+			},
+			"z" : 0
+		},
+		"46" : 
+		{
+			"_hash" : "43d8c780c594f3a6211d5c10fca60298df8ea73cf05564dccc7809c7cc019086",
+			"_path" : "Map/Back/spinOff1/back/46.png",
+			"origin" : 
+			{
+				"x" : 20,
+				"y" : 32
+			},
+			"z" : 0
+		},
+		"47" : 
+		{
+			"_hash" : "0f4a7143c1e481dfbe55e1dd3b092c7f07a419fd46e25d6d7707b9be15e162cc",
+			"_path" : "Map/Back/spinOff1/back/47.png",
+			"origin" : 
+			{
+				"x" : 6,
+				"y" : 320
+			},
+			"z" : 0
+		},
+		"48" : 
+		{
+			"_hash" : "778f4d36ff243eb5cb5b10ce70c557f035c48549ea4ea23894e3529e72ed6493",
+			"_path" : "Map/Back/spinOff1/back/48.png",
+			"origin" : 
+			{
+				"x" : 354,
+				"y" : 78
+			},
+			"z" : 0
+		},
+		"49" : 
+		{
+			"_hash" : "64b2d175757c0cd6692bcc1b0909a7ed9ec5e2d03064a61cf783c90e34899451",
+			"_path" : "Map/Back/spinOff1/back/49.png",
+			"origin" : 
+			{
+				"x" : 225,
+				"y" : 77
+			},
+			"z" : 0
+		},
+		"5" : 
+		{
+			"_hash" : "31708b254667f36a87a587f8de6a251efe6459ce4b140f6eb721314c4cc4ce3f",
+			"_path" : "Map/Back/spinOff1/back/5.png",
+			"origin" : 
+			{
+				"x" : 341,
+				"y" : 231
+			},
+			"z" : 0
+		},
+		"50" : 
+		{
+			"_hash" : "55adab1936dd0250ac5e2a92ff6d7522552de371443d6434c0612b384148f729",
+			"_path" : "Map/Back/spinOff1/back/50.png",
+			"origin" : 
+			{
+				"x" : 307,
+				"y" : 70
+			},
+			"z" : 0
+		},
+		"51" : 
+		{
+			"_hash" : "e487359dfd77be38efe740241c3964601f399aa071dc451157c52eb580b10190",
+			"_path" : "Map/Back/spinOff1/back/51.png",
+			"origin" : 
+			{
+				"x" : 157,
+				"y" : 66
+			},
+			"z" : 0
+		},
+		"52" : 
+		{
+			"_hash" : "6bbbe0d4e73e84f3c237fee8d39596bb0e0b496e55433498182ed0c1a27ecba9",
+			"_path" : "Map/Back/spinOff1/back/52.png",
+			"origin" : 
+			{
+				"x" : 344,
+				"y" : 138
+			},
+			"z" : 0
+		},
+		"53" : 
+		{
+			"_hash" : "6159bd08021b292aa228ea4ee8bb957f7a8c801444ef4e7fdea8fd3923cd2c70",
+			"_path" : "Map/Back/spinOff1/back/53.png",
+			"origin" : 
+			{
+				"x" : 5,
+				"y" : 761
+			},
+			"z" : 0
+		},
+		"54" : 
+		{
+			"_hash" : "dd49f74d637d58834f12cb0897bbf8a7f5b87dae0c6646266f2a466bc7bfe7d0",
+			"_path" : "Map/Back/spinOff1/back/54.png",
+			"origin" : 
+			{
+				"x" : 460,
+				"y" : 174
+			},
+			"z" : 0
+		},
+		"55" : 
+		{
+			"_hash" : "a25056ac6c19190218710a29a26708b4297728afa1dd91ccf091374ec324f8bd",
+			"_path" : "Map/Back/spinOff1/back/55.png",
+			"origin" : 
+			{
+				"x" : 361,
+				"y" : 151
+			},
+			"z" : 0
+		},
+		"56" : 
+		{
+			"_hash" : "42f638c629984199475967f01656f8a2ae8a0fe192189859ce985de101cd56c9",
+			"_path" : "Map/Back/spinOff1/back/56.png",
+			"origin" : 
+			{
+				"x" : 392,
+				"y" : 121
+			},
+			"z" : 0
+		},
+		"57" : 
+		{
+			"_hash" : "7c2b12ca6e213d18807be5d16d2804d18059311c8724055d2145d07881c41c4c",
+			"_path" : "Map/Back/spinOff1/back/57.png",
+			"origin" : 
+			{
+				"x" : 447,
+				"y" : 173
+			},
+			"z" : 0
+		},
+		"58" : 
+		{
+			"_hash" : "d9e943f767d828500e2f951d5ad262a5bf94b20a64530ed28e14cc86d5d06d46",
+			"_path" : "Map/Back/spinOff1/back/58.png",
+			"origin" : 
+			{
+				"x" : 363,
+				"y" : 179
+			},
+			"z" : 0
+		},
+		"59" : 
+		{
+			"_hash" : "0c3b884175ea8e6e930e1eddedc055569896f5baca3be2d11981a9d9ae25cc3f",
+			"_path" : "Map/Back/spinOff1/back/59.png",
+			"origin" : 
+			{
+				"x" : 695,
+				"y" : 181
+			},
+			"z" : 0
+		},
+		"6" : 
+		{
+			"_hash" : "d1aa9f4ea081e99b81ea7efa620f0cdd72b076ad52d1124aac00b69dc1bba119",
+			"_path" : "Map/Back/spinOff1/back/6.png",
+			"origin" : 
+			{
+				"x" : 218,
+				"y" : 187
+			},
+			"z" : 0
+		},
+		"60" : 
+		{
+			"_hash" : "e6aac89b5cda20f253e14d965dca6df639979e6ff0cb23f7bb48f6f04151ac50",
+			"_path" : "Map/Back/spinOff1/back/60.png",
+			"origin" : 
+			{
+				"x" : 333,
+				"y" : 113
+			},
+			"z" : 0
+		},
+		"61" : 
+		{
+			"_hash" : "f23e65e4f3aac82a0899cda7d047e060563b1764bfd5c6a0bf10956913c2a916",
+			"_path" : "Map/Back/spinOff1/back/61.png",
+			"origin" : 
+			{
+				"x" : 207,
+				"y" : 207
+			},
+			"z" : 0
+		},
+		"62" : 
+		{
+			"_hash" : "a34b639580c11f34d0cd475202a8d2d93547fc8b02a18a12639b4969cfc0703a",
+			"_path" : "Map/Back/spinOff1/back/62.png",
+			"origin" : 
+			{
+				"x" : 303,
+				"y" : 172
+			},
+			"z" : 0
+		},
+		"63" : 
+		{
+			"_hash" : "cce3da89e5f32fe375904f4d145e0b33b4fb4531d1fd469a6b1a72f7e978f96e",
+			"_path" : "Map/Back/spinOff1/back/63.png",
+			"origin" : 
+			{
+				"x" : 313,
+				"y" : 195
+			},
+			"z" : 0
+		},
+		"64" : 
+		{
+			"_hash" : "bfe75a454ea87ce9e91736f6d9cfe63e9abd43a0d26106204835b18840cb26ed",
+			"_path" : "Map/Back/spinOff1/back/64.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 141
+			},
+			"z" : 0
+		},
+		"65" : 
+		{
+			"_hash" : "c45b88b98beacec3c5ff4ef5f380aedfe2b3592bae388c0d44db19fafb45b48e",
+			"_path" : "Map/Back/spinOff1/back/65.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 141
+			},
+			"z" : 0
+		},
+		"66" : 
+		{
+			"_hash" : "c18a2b3ca108fc58f0709ed07db5ac640e6910699b0e49d7f6a8d5c9d263c639",
+			"_path" : "Map/Back/spinOff1/back/66.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 143
+			},
+			"z" : 0
+		},
+		"67" : 
+		{
+			"_hash" : "4f2ede5291b31807eb7fe5c2253a2c28aaaaa100d2377f48661eada5bd8e5a18",
+			"_path" : "Map/Back/spinOff1/back/67.png",
+			"origin" : 
+			{
+				"x" : 250,
+				"y" : 141
+			},
+			"z" : 0
+		},
+		"68" : 
+		{
+			"_hash" : "63bfcd5959b1b6fe9dab4e17b2c277f8f3fb3e9510e8b2bc6296ff560660afee",
+			"_path" : "Map/Back/spinOff1/back/68.png",
+			"origin" : 
+			{
+				"x" : 309,
+				"y" : 84
+			},
+			"z" : 0
+		},
+		"69" : 
+		{
+			"_hash" : "1d2a76f3f3f8767ddf77b7ac4039a1d3c2b8e72195f6a2ca63c4a1e9b79a7bf3",
+			"_path" : "Map/Back/spinOff1/back/69.png",
+			"origin" : 
+			{
+				"x" : 510,
+				"y" : 153
+			},
+			"z" : 0
+		},
+		"7" : 
+		{
+			"_hash" : "a6b5927002ec030dae52726b156153baed8f6dca9ceb853562c078381f10a2d2",
+			"_path" : "Map/Back/spinOff1/back/7.png",
+			"origin" : 
+			{
+				"x" : 333,
+				"y" : 111
+			},
+			"z" : 0
+		},
+		"70" : 
+		{
+			"_hash" : "b91f8c56596090fc1121226201b9f42f1a8adfd8888e10c923d8ccc086533b4d",
+			"_path" : "Map/Back/spinOff1/back/70.png",
+			"origin" : 
+			{
+				"x" : 79,
+				"y" : 38
+			},
+			"z" : 0
+		},
+		"71" : 
+		{
+			"_hash" : "10de67422ba1492ab087cbd9403aa8e3f6654725158e71c97d605212907b2e0c",
+			"_path" : "Map/Back/spinOff1/back/71.png",
+			"origin" : 
+			{
+				"x" : 45,
+				"y" : 346
+			},
+			"z" : 0
+		},
+		"72" : 
+		{
+			"_hash" : "166e47223e8d3387698f714b840452f54ec86170fb5ec5eda881853d5aaa1d58",
+			"_path" : "Map/Back/spinOff1/back/72.png",
+			"origin" : 
+			{
+				"x" : 5,
+				"y" : 163
+			},
+			"z" : 0
+		},
+		"73" : 
+		{
+			"_hash" : "a20790fbea45876800e7666917800cb72e01964d86934f9c5244f785382b7b35",
+			"_path" : "Map/Back/spinOff1/back/73.png",
+			"origin" : 
+			{
+				"x" : 17,
+				"y" : 17
+			},
+			"z" : 0
+		},
+		"74" : 
+		{
+			"_hash" : "c64f7ff0ebabe92cd6572284b3b2536ebaf8e9a4a436937886d7f9ff28dac371",
+			"_path" : "Map/Back/spinOff1/back/74.png",
+			"origin" : 
+			{
+				"x" : 32,
+				"y" : 34
+			},
+			"z" : 0
+		},
+		"75" : 
+		{
+			"_hash" : "66887773bf64c49570d8ee5c4596089f1ff85d324280db23086741e28d860e3e",
+			"_path" : "Map/Back/spinOff1/back/75.png",
+			"origin" : 
+			{
+				"x" : 207,
+				"y" : 163
+			},
+			"z" : 0
+		},
+		"76" : 
+		{
+			"_hash" : "7badad3cf5693372296b7d8ee0533fc97ab3f5a2dfd95e4e888d7b4ecf41b1d0",
+			"_path" : "Map/Back/spinOff1/back/76.png",
+			"origin" : 
+			{
+				"x" : 264,
+				"y" : 69
+			},
+			"z" : 0
+		},
+		"77" : 
+		{
+			"_hash" : "634cf9bc3351a321fbaf47ce387a35ffe182aa8c32f772a6494f7cdba68e1baa",
+			"_path" : "Map/Back/spinOff1/back/77.png",
+			"origin" : 
+			{
+				"x" : 314,
+				"y" : 82
+			},
+			"z" : 0
+		},
+		"78" : 
+		{
+			"_hash" : "60eee0e049e13fb0d4b972b44bcb6f7eb447d11377844157315fe69a14ce3e67",
+			"_path" : "Map/Back/spinOff1/back/78.png",
+			"origin" : 
+			{
+				"x" : 102,
+				"y" : 71
+			},
+			"z" : 0
+		},
+		"79" : 
+		{
+			"_hash" : "0036988baa388ec07d054758455c6388a7ce9dbb4af37b7d339d400ed974d399",
+			"_path" : "Map/Back/spinOff1/back/79.png",
+			"origin" : 
+			{
+				"x" : 240,
+				"y" : 161
+			},
+			"z" : 0
+		},
+		"8" : 
+		{
+			"_filepath" : "Map/Back/spinOff1.img",
+			"_inlink" : "back/2",
+			"_path" : "Map/Back/spinOff1/back/2.png",
+			"origin" : 
+			{
+				"x" : 328,
+				"y" : 82
+			},
+			"z" : 0
+		},
+		"80" : 
+		{
+			"_hash" : "01fbe0cf19ba996e4aaef90da548b34b4cde806cedd3260ad7dd77f951b331aa",
+			"_path" : "Map/Back/spinOff1/back/80.png",
+			"origin" : 
+			{
+				"x" : 146,
+				"y" : 161
+			},
+			"z" : 0
+		},
+		"81" : 
+		{
+			"_hash" : "492319cdfc156bcb475ae28110142dc27b89413163fd1b4fc8f14ea243fc2cec",
+			"_path" : "Map/Back/spinOff1/back/81.png",
+			"origin" : 
+			{
+				"x" : 95,
+				"y" : 129
+			},
+			"z" : 0
+		},
+		"82" : 
+		{
+			"_hash" : "99aafcdab2e46802fe79dc8216b4550b1fe79b5edccb6947392323a6c44c96d5",
+			"_path" : "Map/Back/spinOff1/back/82.png",
+			"origin" : 
+			{
+				"x" : 122,
+				"y" : 139
+			},
+			"z" : 0
+		},
+		"83" : 
+		{
+			"_hash" : "999a1d911112c33864823f35cd8bb18c7c31ce5e957e2554d9aba76abadc6ec9",
+			"_path" : "Map/Back/spinOff1/back/83.png",
+			"origin" : 
+			{
+				"x" : 299,
+				"y" : 51
+			},
+			"z" : 0
+		},
+		"84" : 
+		{
+			"_hash" : "c149bb19a0f3b1ac3de21f1e8533f2cb45ebef0637a9d9508755d13619823c6b",
+			"_path" : "Map/Back/spinOff1/back/84.png",
+			"origin" : 
+			{
+				"x" : 19,
+				"y" : 21
+			},
+			"z" : 0
+		},
+		"85" : 
+		{
+			"_hash" : "196be0f54bda007af6547fd57d82a54c03f7fea07f7c62ade9a823f748fc3716",
+			"_path" : "Map/Back/spinOff1/back/85.png",
+			"origin" : 
+			{
+				"x" : 453,
+				"y" : 213
+			},
+			"z" : 0
+		},
+		"86" : 
+		{
+			"_hash" : "92de2e7c46abb8974309acdc229f618cf2f9458fa4ea794d412fb128538b0eff",
+			"_path" : "Map/Back/spinOff1/back/86.png",
+			"origin" : 
+			{
+				"x" : 477,
+				"y" : 213
+			},
+			"z" : 0
+		},
+		"87" : 
+		{
+			"_hash" : "cc02d82b023bcbaa8dab667b3d1f102e229c34188056292d3962214f562001b4",
+			"_path" : "Map/Back/spinOff1/back/87.png",
+			"origin" : 
+			{
+				"x" : 408,
+				"y" : 213
+			},
+			"z" : 0
+		},
+		"88" : 
+		{
+			"_hash" : "712067781d7647f85aed5476fb6934f039582010119d863fcf2d7932f03c0f18",
+			"_path" : "Map/Back/spinOff1/back/88.png",
+			"origin" : 
+			{
+				"x" : 504,
+				"y" : 384
+			},
+			"z" : 0
+		},
+		"89" : 
+		{
+			"_hash" : "e2cc0eac9a90b7fab184d4f73bfe6a06b3cb45f59a54df5e88cb054a27f3dcd1",
+			"_path" : "Map/Back/spinOff1/back/89.png",
+			"origin" : 
+			{
+				"x" : 417,
+				"y" : 92
+			},
+			"z" : 0
+		},
+		"9" : 
+		{
+			"_hash" : "c13d8d4d98305df1581c247b2f72607c28ba16fdea9483246161fd0b2c4d5c6c",
+			"_path" : "Map/Back/spinOff1/back/9.png",
+			"origin" : 
+			{
+				"x" : 164,
+				"y" : 135
+			},
+			"z" : 0
+		},
+		"90" : 
+		{
+			"_hash" : "355676ee73340ed77927eb6122f8d7dc7db7cc3d26c07136c4c991c4c7b893a9",
+			"_path" : "Map/Back/spinOff1/back/90.png",
+			"origin" : 
+			{
+				"x" : 265,
+				"y" : 221
+			},
+			"z" : 0
+		},
+		"91" : 
+		{
+			"_hash" : "81abe442994787e4dde735b09d83c27f280eceec544757d104333de4e982325c",
+			"_path" : "Map/Back/spinOff1/back/91.png",
+			"origin" : 
+			{
+				"x" : 24,
+				"y" : 55
+			},
+			"z" : 0
+		},
+		"92" : 
+		{
+			"_hash" : "ea7c88ab06e0f2ca1d2fdff889d3723fc19c53402ede0ddc69aa08c981bf141c",
+			"_path" : "Map/Back/spinOff1/back/92.png",
+			"origin" : 
+			{
+				"x" : 993,
+				"y" : 727
+			},
+			"z" : 0
+		},
+		"93" : 
+		{
+			"_hash" : "76451a96ef37a9b7824933f95ea38a3679a6513f590d9e745bafcf93509a2cf1",
+			"_path" : "Map/Back/spinOff1/back/93.png",
+			"origin" : 
+			{
+				"x" : 416,
+				"y" : 727
+			},
+			"z" : 0
+		},
+		"94" : 
+		{
+			"_hash" : "1b63305491795247006a7050e3fa0dda1970941022a685eec257391a0e777dd5",
+			"_path" : "Map/Back/spinOff1/back/94.png",
+			"origin" : 
+			{
+				"x" : -591,
+				"y" : 727
+			},
+			"z" : 0
+		},
+		"95" : 
+		{
+			"_hash" : "74c24ba5cdd23df61b71d02349121ceffecf71efff0276d347a2df5a7ea73330",
+			"_path" : "Map/Back/spinOff1/back/95.png",
+			"origin" : 
+			{
+				"x" : -102,
+				"y" : 727
+			},
+			"z" : 0
+		},
+		"96" : 
+		{
+			"_hash" : "6a28a0983f80d570fef3125ccd64127f0d64f9bca5af13835dedfcefb5516569",
+			"_path" : "Map/Back/spinOff1/back/96.png",
+			"origin" : 
+			{
+				"x" : 993,
+				"y" : 397
+			},
+			"z" : 0
+		},
+		"97" : 
+		{
+			"_hash" : "c0059df4ea26cc268ca4483a60cf7865a689ec7be20e771c321bb4d32de6aad4",
+			"_path" : "Map/Back/spinOff1/back/97.png",
+			"origin" : 
+			{
+				"x" : 416,
+				"y" : 396
+			},
+			"z" : 0
+		},
+		"98" : 
+		{
+			"_hash" : "1575c48a625677b7ba70c4fcc7b03c8fdcd2ca7aedc61c155825dee5ba3ae573",
+			"_path" : "Map/Back/spinOff1/back/98.png",
+			"origin" : 
+			{
+				"x" : -102,
+				"y" : 396
+			},
+			"z" : 0
+		},
+		"99" : 
+		{
+			"_hash" : "e76cb34443906c6443b1af1d7cf7e2e86fc48f053628d54a0b272f2a6c88dbf1",
+			"_path" : "Map/Back/spinOff1/back/99.png",
+			"origin" : 
+			{
+				"x" : -592,
+				"y" : 397
+			},
+			"z" : 0
+		}
+	}
+}
