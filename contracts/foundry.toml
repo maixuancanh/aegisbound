@@ -1,0 +1,4 @@
+[profile.default]
+src = "."
+out = "out"
+remappings = ["chain-casino-sdk/=../third_party/chain-casino-sdk/"]

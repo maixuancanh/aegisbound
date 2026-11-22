@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.30;
 
-import {ICasinoGameV2, SessionContext, StepResult, SessionPhase} from "../third_party/chain-casino-sdk/ICasinoGameV2.sol";
+import {ICasinoGameV2, SessionContext, StepResult, SessionPhase} from "chain-casino-sdk/ICasinoGameV2.sol";
 
 /// @notice Bounded automatic rescue. The frontend replays the same versioned outcome.
 contract BorrowedAegisAuto is ICasinoGameV2 {
