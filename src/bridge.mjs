@@ -1,17 +1,11 @@
-import { connectGameToHost } from '@chain/casino-sdk/guest';
-import { decodeAbiParameters, encodeAbiParameters, keccak256 } from 'viem';
+import { connectGameToHost } from '@chain-protocol/casino-sdk/guest';
 import { originalPayoutFor as payoutFor, originalStatistics as statistics,
-  originalScoreFor as scoreFor } from './game/original-outcome-table.mjs';
-import { ORIGINAL_OUTCOME_COUNT as OUTCOME_COUNT, ORIGINAL_RULES_VERSION as RESCUE_RULES_VERSION } from './game/original-scenario.mjs';
+  originalScoreFor as scoreFor, ORIGINAL_BOARDED } from './game/original-outcome-table.mjs';
 
 const MIN_WAGER = 100n, MAX_WAGER = 10n ** 24n;
 const FORMATIONS = [{ id: 0 }, { id: 1 }];
 
-const INPUT = [{ type: 'uint256' }];
-// contracts/BorrowedAegisAuto.sol: complete settled state encoding.
-const STATE = [{ type: 'uint8' }, { type: 'uint8' }, { type: 'uint32' }, { type: 'uint256' },
-  { type: 'uint8' }, { type: 'bytes32' }];
-const COMMITMENT = [{ type: 'uint8' }, { type: 'uint8' }, { type: 'uint256' }, { type: 'uint256' }];
+const slotBet = formation => formation === 0 ? '0x00' : '0x01';
 const PREFIX = 'borrowed-aegis.bridge.v1:';
 const ADDRESS = /^0x[0-9a-f]{40}$/i;
 const terminal = row => [3, 4, 5].includes(row.phase) || row.isSettled === true;
@@ -22,15 +16,14 @@ function natural(value) {
   return BigInt(value);
 }
 function formationOf(data) {
-  if (typeof data !== 'string' || data.length !== 66) throw Error('Invalid formation encoding.');
-  const [f] = decodeAbiParameters(INPUT, data);
-  if (!FORMATIONS.some(item => BigInt(item.id) === f)) throw Error('Unknown formation.');
-  return Number(f);
+  if (data === '0x' || data === '0x00') return 0;
+  if (data === '0x01') return 1;
+  throw Error('Invalid formation encoding.');
 }
 function scopeOf(snapshot) {
   const integration = snapshot?.integration, wallet = snapshot?.wallet;
-  const account = wallet?.smartVaultAddress ?? wallet?.address;
-  if (snapshot?.apiVersion !== 1 || !Number.isSafeInteger(integration?.chainId) || integration.chainId <= 0 ||
+  const account = wallet?.smartWalletAddress ?? wallet?.smartVaultAddress ?? wallet?.address;
+  if (!Number.isSafeInteger(integration?.chainId) || integration.chainId <= 0 ||
       !ADDRESS.test(integration?.gameAddress) || !ADDRESS.test(account)) return null;
   return `${integration.chainId}:${integration.gameAddress.toLowerCase()}:${account.toLowerCase()}`;
 }
@@ -82,7 +75,8 @@ function recover(s, rows) {
   if (s.journal && !s.journal.done) {
     if (!s.journal.key) {
       const candidates = rows.filter(row => validRow(row, s) && !s.journal.before.includes(row.sessionKey) &&
-        row.wager === s.journal.wager && row.raw?.gameData === encodeAbiParameters(INPUT, [BigInt(s.journal.formation)]));
+        row.wager === s.journal.wager && (row.raw?.gameData === slotBet(s.journal.formation) ||
+          (s.journal.formation === 0 && row.raw?.gameData === '0x')));
       if (candidates.length === 1) { s.journal.key = candidates[0].sessionKey; persist(s); }
     }
     return;
@@ -114,18 +108,19 @@ async function pump(s) {
     if ([4, 5].includes(row.phase)) {
       throw Error(`Round ${row.sessionId} was ${row.phase === 4 ? 'forfeited' : 'cancelled'}; inspect host recovery before casting.`);
     }
-    if (row.phase !== 3 || typeof row.raw?.gameState !== 'string' || row.raw.gameState.length !== 386) {
-      throw Error('Waiting for complete settled contract state.');
+    if (row.phase !== 3 || !/^0x[0-9a-f]{8}$/i.test(row.raw?.gameState)) {
+      throw Error('Waiting for complete settled Slot Engine state.');
     }
-    const [phase, formation, step, outcome, version, commitment] = decodeAbiParameters(STATE, row.raw.gameState);
+    const formation = formationOf(row.raw.gameData);
+    const prize = Number(row.raw.gameState);
+    const seeds = ORIGINAL_BOARDED[formation].flatMap((_, index) =>
+      scoreFor(formation, index) * 2565 === prize ? [index] : []);
+    if (!seeds.length) throw Error('Unknown rescue prize for this formation.');
+    // Vary playback by session within the settled prize tier.
+    const outcome = seeds[Number(BigInt(row.sessionId) % BigInt(seeds.length))];
     const wager = natural(row.wager), payout = natural(row.payout);
-    const score = outcome < BigInt(OUTCOME_COUNT) ? scoreFor(formation, Number(outcome)) : -1;
-    const expectedCommitment = score < 0 ? null : keccak256(encodeAbiParameters(COMMITMENT,
-      [RESCUE_RULES_VERSION, formation, outcome, BigInt(score)]));
-    if (phase !== 3 || step < 2 || formation !== journal.formation || outcome >= BigInt(OUTCOME_COUNT) ||
-        wager.toString() !== journal.wager || formationOf(row.raw.gameData) !== formation ||
-        version !== RESCUE_RULES_VERSION || commitment !== expectedCommitment ||
-        payout !== payoutFor(wager, formation, Number(outcome))) throw Error('Settled state does not match the locked wager and contract math.');
+    if (formation !== journal.formation || wager.toString() !== journal.wager ||
+        payout !== payoutFor(wager, formation, outcome)) throw Error('Settled state does not match the locked wager and payout table.');
     const client = [...s.clients].at(-1);
     if (typeof client.onRound !== 'function') throw Error('A round presenter is required before revealing.');
     if (s.failedKey === journal.key) return;
@@ -133,7 +128,7 @@ async function pump(s) {
     const scope = s.scope;
     notify(s, 'Presenting settled round.');
     try {
-      await client.onRound({ sessionId: row.sessionId, wager, payout, formation, outcomeIndex: Number(outcome) });
+      await client.onRound({ sessionId: row.sessionId, wager, payout, formation, outcomeIndex: outcome });
       if (!s.clients.has(client) || scopeOf(s.snapshot) !== scope) return;
       await bounded(s.api.revealOutcome({ sessionId: row.sessionId }), 15000, 'Reveal timed out; round remains locked.');
       journal.done = true;
@@ -206,12 +201,23 @@ export function createBridge({ onSnapshot, onRound, onStatus } = {}) {
       if (s.snapshot.wallet.status !== 'ready') throw Error('Wallet is not ready.');
       if (typeof wager !== 'bigint' || wager < MIN_WAGER || wager > MAX_WAGER) throw Error('Wager is outside the contract domain.');
       if (!Number.isInteger(formation) || !FORMATIONS.some(f => f.id === formation)) throw Error('Unknown formation.');
-      if (wager > natural(s.snapshot.balances?.smartVaultBalance)) throw Error('Insufficient host balance.');
-      const casino = s.snapshot.casino;
-      const cap = natural(casino?.maxAllowedReservedProfit);
-      const ceiling = casino.maxBetAmount === undefined ? 0n : natural(casino.maxBetAmount);
-      const reserved = statistics(formation, wager).maxPayout - wager;
-      if ((ceiling > 0n && wager > ceiling) || reserved > cap) throw Error('Wager exceeds host risk limits.');
+      if (wager > natural(s.snapshot.balances?.smartWalletBalance ?? s.snapshot.balances?.smartVaultBalance)) throw Error('Insufficient host balance.');
+      if (typeof s.api.getMaxWager === 'function') {
+        const snapshot = s.snapshot;
+        const limit = await bounded(s.api.getMaxWager({ gameData: slotBet(formation) }), 10000, 'Host wager check timed out.');
+        if (s.snapshot !== snapshot || s.opening || s.processing || !s.clients.has(client) || (s.journal && !s.journal.done)) {
+          throw Error('Host state changed during the wager check. Review your wager and try again.');
+        }
+        if (limit?.kind !== 'no-limit' && (limit?.kind !== 'limit' || wager > natural(limit.maxWager))) {
+          throw Error('Wager exceeds host limits or the limit is unavailable.');
+        }
+      } else {
+        const casino = s.snapshot.casino;
+        const cap = natural(casino?.maxAllowedReservedProfit);
+        const ceiling = casino.maxBetAmount === undefined ? 0n : natural(casino.maxBetAmount);
+        const reserved = statistics(formation, wager).maxPayout - wager;
+        if ((ceiling > 0n && wager > ceiling) || reserved > cap) throw Error('Wager exceeds host risk limits.');
+      }
       const journal = { key: null, wager: wager.toString(), formation, before: rows.map(row => row.sessionKey), done: false };
       s.journal = journal;
       persist(s);
@@ -219,7 +225,7 @@ export function createBridge({ onSnapshot, onRound, onStatus } = {}) {
       s.failedKey = null;
       notify(s, 'Opening round.');
       try {
-        const result = await bounded(s.api.openSession({ wager: wager.toString(), gameData: encodeAbiParameters(INPUT, [BigInt(formation)]) }),
+        const result = await bounded(s.api.openSession({ wager: wager.toString(), gameData: slotBet(formation) }),
           30000, 'Open timed out; outcome is unknown. Do not retry.');
         if (!result || typeof result.sessionKey !== 'string' || !new RegExp(`^${s.snapshot.integration.chainId}:\\d+$`).test(result.sessionKey)) {
           throw Error('Host returned an invalid session key; recovery required.');

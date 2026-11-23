@@ -173,7 +173,8 @@ async function start() {
     bridge = createBridge({
       onSnapshot(snapshot) {
         if (Number.isInteger(snapshot?.token?.decimals)) decimals = snapshot.token.decimals;
-        if (snapshot?.balances?.smartVaultBalance) showBalance(snapshot.balances.smartVaultBalance);
+        const balance = snapshot?.balances?.smartWalletBalance ?? snapshot?.balances?.smartVaultBalance;
+        if (balance) showBalance(balance);
         else $('balance').textContent = '—';
       },
       onStatus(message) {

@@ -72,35 +72,17 @@ See [the payout math](docs/MATH.md), [the outcome table](src/game/original-outco
 
 ## Chain SDK integration
 
-The historical contract and manifest identifier is `BorrowedAegisAuto`. The game's display name is Aegisbound.
+Chain builds the Slot Engine title at `slot/title.json`. Bastion and Sweep each have 95% gross RTP before base-unit rounding.
 
-In a Chain host iframe, the bridge receives the settled result and validates the rules version, formation, payout and commitment before playback. It then replays the selected seed and checks that the actual boarding result matches settlement. Reveal waits for playback to finish; a mismatch blocks the normal completion flow.
+The iframe bridge checks the settled prize and payout against the locked formation and wager. It then chooses a matching rescue replay deterministically from the session ID and reveals the payout after playback. The original Solidity contract remains as a reference for the payout rules.
 
-The commitment binds the rules version, formation, outcome and rescue score. It is not a hash of every rendered frame or a full event transcript. Visual effects do not change the contract payout.
+With `npm run dev` running, start the Chain simulator in another terminal:
 
-Four SDK files are included in `third_party/chain-casino-sdk/`, so a fresh checkout can build without downloading the full SDK. The optional local simulator and EVM parity script need the SDK workspace at `vendor/chain-sdk/casino-sdk/`.
+```sh
+npx --package=@chain-protocol/cli@0.7.0 chain dev casino --frontend-url http://127.0.0.1:4322
+```
 
-### Local simulator
-
-Download the [Chain casino SDK](https://sdk.chain.wtf/sdk/casino-sdk.zip), install its dependencies and place its workspace at the path above.
-
-1. Copy `contracts/BorrowedAegisAuto.sol` into the simulator's `contracts/` directory. Its interface import resolves through the simulator's `ICasinoGameV2.sol` fallback.
-2. In the simulator directory, start the local node:
-
-   ```powershell
-   $env:RPC_URL = 'http://127.0.0.1:18545'
-   npm run local-node
-   ```
-
-3. In another terminal in the same directory, start the harness:
-
-   ```sh
-   npm run dev -- --port 13300 --strictPort
-   ```
-
-4. Open the harness with `game=http://127.0.0.1:4322/`, `rpc=http://127.0.0.1:18545` and the newly deployed contract address from `simulator/local-node/deployed.json`.
-
-Use local test funds only. Restarting the local chain can change the deployed address. A successful simulator test does not establish public-chain deployment or acceptance by Chain.
+Open the simulator URL it prints and select Aegisbound.
 
 ## Repository layout
 

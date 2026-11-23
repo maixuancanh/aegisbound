@@ -1,19 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { registerHooks } from 'node:module';
-import { encodeAbiParameters, decodeAbiParameters, keccak256 } from 'viem';
 import { originalPayoutFor as payoutFor, originalStatistics as statistics,
   originalScoreFor as scoreFor } from '../src/game/original-outcome-table.mjs';
-import { ORIGINAL_RULES_VERSION as RESCUE_RULES_VERSION } from '../src/game/original-scenario.mjs';
 
 // Replace only the iframe transport; exercise the actual adapter and ABI/math.
 registerHooks({ resolve(specifier, context, next) {
-  if (specifier === '@chain/casino-sdk/guest') return { shortCircuit: true,
+  if (specifier === '@chain-protocol/casino-sdk/guest') return { shortCircuit: true,
     url: 'data:text/javascript,export const connectGameToHost = m => globalThis.__bridgeTransport(m);' };
   return next(specifier, context);
 } });
 const tick = () => new Promise(resolve => setImmediate(resolve));
-const uint = [{ type: 'uint256' }];
 const game = '0x' + '11'.repeat(20), wallet = '0x' + '22'.repeat(20);
 let serial = 0;
 function snapshot(items = []) { return {
@@ -25,10 +22,8 @@ function snapshot(items = []) { return {
 function row(id = '1', settled = false) { return {
   sessionId: id, sessionKey: `31337:${id}`, gameAddress: game, wager: '100',
   phase: settled ? 3 : 1, isSettled: settled, payout: settled ? payoutFor(100n, 0, 3).toString() : undefined,
-  raw: { gameData: encodeAbiParameters(uint, [0n]),
-    gameState: settled ? encodeAbiParameters([{type:'uint8'}, {type:'uint8'}, {type:'uint32'}, {type:'uint256'}, {type:'uint8'}, {type:'bytes32'}],
-      [3, 0, 2, 3n, RESCUE_RULES_VERSION, keccak256(encodeAbiParameters([{type:'uint8'}, {type:'uint8'}, {type:'uint256'}, {type:'uint256'}],
-        [RESCUE_RULES_VERSION, 0, 3n, BigInt(scoreFor(0,3))]))]) : '0x' },
+  raw: { gameData: '0x00',
+    gameState: settled ? '0x' + (scoreFor(0, 3) * 2565).toString(16).padStart(8, '0') : '0x' },
 }; }
 async function harness({ storage = new Map(), iframe = true, open } = {}) {
   let methods, connections = 0;
@@ -62,11 +57,11 @@ test('standalone never connects or opens; close prevents calls', async () => {
   await assert.rejects(h.bridge.cast(100n, 0));
   h.bridge.close(); await assert.rejects(h.bridge.cast(100n, 0));
 });
-test('one connection and one open across mounts; uint256 input and key matching', async () => {
+test('one connection and one open across mounts; slot configuration and key matching', async () => {
   const h = await harness(); const other = h.create();
   await h.push(snapshot());
   await h.bridge.cast(100n, 1);
-  assert.deepEqual(decodeAbiParameters(uint, h.opens[0].gameData), [1n]);
+  assert.equal(h.opens[0].gameData, '0x01');
   await assert.rejects(other.cast(100n, 0));
   await h.push(snapshot([row('2', true)]));
   assert.equal(h.rounds.length, 0); assert.equal(h.connections(), 1);
@@ -110,10 +105,10 @@ test('history is not replayed; corrupt settlement never fabricates outcome or re
   await h.push(snapshot([bad])); assert.equal(h.rounds.length,0); assert.equal(h.reveals.length,0);
   await assert.rejects(h.bridge.cast(100n,0)); h.bridge.close();
 });
-test('wrong replay commitment never presents or reveals a settlement', async () => {
+test('a prize inconsistent with the host payout never presents or reveals a settlement', async () => {
   const h = await harness(); await h.push(snapshot()); await h.bridge.cast(100n,0);
   const bad = row('1',true);
-  bad.raw.gameState = bad.raw.gameState.slice(0,-64) + '00'.repeat(32);
+  bad.raw.gameState = '0x' + (scoreFor(0, 0) * 2565).toString(16).padStart(8, '0');
   await h.push(snapshot([bad]));
   assert.equal(h.rounds.length,0); assert.equal(h.reveals.length,0);
   h.bridge.close();

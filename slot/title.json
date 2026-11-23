@@ -1,0 +1,15 @@
+{
+  "name": "Aegisbound",
+  "betConfigurations": [
+    {
+      "name": "bastion",
+      "tierList": "bastion.csv",
+      "prizeDenominator": 50600
+    },
+    {
+      "name": "sweep",
+      "tierList": "sweep.csv",
+      "prizeDenominator": 42600
+    }
+  ]
+}
